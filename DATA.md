@@ -1,0 +1,54 @@
+# Data, attribution and prior exposure
+
+The source is the [MTG-Jamendo Dataset](https://github.com/MTG/mtg-jamendo-dataset),
+by Dmitry Bogdanov, Minz Won, Philip Tovstogan, Alastair Porter and Xavier Serra
+(Music Technology Group). See their 2019 work, *The MTG-Jamendo Dataset for
+Automatic Music Tagging*, Machine Learning for Music Discovery Workshop, ICML.
+Upstream copyright notice: Copyright 2019–2023 Music Technology Group.
+
+The upstream repository states that metadata is available under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), while audio
+has per-recording Creative Commons licenses. It restricts dataset use to
+non-commercial research and academic purposes. Those upstream terms continue
+to apply; the MIT software license in this project does not replace them.
+
+The `data/legacy_scores` bundle is provided for non-commercial research under
+CC BY-NC-SA 4.0 for its source-derived labels/metadata and the project-owned
+derived score tables packaged with them. Original credits and individual track
+licenses are retained in `provenance/track_attribution.json`. No source audio,
+large feature cache, pretrained weights or fitted classifier weights are included.
+
+Changes to source material: four broad labels were derived from the source tags
+using the historical frozen ontology; artist/track IDs were aligned to historical
+splits; numeric model logits and reference probabilities were added. Broad labels
+can differ from earlier exact-tag labels in the original project. All exported
+labels are checked against the actual saved calibration/evaluation arrays.
+
+## Contents and integrity
+
+- `manifest.json`: every score case, SHA-256 and source commit/run identity.
+- `cases/*.npz`: non-pickle arrays for classifier-fit IDs/groups/targets,
+  calibration and evaluation IDs/groups/targets/logits, fit-only weight offsets,
+  and raw/Platt/temperature/offset historical reference probabilities.
+- `provenance/export_audit.json`: feature provenance, reconstructed-logit checks,
+  target mapping, source status and control-prediction checks.
+- `provenance/legacy_*`: historical frozen protocol, configuration, split records
+  and numerical verification.
+- `provenance/future_exclusions.json`: the latest 2,835-track / 1,296-artist
+  boundary, including previously examined eligible sampling frames.
+
+Hash checks detect changes relative to these records; they do not establish the
+truth of genre tags or prove that no external data leakage exists.
+
+## Historical exposure
+
+All 1,206 development tracks / 469 artist IDs in this bundle have been used in
+previous experiments. Twenty splits overlap. MAEST/MERT representations share
+the same songs; they are not three independent datasets. Earlier 239-, 266-,
+204- and 372-song evaluation cohorts have also been observed in the project.
+They are not included as fresh confirmation samples here. Artist aliases and
+pretraining exposure cannot currently be completely audited.
+
+Future study selection must start from the latest exclusion ledger and a new
+protocol. This project reports exploratory numerical comparisons, not human
+adjudication of disputed musical labels.

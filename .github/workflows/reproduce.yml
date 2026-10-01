@@ -1,0 +1,42 @@
+name: Reproduce calibration benchmark
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  score-level-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      MPLBACKEND: Agg
+      MPLCONFIGDIR: /tmp/music-calibration-mpl
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install numeric dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Unit and integrity guards
+        run: python -m unittest discover -s tests -v
+      - name: Audit included scores
+        run: python -m music_calibration audit --data data/legacy_scores
+      - name: Freeze all planned cases
+        run: python -m music_calibration freeze --data data/legacy_scores --out runs/ci
+      - name: Fit and evaluate all calibration methods
+        run: python -m music_calibration run --out runs/ci
+      - name: Rebuild report
+        run: python -m music_calibration summarize --out runs/ci --report reports/ci
+      - name: Independent numerical reconstruction
+        run: python -m music_calibration verify --out runs/ci
+      - uses: actions/upload-artifact@v4
+        with:
+          name: calibration-reproduction
+          path: |
+            reports/ci
+            runs/ci/freeze.json
+            runs/ci/verification.json
+          if-no-files-found: error

@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "cases": [
+    {
+      "id": "2026092800/maest/ambient_balanced",
+      "seed": 2026092800,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092800_maest_ambient_balanced.npz",
+      "sha256": "c35594108accca948c9351b2b71961de372364ac3ce0912393c8dc2a7206a238"
+    },
+    {
+      "id": "2026092800/maest/unweighted",
+      "seed": 2026092800,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092800_maest_unweighted.npz",
+      "sha256": "8aabcafb844a9d93c07786dcee9cdfb54acc444590454730acd785eaeadd5730"
+    },
+    {
+      "id": "2026092800/mert_v0/ambient_balanced",
+      "seed": 2026092800,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092800_mert_v0_ambient_balanced.npz",
+      "sha256": "f201732d5fb0d610f0b8428bd5120eef36a798a8314e68c09cadadf64ecf7402"
+    },
+    {
+      "id": "2026092800/mert_v0/unweighted",
+      "seed": 2026092800,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092800_mert_v0_unweighted.npz",
+      "sha256": "a22dff93578428e20d41904e0dda0fee15aa427e8e7c41e849d4d1eb68714984"
+    },
+    {
+      "id": "2026092800/mert_v1/ambient_balanced",
+      "seed": 2026092800,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092800_mert_v1_ambient_balanced.npz",
+      "sha256": "04e6a01c02f56e29e95bafc2869f842cbff4110c87c31f92d889f9979ad0706e"
+    },
+    {
+      "id": "2026092800/mert_v1/unweighted",
+      "seed": 2026092800,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092800_mert_v1_unweighted.npz",
+      "sha256": "816a6942b6e402e0334962eb02a77f41f03836726e465f25dfb0c2a10311266b"
+    },
+    {
+      "id": "2026092801/maest/ambient_balanced",
+      "seed": 2026092801,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092801_maest_ambient_balanced.npz",
+      "sha256": "91448d4929d9ff428759f4d99d6f38a0bab5c558f1689b80548fa515d01ec9b6"
+    },
+    {
+      "id": "2026092801/maest/unweighted",
+      "seed": 2026092801,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092801_maest_unweighted.npz",
+      "sha256": "632cb4a3027a66dc19199f3254b0200f0f27c4597f7f9af76928e117d62099d3"
+    },
+    {
+      "id": "2026092801/mert_v0/ambient_balanced",
+      "seed": 2026092801,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092801_mert_v0_ambient_balanced.npz",
+      "sha256": "b53d9341d0a5330b0f8f34d894997181f6f67f4a70ce0270e7c595034d1b8c8c"
+    },
+    {
+      "id": "2026092801/mert_v0/unweighted",
+      "seed": 2026092801,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092801_mert_v0_unweighted.npz",
+      "sha256": "946d20ab5083c3f504d31dbe3b84ae4a5a425c54cdfeb042f54051e04eb8cd58"
+    },
+    {
+      "id": "2026092801/mert_v1/ambient_balanced",
+      "seed": 2026092801,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092801_mert_v1_ambient_balanced.npz",
+      "sha256": "4b74d169c7d9ea4ab870b0849ac50b23ed47e8d825a0a6518adf4dda91c36935"
+    },
+    {
+      "id": "2026092801/mert_v1/unweighted",
+      "seed": 2026092801,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092801_mert_v1_unweighted.npz",
+      "sha256": "e325e1b16ca3433ea1fa2f78a4d05a77a419b42fbcba91310e874dfc1a5829ac"
+    },
+    {
+      "id": "2026092802/maest/ambient_balanced",
+      "seed": 2026092802,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092802_maest_ambient_balanced.npz",
+      "sha256": "44d4bb1ae147b441a505acf9eb79424dbb6031d1d6b17cf0f54d44750b7b64d7"
+    },
+    {
+      "id": "2026092802/maest/unweighted",
+      "seed": 2026092802,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092802_maest_unweighted.npz",
+      "sha256": "fbd2c4531739192c3ce17a8f4e79832c7b906614b8e89fbd13b1fee43bd6b445"
+    },
+    {
+      "id": "2026092802/mert_v0/ambient_balanced",
+      "seed": 2026092802,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092802_mert_v0_ambient_balanced.npz",
+      "sha256": "33b52565cb32082a2e915c166633669f59c0b934d2723258a06b7ed288d94711"
+    },
+    {
+      "id": "2026092802/mert_v0/unweighted",
+      "seed": 2026092802,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092802_mert_v0_unweighted.npz",
+      "sha256": "2bab721fc0c98786da0f4975f0a304a0bd64d73c3370ad108519d7082b2aadde"
+    },
+    {
+      "id": "2026092802/mert_v1/ambient_balanced",
+      "seed": 2026092802,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092802_mert_v1_ambient_balanced.npz",
+      "sha256": "072b9d225f4ed5541fab3065b6af7cdaec517d94b875ec54e7abf37717164874"
+    },
+    {
+      "id": "2026092802/mert_v1/unweighted",
+      "seed": 2026092802,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092802_mert_v1_unweighted.npz",
+      "sha256": "07886af195df56e6320e588ea853d81455ac8b02c50188cb56cc656f1847b618"
+    },
+    {
+      "id": "2026092803/maest/ambient_balanced",
+      "seed": 2026092803,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092803_maest_ambient_balanced.npz",
+      "sha256": "68c9ca5b1bf34fd47842a29f9bf97f888672020193d67f0ecff9ce0e08e29a85"
+    },
+    {
+      "id": "2026092803/maest/unweighted",
+      "seed": 2026092803,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092803_maest_unweighted.npz",
+      "sha256": "1e9bebdab954edd9b3b733bb1d52ecdfd5082e40801a1edf20ba4fb1003f3bbf"
+    },
+    {
+      "id": "2026092803/mert_v0/ambient_balanced",
+      "seed": 2026092803,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092803_mert_v0_ambient_balanced.npz",
+      "sha256": "c0cfc8501b5bcf09a10eebdf6448c5100782f80b5d2412fc244d526c139b90ee"
+    },
+    {
+      "id": "2026092803/mert_v0/unweighted",
+      "seed": 2026092803,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092803_mert_v0_unweighted.npz",
+      "sha256": "a77b17d5d9ae6adfe98b00420f8a438e8d2c0654114ff385e5625188b2349ad3"
+    },
+    {
+      "id": "2026092803/mert_v1/ambient_balanced",
+      "seed": 2026092803,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092803_mert_v1_ambient_balanced.npz",
+      "sha256": "2234fc12bf7d9682f8cea7772f254bb7c1da3cf26b278da224fb875bb3fed1bf"
+    },
+    {
+      "id": "2026092803/mert_v1/unweighted",
+      "seed": 2026092803,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092803_mert_v1_unweighted.npz",
+      "sha256": "b30cb95d2e79fdef815b84eb523a3a04f9fe39e162d6e2b7eda3e5469a9cf0df"
+    },
+    {
+      "id": "2026092804/maest/ambient_balanced",
+      "seed": 2026092804,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092804_maest_ambient_balanced.npz",
+      "sha256": "73107080605e93c3ab1337b92a0f98f88f2976b5a258bd5370f5b4cd6a751d74"
+    },
+    {
+      "id": "2026092804/maest/unweighted",
+      "seed": 2026092804,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092804_maest_unweighted.npz",
+      "sha256": "c5711df71632f5e5c24e304906d11fc5669d3cb99b948b945392ea00daa55f83"
+    },
+    {
+      "id": "2026092804/mert_v0/ambient_balanced",
+      "seed": 2026092804,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092804_mert_v0_ambient_balanced.npz",
+      "sha256": "8f9f546e47de5b94383d3518a2c48dbf4907b8925ace8c6c5455a20e1ac4def4"
+    },
+    {
+      "id": "2026092804/mert_v0/unweighted",
+      "seed": 2026092804,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092804_mert_v0_unweighted.npz",
+      "sha256": "800566e3ad596984b63757f36d818d209f7e06a9cf2ac07b2d54538e20bf405c"
+    },
+    {
+      "id": "2026092804/mert_v1/ambient_balanced",
+      "seed": 2026092804,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092804_mert_v1_ambient_balanced.npz",
+      "sha256": "112dd68ca4d824f047c3d23395270ce7e4b846c7ea783f7d8c02905a8a3b8cfa"
+    },
+    {
+      "id": "2026092804/mert_v1/unweighted",
+      "seed": 2026092804,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092804_mert_v1_unweighted.npz",
+      "sha256": "80767b8a46acf01c3155a2de43715d2582e013867f937876a84cf3353eae9430"
+    },
+    {
+      "id": "2026092805/maest/ambient_balanced",
+      "seed": 2026092805,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092805_maest_ambient_balanced.npz",
+      "sha256": "17e4b6bfe744e7b34f1812e24d55ccc258731b3ef74f897e668f47740afe24b5"
+    },
+    {
+      "id": "2026092805/maest/unweighted",
+      "seed": 2026092805,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092805_maest_unweighted.npz",
+      "sha256": "f1fa506244f8f9423219ce981ad5a4735d699ebd736ec8630a4393d830a24846"
+    },
+    {
+      "id": "2026092805/mert_v0/ambient_balanced",
+      "seed": 2026092805,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092805_mert_v0_ambient_balanced.npz",
+      "sha256": "2716f01320502cbe3f0633a68123d7e51e5b6ef63ed4686ecde451d8e04eec5b"
+    },
+    {
+      "id": "2026092805/mert_v0/unweighted",
+      "seed": 2026092805,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092805_mert_v0_unweighted.npz",
+      "sha256": "f22a60bf77dccd52fd794843c683559992823c8aec12120f829f28ad425f704d"
+    },
+    {
+      "id": "2026092805/mert_v1/ambient_balanced",
+      "seed": 2026092805,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092805_mert_v1_ambient_balanced.npz",
+      "sha256": "d42fcc321b1f667972afbd28b73fa6ece22d894fb6d69821954050c6965a858e"
+    },
+    {
+      "id": "2026092805/mert_v1/unweighted",
+      "seed": 2026092805,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092805_mert_v1_unweighted.npz",
+      "sha256": "17884f453d7767e038d9cfdfe622485be782edec8eb49f571aed62fa30edbd85"
+    },
+    {
+      "id": "2026092806/maest/ambient_balanced",
+      "seed": 2026092806,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092806_maest_ambient_balanced.npz",
+      "sha256": "dd014287fa3924eefabc4d927eca2731664772ef28727a5cd84c1d81c638968a"
+    },
+    {
+      "id": "2026092806/maest/unweighted",
+      "seed": 2026092806,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092806_maest_unweighted.npz",
+      "sha256": "f308e2c649ff1fc9f0e1b14586d00c08074ed90c650fd3904b55715a80dc4059"
+    },
+    {
+      "id": "2026092806/mert_v0/ambient_balanced",
+      "seed": 2026092806,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092806_mert_v0_ambient_balanced.npz",
+      "sha256": "efdc23f3a02b6ad5937081e9e8b272c7970f70eaf891ac0b81e1b63336011825"
+    },
+    {
+      "id": "2026092806/mert_v0/unweighted",
+      "seed": 2026092806,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092806_mert_v0_unweighted.npz",
+      "sha256": "155ddb228df566cc75787ea9bc75d933a06e9ad006cbbaa5b4594ffde26b9264"
+    },
+    {
+      "id": "2026092806/mert_v1/ambient_balanced",
+      "seed": 2026092806,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092806_mert_v1_ambient_balanced.npz",
+      "sha256": "5975ccbb513f0b4be3a7b7eeda0d77ced9a74dda8bd2fa0f5373f4f812c8922a"
+    },
+    {
+      "id": "2026092806/mert_v1/unweighted",
+      "seed": 2026092806,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092806_mert_v1_unweighted.npz",
+      "sha256": "5c88afa40bf4078d471f7eeb95c4e011b7d4f27feaf757330135ff4faa4bf433"
+    },
+    {
+      "id": "2026092807/maest/ambient_balanced",
+      "seed": 2026092807,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092807_maest_ambient_balanced.npz",
+      "sha256": "4d3c7ad6964984628d0c4531f648e11c4283c854b5c7fc0ad1953305c2489784"
+    },
+    {
+      "id": "2026092807/maest/unweighted",
+      "seed": 2026092807,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092807_maest_unweighted.npz",
+      "sha256": "62def71fb2f4e1cf5384cc55c8ed5abe595085481750743c0ee6ccedd391ce87"
+    },
+    {
+      "id": "2026092807/mert_v0/ambient_balanced",
+      "seed": 2026092807,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092807_mert_v0_ambient_balanced.npz",
+      "sha256": "823308c60027acc7f58851eb3769473a395b119e62207f25e28615a9533ac271"
+    },
+    {
+      "id": "2026092807/mert_v0/unweighted",
+      "seed": 2026092807,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092807_mert_v0_unweighted.npz",
+      "sha256": "c508ae704462759aaa496d6ec53dfbe0d218b87982a4ee347f15b90c02fd7d2a"
+    },
+    {
+      "id": "2026092807/mert_v1/ambient_balanced",
+      "seed": 2026092807,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092807_mert_v1_ambient_balanced.npz",
+      "sha256": "f1089f428a89194c795b7d52d7e04bf16a8a76b92fc149136a13fa2d5ec15c9b"
+    },
+    {
+      "id": "2026092807/mert_v1/unweighted",
+      "seed": 2026092807,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092807_mert_v1_unweighted.npz",
+      "sha256": "7ef83022fb351366c3276af17f7ebe842a0dad44f50d1bbf5c9fafce2cd348e0"
+    },
+    {
+      "id": "2026092808/maest/ambient_balanced",
+      "seed": 2026092808,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092808_maest_ambient_balanced.npz",
+      "sha256": "cc1a63f4b99e2b4351ff87dc3487e51741eb80c1cdc37331a5f109b422e884ba"
+    },
+    {
+      "id": "2026092808/maest/unweighted",
+      "seed": 2026092808,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092808_maest_unweighted.npz",
+      "sha256": "c206d685488868a73063cc2e98ffdb2cc1303e231f78c0883c32f4eb5e495bcf"
+    },
+    {
+      "id": "2026092808/mert_v0/ambient_balanced",
+      "seed": 2026092808,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092808_mert_v0_ambient_balanced.npz",
+      "sha256": "589016492a25e932726bdf8f8d23e966d7db2f2844f69c3e68516e2018f16051"
+    },
+    {
+      "id": "2026092808/mert_v0/unweighted",
+      "seed": 2026092808,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092808_mert_v0_unweighted.npz",
+      "sha256": "10c73e52bea28a064ef2f61a5093a6712b83086c7b3c258e722169962f9c7a0c"
+    },
+    {
+      "id": "2026092808/mert_v1/ambient_balanced",
+      "seed": 2026092808,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092808_mert_v1_ambient_balanced.npz",
+      "sha256": "beda049d9d5feaa785bd8f596f6907082819322c4888a861cdb175d0e167969a"
+    },
+    {
+      "id": "2026092808/mert_v1/unweighted",
+      "seed": 2026092808,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092808_mert_v1_unweighted.npz",
+      "sha256": "8cb70c75765d3da26936a0d3c77d0433a2c96260d5a9b73e257d86831e617fb6"
+    },
+    {
+      "id": "2026092809/maest/ambient_balanced",
+      "seed": 2026092809,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092809_maest_ambient_balanced.npz",
+      "sha256": "415ed10bc687bc75effefce25c8fe976d610c7e741eabd05ad4fdbddbb572e50"
+    },
+    {
+      "id": "2026092809/maest/unweighted",
+      "seed": 2026092809,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092809_maest_unweighted.npz",
+      "sha256": "ed1a3d4d45f72d949d1a56b695ade6685bdc6dc820e439da25902f92c11045dd"
+    },
+    {
+      "id": "2026092809/mert_v0/ambient_balanced",
+      "seed": 2026092809,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092809_mert_v0_ambient_balanced.npz",
+      "sha256": "58260decd112c126345ffcc5d7cb68f8169179bfca5a3d29080978f5fc00b33d"
+    },
+    {
+      "id": "2026092809/mert_v0/unweighted",
+      "seed": 2026092809,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092809_mert_v0_unweighted.npz",
+      "sha256": "43acb3442c84cc9e7cdf80d6391617d5b27b0fb86bbe10cc141ddb6925bb536f"
+    },
+    {
+      "id": "2026092809/mert_v1/ambient_balanced",
+      "seed": 2026092809,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092809_mert_v1_ambient_balanced.npz",
+      "sha256": "17dea1ec2506dba2c6acb7d2b61edd33856d75efc6fa4501f7f136d45c91b6d6"
+    },
+    {
+      "id": "2026092809/mert_v1/unweighted",
+      "seed": 2026092809,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092809_mert_v1_unweighted.npz",
+      "sha256": "4a0d8f3b06ee9ee9ce1852bb3603ec8a58883317ab3757f29021f5fc982c3284"
+    },
+    {
+      "id": "2026092810/maest/ambient_balanced",
+      "seed": 2026092810,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092810_maest_ambient_balanced.npz",
+      "sha256": "9fe0f0d6dcc9af65cadbfbcbddfdba39660db1f8bb85f34b41052c478542647e"
+    },
+    {
+      "id": "2026092810/maest/unweighted",
+      "seed": 2026092810,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092810_maest_unweighted.npz",
+      "sha256": "a49b785299bb946c4a192fdbd93d46ef542abc7a7d2bc32f4a1e74b5bb80e54c"
+    },
+    {
+      "id": "2026092810/mert_v0/ambient_balanced",
+      "seed": 2026092810,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092810_mert_v0_ambient_balanced.npz",
+      "sha256": "7e742a22503b82c3eeaa9538099b0e9a3f787fff655564fa53edb0d85b01be3b"
+    },
+    {
+      "id": "2026092810/mert_v0/unweighted",
+      "seed": 2026092810,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092810_mert_v0_unweighted.npz",
+      "sha256": "b095c48d9dd8eb0b4c707197f96b1e91b0de32489aba1abe79fdf7fb2aaf039a"
+    },
+    {
+      "id": "2026092810/mert_v1/ambient_balanced",
+      "seed": 2026092810,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092810_mert_v1_ambient_balanced.npz",
+      "sha256": "2d52945c1f514944e887cc305b7eaa81ca87f8b3bd0c29f4e07f02b99e40cd60"
+    },
+    {
+      "id": "2026092810/mert_v1/unweighted",
+      "seed": 2026092810,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092810_mert_v1_unweighted.npz",
+      "sha256": "52f627e117ff6dc42e28fc49016cd66e3f021c5a60c3c48b7c68a604a72c5896"
+    },
+    {
+      "id": "2026092811/maest/ambient_balanced",
+      "seed": 2026092811,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092811_maest_ambient_balanced.npz",
+      "sha256": "59315173f598c2c47e3fcef5f7b44326f8f771fa8664c6c04b6c605e8f5e934e"
+    },
+    {
+      "id": "2026092811/maest/unweighted",
+      "seed": 2026092811,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092811_maest_unweighted.npz",
+      "sha256": "2a4e59731ee677bca3b9744d91a46e195d941c474dda7d7172d540955165545a"
+    },
+    {
+      "id": "2026092811/mert_v0/ambient_balanced",
+      "seed": 2026092811,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092811_mert_v0_ambient_balanced.npz",
+      "sha256": "0d08ef7c0b70fe5ce59c304a5ff033e9adc0059144d9885fa24c0151f395771d"
+    },
+    {
+      "id": "2026092811/mert_v0/unweighted",
+      "seed": 2026092811,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092811_mert_v0_unweighted.npz",
+      "sha256": "027ec9b58b739421578a08fd4c06e607ac8f9d2a0c6b23465b984c648ec7d14f"
+    },
+    {
+      "id": "2026092811/mert_v1/ambient_balanced",
+      "seed": 2026092811,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092811_mert_v1_ambient_balanced.npz",
+      "sha256": "d2ac15c87647c584e2e5706ac7aa4d28f5292a1e38ec11e0acce83a57c5dfbe5"
+    },
+    {
+      "id": "2026092811/mert_v1/unweighted",
+      "seed": 2026092811,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092811_mert_v1_unweighted.npz",
+      "sha256": "37e2d95d90fc42041b8d65bed0d2b0fd6487f7eb69068119e30a3f6f81292710"
+    },
+    {
+      "id": "2026092812/maest/ambient_balanced",
+      "seed": 2026092812,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092812_maest_ambient_balanced.npz",
+      "sha256": "eb454bc009db1da2868216ea5a802aa22af2d6ebc01311a4dc0c652f42152925"
+    },
+    {
+      "id": "2026092812/maest/unweighted",
+      "seed": 2026092812,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092812_maest_unweighted.npz",
+      "sha256": "882b1e6a562c44d6964fd78daa8e6b7ad2494ac3cfe4d80e232f1969214b162f"
+    },
+    {
+      "id": "2026092812/mert_v0/ambient_balanced",
+      "seed": 2026092812,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092812_mert_v0_ambient_balanced.npz",
+      "sha256": "18a316632ff393d79e875d3459819ff23063bdc2b3fde4461a623ea9dd0cdf9e"
+    },
+    {
+      "id": "2026092812/mert_v0/unweighted",
+      "seed": 2026092812,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092812_mert_v0_unweighted.npz",
+      "sha256": "71694c286ffd2f8751c133f01b831c931d41fc7069eaecc1e755a5bd7de409ad"
+    },
+    {
+      "id": "2026092812/mert_v1/ambient_balanced",
+      "seed": 2026092812,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092812_mert_v1_ambient_balanced.npz",
+      "sha256": "c6efef543d4dc68685172d4293156c2d5832a9ebe48121e4a409f9f814171157"
+    },
+    {
+      "id": "2026092812/mert_v1/unweighted",
+      "seed": 2026092812,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092812_mert_v1_unweighted.npz",
+      "sha256": "db13a2acf780aeb8158539b52102253ff03bfd7afc3a2f7e255117dcb5a60190"
+    },
+    {
+      "id": "2026092813/maest/ambient_balanced",
+      "seed": 2026092813,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092813_maest_ambient_balanced.npz",
+      "sha256": "7ed15e28b990f3de32f7b53a7c6d6cfbc9f95b1536e46d962350c21251a961c9"
+    },
+    {
+      "id": "2026092813/maest/unweighted",
+      "seed": 2026092813,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092813_maest_unweighted.npz",
+      "sha256": "85f3143cad45f78ff8a93388893d0c07443fe0c0534f888dcad099fb46dce76d"
+    },
+    {
+      "id": "2026092813/mert_v0/ambient_balanced",
+      "seed": 2026092813,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092813_mert_v0_ambient_balanced.npz",
+      "sha256": "8f8819aeee22eccf98459285bbff75632b311913dff17b18a7ce3375c690f5e5"
+    },
+    {
+      "id": "2026092813/mert_v0/unweighted",
+      "seed": 2026092813,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092813_mert_v0_unweighted.npz",
+      "sha256": "d3999a1d224d414ef1e1a3bf5f283261d5df4a964823dbbc8c5868708db85bb1"
+    },
+    {
+      "id": "2026092813/mert_v1/ambient_balanced",
+      "seed": 2026092813,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092813_mert_v1_ambient_balanced.npz",
+      "sha256": "21a26242b8662aa33cba2e6e2730f5a7c72519fab3db53f27cdbedeb430f6aba"
+    },
+    {
+      "id": "2026092813/mert_v1/unweighted",
+      "seed": 2026092813,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092813_mert_v1_unweighted.npz",
+      "sha256": "87e44efd515452ea6b7a2a3c8eef55632db213c43dd98fd1e7a675804aada094"
+    },
+    {
+      "id": "2026092814/maest/ambient_balanced",
+      "seed": 2026092814,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092814_maest_ambient_balanced.npz",
+      "sha256": "451a7d188baa4e455f0e35dd623c6ba8eaa1f541990b78cc05facee0bbc2f175"
+    },
+    {
+      "id": "2026092814/maest/unweighted",
+      "seed": 2026092814,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092814_maest_unweighted.npz",
+      "sha256": "e848c158cf904b9da8db627b827f25552015e04a24adfc0f58feb0239958204c"
+    },
+    {
+      "id": "2026092814/mert_v0/ambient_balanced",
+      "seed": 2026092814,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092814_mert_v0_ambient_balanced.npz",
+      "sha256": "1a2f7fb78dba21674f3c2380340a5cdceb3fb66b075755ee2c826a1dc832388a"
+    },
+    {
+      "id": "2026092814/mert_v0/unweighted",
+      "seed": 2026092814,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092814_mert_v0_unweighted.npz",
+      "sha256": "c2a4b387fcb02c7a4c913fde023fac85b0b2c626c1601ef67084727223339dd6"
+    },
+    {
+      "id": "2026092814/mert_v1/ambient_balanced",
+      "seed": 2026092814,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092814_mert_v1_ambient_balanced.npz",
+      "sha256": "e1decaaeabf63b41d2b6a6264dbae354d9b886b393ccc58ec81b2ee7cdf3deba"
+    },
+    {
+      "id": "2026092814/mert_v1/unweighted",
+      "seed": 2026092814,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092814_mert_v1_unweighted.npz",
+      "sha256": "661db00a28a98a9f05932778eaeaa5ebc662b3699e41fa169e848be61c0c65c3"
+    },
+    {
+      "id": "2026092815/maest/ambient_balanced",
+      "seed": 2026092815,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092815_maest_ambient_balanced.npz",
+      "sha256": "0f5f0b94191dac3f1f93b9f05f5ca008422f8bad4ab7c346368e0f26b475e663"
+    },
+    {
+      "id": "2026092815/maest/unweighted",
+      "seed": 2026092815,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092815_maest_unweighted.npz",
+      "sha256": "60f5fecb0c343f0d054c34b439be02e120cbcbed286695994bfb0b8fef7127f2"
+    },
+    {
+      "id": "2026092815/mert_v0/ambient_balanced",
+      "seed": 2026092815,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092815_mert_v0_ambient_balanced.npz",
+      "sha256": "048563542a8e13ecd85f1580e8ad430dcd41d25d35e49584faa876a1c9441a2c"
+    },
+    {
+      "id": "2026092815/mert_v0/unweighted",
+      "seed": 2026092815,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092815_mert_v0_unweighted.npz",
+      "sha256": "048dc72a3d2bbf630e204ab47c609cab042d694e24b96e7cf687dad3162dc532"
+    },
+    {
+      "id": "2026092815/mert_v1/ambient_balanced",
+      "seed": 2026092815,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092815_mert_v1_ambient_balanced.npz",
+      "sha256": "2788b470b45d1b7fc4fa9d251f6ce768d033781ff475b046f1da135f90c0bc38"
+    },
+    {
+      "id": "2026092815/mert_v1/unweighted",
+      "seed": 2026092815,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092815_mert_v1_unweighted.npz",
+      "sha256": "6dc6291ee162291073103b7bd0655e5f18b0f944ba6cc97a1477edb483835f12"
+    },
+    {
+      "id": "2026092816/maest/ambient_balanced",
+      "seed": 2026092816,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092816_maest_ambient_balanced.npz",
+      "sha256": "2f0a39fc818bf5e1dafb6a9580dc9669b2500db0ae3a00d79761f54af4f221ec"
+    },
+    {
+      "id": "2026092816/maest/unweighted",
+      "seed": 2026092816,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092816_maest_unweighted.npz",
+      "sha256": "d94d3fc03b6f7f4363858173d9216b8900182603ac66b0d0228a3ee2cb89f3a6"
+    },
+    {
+      "id": "2026092816/mert_v0/ambient_balanced",
+      "seed": 2026092816,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092816_mert_v0_ambient_balanced.npz",
+      "sha256": "c47ee0bef39dfbf68bcd1dae72223afee821905d588247af27261d47a6acb9ab"
+    },
+    {
+      "id": "2026092816/mert_v0/unweighted",
+      "seed": 2026092816,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092816_mert_v0_unweighted.npz",
+      "sha256": "59f476224c821379097b35532b1938750b8b28e2074a7571736cb0a211734b8c"
+    },
+    {
+      "id": "2026092816/mert_v1/ambient_balanced",
+      "seed": 2026092816,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092816_mert_v1_ambient_balanced.npz",
+      "sha256": "40c5e9d3159ff84b4cfc90cbdfcadb25ea749f228da17647068468b332d9fbdc"
+    },
+    {
+      "id": "2026092816/mert_v1/unweighted",
+      "seed": 2026092816,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092816_mert_v1_unweighted.npz",
+      "sha256": "4513f7ed2769ef8fbee8b4a304b668739067c03d8aca1c1abbccacd0a4205b5f"
+    },
+    {
+      "id": "2026092817/maest/ambient_balanced",
+      "seed": 2026092817,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092817_maest_ambient_balanced.npz",
+      "sha256": "1e0f4c4142dfb8b658af7a0b7a39aee6a250f1cc29938248ac9fe1bc38488dbb"
+    },
+    {
+      "id": "2026092817/maest/unweighted",
+      "seed": 2026092817,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092817_maest_unweighted.npz",
+      "sha256": "c633c26efaf6470b2d7b28a32211239f183b2e7ff0be998e71a0a5fe88bc86d0"
+    },
+    {
+      "id": "2026092817/mert_v0/ambient_balanced",
+      "seed": 2026092817,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092817_mert_v0_ambient_balanced.npz",
+      "sha256": "dce4536498b2c51a8c3368138850d9f3038ed42faf03fdb4e0953484f1e87116"
+    },
+    {
+      "id": "2026092817/mert_v0/unweighted",
+      "seed": 2026092817,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092817_mert_v0_unweighted.npz",
+      "sha256": "653616f6be352b0258e75fd876697f7e300a832f4219cbdf7a03734a627de8be"
+    },
+    {
+      "id": "2026092817/mert_v1/ambient_balanced",
+      "seed": 2026092817,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092817_mert_v1_ambient_balanced.npz",
+      "sha256": "4aa056b5054d8535077c86afa4c823ad0350e6f6853184e9ac01bfbc7f253fae"
+    },
+    {
+      "id": "2026092817/mert_v1/unweighted",
+      "seed": 2026092817,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092817_mert_v1_unweighted.npz",
+      "sha256": "0f7931bb6779a392f2494af308062a7383a9d3441504ebf371841ce345fe1ef8"
+    },
+    {
+      "id": "2026092818/maest/ambient_balanced",
+      "seed": 2026092818,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092818_maest_ambient_balanced.npz",
+      "sha256": "60d06d1c7364f88aecfda6d2c98182a1315fa995cd8128f32f0a845ff5b05451"
+    },
+    {
+      "id": "2026092818/maest/unweighted",
+      "seed": 2026092818,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092818_maest_unweighted.npz",
+      "sha256": "98a528b955c7019690fed1772398c76919aeea6b4f0335aa9437cd5b106382a9"
+    },
+    {
+      "id": "2026092818/mert_v0/ambient_balanced",
+      "seed": 2026092818,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092818_mert_v0_ambient_balanced.npz",
+      "sha256": "8d16906d9ea910ab02f7666a24f50fc6ecd4b4089104be9316539b26424db547"
+    },
+    {
+      "id": "2026092818/mert_v0/unweighted",
+      "seed": 2026092818,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092818_mert_v0_unweighted.npz",
+      "sha256": "479303e53c8ee75f6959bf6ec832debf69bb51a3ec5635cee478b84fd47eb979"
+    },
+    {
+      "id": "2026092818/mert_v1/ambient_balanced",
+      "seed": 2026092818,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092818_mert_v1_ambient_balanced.npz",
+      "sha256": "0f158d111ee3da92ba0d1b77882893865cd256c0e375dfcfc00e4f0828573226"
+    },
+    {
+      "id": "2026092818/mert_v1/unweighted",
+      "seed": 2026092818,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092818_mert_v1_unweighted.npz",
+      "sha256": "6caed72e74341b770431e087c5cf48f1108104e5f480cd8279e7fd4b91a6d993"
+    },
+    {
+      "id": "2026092819/maest/ambient_balanced",
+      "seed": 2026092819,
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092819_maest_ambient_balanced.npz",
+      "sha256": "0ade3d70431bd7173488016edbde5ff1f4849be7337f92ec145bda55e6b14c72"
+    },
+    {
+      "id": "2026092819/maest/unweighted",
+      "seed": 2026092819,
+      "representation": "maest",
+      "weighting": "unweighted",
+      "path": "cases/2026092819_maest_unweighted.npz",
+      "sha256": "f73afd3f0928c9c843aed7ab6b785afc8352ea21ec07a0480f926563756986d0"
+    },
+    {
+      "id": "2026092819/mert_v0/ambient_balanced",
+      "seed": 2026092819,
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092819_mert_v0_ambient_balanced.npz",
+      "sha256": "b0fbc68339fcda8efc9ed37750f085e75794eba5f45e2ebbb07f87c867a9609d"
+    },
+    {
+      "id": "2026092819/mert_v0/unweighted",
+      "seed": 2026092819,
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "path": "cases/2026092819_mert_v0_unweighted.npz",
+      "sha256": "1efa5f04696848fffe82029db302d0e48d538aedfaec57c9f3cb3e2370f2db54"
+    },
+    {
+      "id": "2026092819/mert_v1/ambient_balanced",
+      "seed": 2026092819,
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "path": "cases/2026092819_mert_v1_ambient_balanced.npz",
+      "sha256": "e1e7f6955c69c1e064c7102bb9b1237bd89caa33c99f6d7ad76b229b6e00d88f"
+    },
+    {
+      "id": "2026092819/mert_v1/unweighted",
+      "seed": 2026092819,
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "path": "cases/2026092819_mert_v1_unweighted.npz",
+      "sha256": "54c7824b79bf70d81b3062cae53748202dbbade9fb9c51d30faba923ca1e085d"
+    }
+  ],
+  "source": {
+    "repository": "https://github.com/f0rKyrie1rving/music-classification.git",
+    "commit": "92bc9fb8090f1c8c18c63b6dcea25ae04030b9de",
+    "run_path": "outputs/calibration_extension/20260927_v2",
+    "run_freeze_sha256": "327986a819cb16a0780c7893e5a05e2d9203594559bc968dc5679a800ddb1795",
+    "original_freeze_base_commit": "fa09b95ef889be769e3d7add4abdb31288fc1191",
+    "note": "Original freeze preceded the research commit; source hashes identify the exact executed code."
+  },
+  "exposure": "retrospective/development, already observed",
+  "provenance_hashes": {
+    "provenance/export_audit.json": "6a1584c457504dfdb44ee8e0685922e8461822bc75eb0c51ee4a713eb2fe141b",
+    "provenance/future_exclusions.json": "b42ce653ed7b13bb00afdee7bc3583ce0f2a2f9cba0c261dafc1e98294f69392",
+    "provenance/legacy_audit.json": "d918c934e9c80d6fc750e78a324a56c078d10ef56df564314cacc479a53d376f",
+    "provenance/legacy_config.json": "56faaf1e38a866bf2eea42ede1865c142b9506ebf5793e556af4b4b6cc84f3d1",
+    "provenance/legacy_freeze.json": "327986a819cb16a0780c7893e5a05e2d9203594559bc968dc5679a800ddb1795",
+    "provenance/legacy_protocol.md": "5f15f8c51f45317e4af0a7cfb8adb4acf81f8f4f5dab21b79c687ed9eea7816b",
+    "provenance/legacy_splits.json": "dde0301bd7e54f8a9f8fe0240488e68f4aeae3db889a009be50acfea766d332b",
+    "provenance/legacy_verification.json": "449bc3a891f83ff993732a6109f7a0be33ae1c9e3bd7bdb14c0dfd24f3359a57",
+    "provenance/track_attribution.json": "a9cd7085467d0eaabe6acf268c2c5facf92aedd543b9158a7ad78196071b7242"
+  },
+  "independence_note": "20 overlapping splits of one 1206-track cohort; 120 cases are not independent datasets."
+}
