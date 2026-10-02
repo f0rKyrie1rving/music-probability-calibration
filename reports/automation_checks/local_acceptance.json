@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-10-02T06:02:31.547560+00:00",
+  "python": "3.13.15",
+  "platform": "Darwin arm64",
+  "unit_tests_passed": 87,
+  "full_benchmark_cases": 360,
+  "numerical_regression_max_absolute_error": 0.0,
+  "numeric_report_files_compared": 7,
+  "frozen_original_package_unchanged": true,
+  "scripts_sha256": {
+    "reproduce.py": "d6b9480a30aa91d11e2173f108a9abc864dc1c634cc5d096cf2eb9b8368482a2",
+    "compare_reports.py": "b0c7c7d0563be00e08a21e02c2feebdc56aada8d6675a51a9ee150411a9def14",
+    "stability.py": "170a8db00a452df99578091e1f51c8910966ce3be01ad633e0d2605de2e54027",
+    "verify_stability_report.py": "d44d725f5ca6dea186c9b02a7288cb16adb8d6712b793d0f93b1349b00023cf5"
+  },
+  "validation_scope": "Local tests, full one-command benchmark and baseline report regression. Cross-platform CI evidence is recorded in GitHub Actions.",
+  "independent_aggregation_tamper_probes": [
+    "dropped case rejected despite refreshed report checksum",
+    "changed summary mean rejected despite refreshed report checksum"
+  ]
+}

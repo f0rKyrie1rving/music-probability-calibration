@@ -1,0 +1,36 @@
+name: Reproduce sampling stability
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  five-draw-study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      MPLBACKEND: Agg
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install numeric dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Freeze, run and verify all five predefined draws
+        run: python scripts/stability.py all --out runs/ci_stability --report reports/ci_stability
+      - name: Compare sensitivity results with the published study
+        run: python scripts/compare_reports.py --reference reports/stability_v1 --actual reports/ci_stability --out runs/ci_stability/regression.json --files summary.json controls.json case_metrics.csv within_split.csv summary_cells.csv ridge_selections.csv ridge_stability.csv
+      - name: Independently reconstruct study aggregates
+        run: python scripts/verify_stability_report.py --report reports/ci_stability --base-config protocols/budget_v1.json --manifest data/legacy_scores/manifest.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sampling-stability-reproduction
+          path: |
+            reports/ci_stability
+            runs/ci_stability/children/*/verification.json
+            runs/ci_stability/regression.json
+          if-no-files-found: error

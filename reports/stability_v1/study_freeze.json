@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-10-02T06:00:39.317755+00:00",
+  "stage": "All five plans frozen before any additional fitting",
+  "data_relative_to_study": "../../data/legacy_scores",
+  "data_manifest_sha256": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9",
+  "source_hashes": {
+    "music_calibration/__init__.py": "7e939b0dd132358dc0bc1ff68e0725b69d3f169c230fcaf01e4a2ec0939af2f7",
+    "music_calibration/__main__.py": "afbeb41e69d8b5f1d38577aa4c55f9ffe7c952547add69498186cb64065e5686",
+    "music_calibration/calibrators.py": "17861fe1693d32b8e968db73899fdaa1ae2ee2b857b09e2f26a8ebbc258f61e1",
+    "music_calibration/data.py": "fd97cc49cecae103739c66dd161f60adb92a624d8026aee51bcfc476b9c2a4f8",
+    "music_calibration/experiment.py": "d10bec3ee75ee31edf4a5f871243575b38a3d9d58d290bb4ef0ecf3575d6e77b",
+    "music_calibration/io.py": "d0e176a2eea1152e841e7dcc83f45f2f183a9566062644ef86ce2a66baa38f4a",
+    "music_calibration/metrics.py": "c0296e75915b684d8f15d0b128906e64b52073b029de9e0ef4195169db4000a4",
+    "music_calibration/report.py": "4f690679674c84e51bcd000f30d498200c28563f2ef5cc3e0b7baa6218f911e0",
+    "music_calibration/verify.py": "efdc4f7cf29aec7c82b9f6b256c09ba8460859918a3b91f49f99b1d45c29438c",
+    "protocols/budget_v1.json": "187c3c6952090b5a0832fef4a384efacf795a1b4c5f7321dd27806588621cace",
+    "protocols/budget_v1.md": "72526bc8ba03e6d4fc2c140f52fb860d2955c4bce7541b5edceb81b57ad7a992",
+    "protocols/stability_v1.json": "c79400ff6628728fe975dff300ee58141c79b0c74f392e4495e301eeeb596135",
+    "protocols/stability_v1.md": "3a80dddda1ba529288305dfd9822d7b99233fc97bb6a69d19782d75e21d9d1b0",
+    "reports/budget_v1/REPORT.md": "132fba33b8a8a724cd64f219251ed99533f84db5ae93ba24ab9b694fe036d0dd",
+    "reports/budget_v1/SUMMARY_ZH.md": "9202463b416418350fc25ea35e68431300a791cdf75c49d409750ea284c1e77b",
+    "reports/budget_v1/budget_brier.pdf": "eb419d3b1dfaf4da6ad1d1784b5c387c63384c1dece98827f307d7aff3458f58",
+    "reports/budget_v1/budget_brier.png": "c8a5f9c3bc05a4551f3801c0e79c7d67ce856ff08f7d15738e3913397dd7b3e5",
+    "reports/budget_v1/case_metrics.csv": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d",
+    "reports/budget_v1/example_reliability.csv": "c60f3f13d539836fd1de8e93539ec5ab392ae6c3171e5475e053b392af7b8a3c",
+    "reports/budget_v1/fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "reports/budget_v1/freeze.json": "3f4b4123c49ae2e653760227e5fe2d9fe560dfd3d1de0d6d5575660a29fce998",
+    "reports/budget_v1/label_metrics.csv": "4be3e0adbc4e8f34be099058f7f6bbd33e69366095a191920d6a8c8d9146581f",
+    "reports/budget_v1/plans.json": "8c2c7edb04fe8fb12b0954b4c8f099c50e7549668fc542829c62e6b693e8c96f",
+    "reports/budget_v1/reproduction.json": "178ec981b28ef7e5166cce81d440bfbc02ea933e44ed92962c52e530841d153f",
+    "reports/budget_v1/ridge_selections.csv": "30f669889e4b4be87318a6da05518338236c93c44b4398ded7a69e23adf569e4",
+    "reports/budget_v1/summary.json": "f978f2dd340ae2c8d1a7147fb19eb5f07cddce3f976ae6bcfecc8d90a5902ec7",
+    "reports/budget_v1/summary_cells.csv": "d648b04dfe05d47393abd7d4b2ee09bfe42f7a61a6cda9ed474d8f05de4055e0",
+    "reports/budget_v1/verification.json": "9f0d94c59ec0fe12a727d3788500224294faea6556ca8732fb2afdef304444a6",
+    "scripts/stability.py": "170a8db00a452df99578091e1f51c8910966ce3be01ad633e0d2605de2e54027"
+  },
+  "local_hashes": {
+    "config.json": "1cd36772e982a6fc04716fa36b72f51a022804f8c0080d31a66d2cd9a41626a6",
+    "base_config.json": "6a4b26c2d1dad8b1524e274a2548563b99cd68415fc022710a4d60d8fbee717f",
+    "plan_audit.json": "df3774b9a8e6e948dec0effd3801a2a6d305735f5fd2a90b1c0039f1161b0ee9",
+    "child_configs/draw_00.json": "d9ad99f6c008e5b0953b0c9e83036eb75773f882ccac5c40b5f889b9c242ce4f",
+    "child_configs/draw_01.json": "b97f509ce1809e911b48f836dbb80cc5d7048259ca5bc4c650b10f67ebb45c34",
+    "child_configs/draw_02.json": "f46298df7241dfac250bc36f368757556067dfd2e60a30d369efed9107377c3b",
+    "child_configs/draw_03.json": "0cca7031ee6e78c631a302858543debab1e1de1e56215839952474bff75e1f7b",
+    "child_configs/draw_04.json": "56e7b8d1f5735a4a78aac0a11a3ec35aed20c660fc5c7fc8eb94eb07425aa7ca"
+  },
+  "children": [
+    {
+      "draw": 0,
+      "budget_seed": 2026100201,
+      "path": "children/draw_00",
+      "config_path": "child_configs/draw_00.json",
+      "freeze_sha256": "bc19fba52acd7eb19c16bdf8b53ec19dfac01dfdf0b9a585d4fc4aabc8735f69"
+    },
+    {
+      "draw": 1,
+      "budget_seed": 2026100202,
+      "path": "children/draw_01",
+      "config_path": "child_configs/draw_01.json",
+      "freeze_sha256": "17097d36b4d11077171ec6c125989f6124170cfae0f79c9677f11f5ecfbc6353"
+    },
+    {
+      "draw": 2,
+      "budget_seed": 2026100203,
+      "path": "children/draw_02",
+      "config_path": "child_configs/draw_02.json",
+      "freeze_sha256": "e8f7ddd64646681282e3bff73028a32acc8a43541b599f13c606668f59c0e0eb"
+    },
+    {
+      "draw": 3,
+      "budget_seed": 2026100204,
+      "path": "children/draw_03",
+      "config_path": "child_configs/draw_03.json",
+      "freeze_sha256": "4f0a8fcc2c2e2fb3f352a0969d77b3f1f3b4b1c9f8fa8d1c174ad7b824c55a98"
+    },
+    {
+      "draw": 4,
+      "budget_seed": 2026100205,
+      "path": "children/draw_04",
+      "config_path": "child_configs/draw_04.json",
+      "freeze_sha256": "7f924832cc68d3d39b43403ee10dfb95a4fa044b662b9f3f99db6172940462fa"
+    }
+  ],
+  "original_draw_included": false,
+  "executed_cases": 1800,
+  "distinct_subset_cases": 1320
+}

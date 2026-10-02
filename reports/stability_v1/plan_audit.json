@@ -1,0 +1,8 @@
+{
+  "outer_splits": 20,
+  "distinct_split_budget_subsets": 220,
+  "full_budget_plans_identical_to_original": true,
+  "partial_draws_distinct": true,
+  "executed_cases": 1800,
+  "distinct_subset_cases": 1320
+}

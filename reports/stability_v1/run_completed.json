@@ -1,0 +1,57 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-10-02T06:02:33.720863+00:00",
+  "study_freeze_sha256": "edb59c04e8444f9fe3949be008c2ff7f2a245aff32d30ac75d693bb6396e841e",
+  "children": [
+    {
+      "draw": 0,
+      "path": "children/draw_00",
+      "hashes": {
+        "completed.json": "7d6c5d0edbc03dbbc6e8e5e1b2badcbbf835243c49e2ecd9bdc66e81ab423df2",
+        "verification.json": "c10b63a5a615abbe50c4909ca2e03898ad64397de9bf5e38139f5dacf4565e73",
+        "summary.json": "afffdfd7972901773c508638226dfa00f4e5526a0a84024e3cc7457a6dfde04f"
+      },
+      "verification_checks": 1892705
+    },
+    {
+      "draw": 1,
+      "path": "children/draw_01",
+      "hashes": {
+        "completed.json": "a8b002f046bacc33a82940d464be0f951f372a2b7752e6f453fab473d6747147",
+        "verification.json": "96e3aba33a0ed70622e78796820cdc4d43f8224e71ee39c6ac862c0bcff1e4e0",
+        "summary.json": "1296ba5140b884dcfa89b7f2bcf8a3799d072175c1176af0446c209505928624"
+      },
+      "verification_checks": 1888938
+    },
+    {
+      "draw": 2,
+      "path": "children/draw_02",
+      "hashes": {
+        "completed.json": "a5553199025c9eba73494f04b38a5deb07b2fc259bb1193c7ee3dff58147fd96",
+        "verification.json": "6d8f501e4cc4531814ebbb774a3b3a428b082d75aeaaf272152b5b8d7a46445d",
+        "summary.json": "efb97a37f4615974b88fa33717c831929a34627dceddd8ee035ba7d9ed15512a"
+      },
+      "verification_checks": 1890671
+    },
+    {
+      "draw": 3,
+      "path": "children/draw_03",
+      "hashes": {
+        "completed.json": "97a4200b4a208fc76380172f44bf519bfc3b490b45f37ba788ee5bd1946a18b7",
+        "verification.json": "f841f939c55128abd986696624cae42946ed14ee1cf7ba69f7f4718bb739d22f",
+        "summary.json": "109c582b145a2e9dd69913a7ab01a74dd4a2d476b2d3c019b604c4f53836114a"
+      },
+      "verification_checks": 1890613
+    },
+    {
+      "draw": 4,
+      "path": "children/draw_04",
+      "hashes": {
+        "completed.json": "c1e21f6abb343a11d82795e61c333bf24eea54ebbbcad3aed50126aeb8e0c645",
+        "verification.json": "516fe8340981571594e67a406b9438da7a9e0efbdc18380f7908f7934f7f88df",
+        "summary.json": "d42e8fca409b0a39cc05289e4b36ae92d787efe739bf605dccead0bcda18155b"
+      },
+      "verification_checks": 1891207
+    }
+  ]
+}

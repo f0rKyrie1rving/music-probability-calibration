@@ -1,0 +1,55 @@
+{
+  "schema": "independent-stability-aggregation-check-v1",
+  "status": "passed",
+  "created_utc": "2026-10-02T06:05:20.714767+00:00",
+  "helper_sha256": "d44d725f5ca6dea186c9b02a7288cb16adb8d6712b793d0f93b1349b00023cf5",
+  "scope": "Independent standard-library reconstruction from published case metrics and ridge selections; no study implementation imported. This audits numerical aggregation, not new-data confirmation or independent rerunning of fitted predictions.",
+  "absolute_tolerance": 1e-12,
+  "max_absolute_error": 4.440892098500626e-16,
+  "checks": 619384,
+  "checks_by_category": {
+    "structure": 177922,
+    "provenance": 26,
+    "paired_deltas": 176400,
+    "unchanged_controls": 7200,
+    "full_endpoint_control": 34800,
+    "aggregation": 223036
+  },
+  "input_sha256": {
+    "case_metrics.csv": "cd807ed39c5acdb46d0015be12de7a642c90b90283fe23f140e56f7d59a5ee92",
+    "within_split.csv": "d8538c63feb1b40c471a53638576fb053584f0b01279d92c0977ec597a07e636",
+    "summary_cells.csv": "0b9c2a7c1cd976a10e73ce7c342b2c1f4696f0072333f0f2641e3081a2a69487",
+    "summary.json": "9527c1aa67522d5cdf09f53efa25445a3b5a2376a23d590762612e9add1fc873",
+    "ridge_selections.csv": "001150cefecf4a9a117642708249558259ba623ba61f0e28f25270eef6e60db5",
+    "ridge_stability.csv": "f863c01dd0a923e4df7701a678a8f02aace522466b5c8cd81fe45b287e2ffd50",
+    "config.json": "1cd36772e982a6fc04716fa36b72f51a022804f8c0080d31a66d2cd9a41626a6",
+    "controls.json": "0547e7dcbddd14c60e25dfd07bb1acc7956f24fa5512e378997abad00e5865e8",
+    "run_completed.json": "1f72dfae80d79c8eb46eb9d62960cf882317258a92cedb359ce83bd2ddac018b",
+    "study_freeze.json": "edb59c04e8444f9fe3949be008c2ff7f2a245aff32d30ac75d693bb6396e841e",
+    "report_receipt.json": "2ea8e9804681a183e81b6da5dadda78e8ea532b41a19d79b71bc20c256ac9ec8",
+    "base_config": "187c3c6952090b5a0832fef4a384efacf795a1b4c5f7321dd27806588621cace",
+    "score_manifest": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9"
+  },
+  "rows": {
+    "case_metrics": 12600,
+    "distinct_method_cases": 9240,
+    "within_split": 2520,
+    "summary_cells": 126,
+    "ridge_selections": 7200,
+    "ridge_stability": 1440
+  },
+  "full_endpoint": {
+    "executed_source_cases": 600,
+    "counted_source_cases": 120,
+    "duplicate_method_rows_removed": 3360
+  },
+  "reconstructed_totals": {
+    "executed_cases": 1800,
+    "distinct_subset_cases": 1320,
+    "distinct_case_fallback_labels": 0,
+    "distinct_ridge_inner_fallbacks": 260,
+    "distinct_selected_inner_fallbacks": 41,
+    "partial_label_cells_with_varying_ridge_strength": 870,
+    "partial_label_cells": 960
+  }
+}

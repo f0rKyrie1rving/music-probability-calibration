@@ -1,0 +1,1441 @@
+seed,representation,weighting,fraction,label,draws,distinct_strengths,identity_draws,selected_strengths,inner_fallback_count,selected_inner_fallback_count,final_fit_fallbacks
+2026092800,maest,ambient_balanced,0.25,ambient,5,3,1,"[""identity"", ""0.1"", ""0.1"", ""0.001"", ""0.1""]",0,0,0
+2026092800,maest,ambient_balanced,0.25,electronic,5,3,2,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092800,maest,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092800,maest,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""0.01""]",0,0,0
+2026092800,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092800,maest,ambient_balanced,0.5,electronic,5,2,4,"[""0.1"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,maest,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092800,maest,ambient_balanced,0.5,rock,5,3,1,"[""0.1"", ""1.0"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092800,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092800,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092800,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092800,maest,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092800,maest,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.001"", ""identity""]",0,0,0
+2026092800,maest,unweighted,0.25,electronic,5,3,2,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092800,maest,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092800,maest,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""0.01""]",0,0,0
+2026092800,maest,unweighted,0.5,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,maest,unweighted,0.5,electronic,5,2,4,"[""0.1"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,maest,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092800,maest,unweighted,0.5,rock,5,3,1,"[""0.1"", ""1.0"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092800,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092800,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092800,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092800,maest,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.25,ambient,5,3,1,"[""identity"", ""0.1"", ""0.1"", ""0.0"", ""0.1""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.25,electronic,5,4,1,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""0.01""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""0.001"", ""0.0"", ""identity""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""0.01""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.5,pop,5,4,2,"[""0.001"", ""identity"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092800,mert_v0,ambient_balanced,0.5,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092800,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092800,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092800,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092800,mert_v0,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092800,mert_v0,unweighted,0.25,electronic,5,4,1,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""0.01""]",0,0,0
+2026092800,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""0.001"", ""0.0"", ""identity""]",0,0,0
+2026092800,mert_v0,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""0.01""]",0,0,0
+2026092800,mert_v0,unweighted,0.5,ambient,5,2,4,"[""1.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v0,unweighted,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v0,unweighted,0.5,pop,5,4,2,"[""0.001"", ""identity"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092800,mert_v0,unweighted,0.5,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092800,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092800,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092800,mert_v0,unweighted,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.25,ambient,5,3,1,"[""identity"", ""0.1"", ""0.1"", ""0.001"", ""0.1""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.25,electronic,5,3,1,"[""1.0"", ""0.1"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.25,rock,5,2,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.01"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092800,mert_v1,ambient_balanced,0.5,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092800,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092800,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092800,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092800,mert_v1,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.001"", ""identity""]",0,0,0
+2026092800,mert_v1,unweighted,0.25,electronic,5,3,1,"[""1.0"", ""0.1"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092800,mert_v1,unweighted,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,unweighted,0.25,rock,5,2,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092800,mert_v1,unweighted,0.5,ambient,5,2,4,"[""1.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,unweighted,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092800,mert_v1,unweighted,0.5,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092800,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092800,mert_v1,unweighted,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092800,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092800,mert_v1,unweighted,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092801,maest,ambient_balanced,0.25,ambient,5,5,1,"[""identity"", ""0.01"", ""1.0"", ""0.0"", ""0.001""]",0,0,0
+2026092801,maest,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092801,maest,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092801,maest,ambient_balanced,0.25,rock,5,3,2,"[""0.0"", ""identity"", ""1.0"", ""identity"", ""0.0""]",5,1,0
+2026092801,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.001"", ""0.0"", ""0.001"", ""0.001""]",0,0,0
+2026092801,maest,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092801,maest,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.01"", ""identity"", ""1.0""]",0,0,0
+2026092801,maest,ambient_balanced,0.5,rock,5,3,2,"[""0.1"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092801,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092801,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092801,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092801,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092801,maest,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092801,maest,unweighted,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092801,maest,unweighted,0.25,pop,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092801,maest,unweighted,0.25,rock,5,3,2,"[""0.0"", ""identity"", ""1.0"", ""identity"", ""0.0""]",5,1,0
+2026092801,maest,unweighted,0.5,ambient,5,3,2,"[""identity"", ""0.01"", ""identity"", ""0.001"", ""0.01""]",0,0,0
+2026092801,maest,unweighted,0.5,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092801,maest,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.01"", ""identity"", ""1.0""]",0,0,0
+2026092801,maest,unweighted,0.5,rock,5,3,2,"[""0.1"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092801,maest,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092801,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092801,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092801,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.1"", ""1.0"", ""0.01"", ""0.01""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.25,electronic,5,3,2,"[""identity"", ""0.1"", ""0.01"", ""0.1"", ""identity""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.25,rock,5,3,1,"[""0.0"", ""identity"", ""0.01"", ""0.01"", ""0.0""]",5,1,0
+2026092801,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.001"", ""0.0"", ""0.001"", ""0.001""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.5,electronic,5,4,1,"[""identity"", ""0.1"", ""0.1"", ""1.0"", ""0.01""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092801,mert_v0,ambient_balanced,0.5,rock,5,4,2,"[""1.0"", ""0.001"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092801,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092801,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092801,mert_v0,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092801,mert_v0,unweighted,0.25,electronic,5,3,2,"[""identity"", ""0.1"", ""0.01"", ""0.1"", ""identity""]",0,0,0
+2026092801,mert_v0,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092801,mert_v0,unweighted,0.25,rock,5,3,1,"[""0.0"", ""identity"", ""0.01"", ""0.01"", ""0.0""]",5,1,0
+2026092801,mert_v0,unweighted,0.5,ambient,5,4,2,"[""identity"", ""0.0"", ""identity"", ""0.001"", ""0.01""]",0,0,0
+2026092801,mert_v0,unweighted,0.5,electronic,5,4,1,"[""identity"", ""0.1"", ""0.1"", ""1.0"", ""0.01""]",0,0,0
+2026092801,mert_v0,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092801,mert_v0,unweighted,0.5,rock,5,4,2,"[""1.0"", ""0.001"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092801,mert_v0,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092801,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.1"", ""1.0"", ""0.01"", ""0.01""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""0.1"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.25,rock,5,4,0,"[""0.1"", ""0.01"", ""0.01"", ""0.001"", ""0.0""]",5,1,0
+2026092801,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.001"", ""0.0"", ""0.001"", ""0.01""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.5,electronic,5,3,1,"[""identity"", ""0.1"", ""0.1"", ""1.0"", ""0.1""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092801,mert_v1,ambient_balanced,0.5,rock,5,3,2,"[""0.1"", ""0.01"", ""0.1"", ""identity"", ""identity""]",1,0,0
+2026092801,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092801,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092801,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092801,mert_v1,unweighted,0.25,ambient,5,3,3,"[""0.01"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092801,mert_v1,unweighted,0.25,electronic,5,2,3,"[""identity"", ""0.1"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092801,mert_v1,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092801,mert_v1,unweighted,0.25,rock,5,4,0,"[""0.1"", ""0.01"", ""0.01"", ""0.001"", ""0.0""]",5,1,0
+2026092801,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""0.1""]",0,0,0
+2026092801,mert_v1,unweighted,0.5,electronic,5,3,1,"[""identity"", ""0.1"", ""0.1"", ""1.0"", ""0.1""]",0,0,0
+2026092801,mert_v1,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092801,mert_v1,unweighted,0.5,rock,5,3,2,"[""0.1"", ""0.01"", ""0.1"", ""identity"", ""identity""]",1,0,0
+2026092801,mert_v1,unweighted,1.0,ambient,1,1,0,"[""1.0""]",0,0,0
+2026092801,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092801,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092801,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092802,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.1"", ""0.001"", ""0.01"", ""0.001""]",0,0,0
+2026092802,maest,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""identity""]",0,0,0
+2026092802,maest,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,maest,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.001"", ""0.0"", ""0.0"", ""0.0"", ""0.01""]",0,0,0
+2026092802,maest,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,maest,ambient_balanced,0.5,pop,5,4,2,"[""identity"", ""1.0"", ""0.1"", ""identity"", ""0.01""]",0,0,0
+2026092802,maest,ambient_balanced,0.5,rock,5,3,3,"[""identity"", ""0.01"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092802,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092802,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092802,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092802,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092802,maest,unweighted,0.25,ambient,5,4,2,"[""0.1"", ""identity"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092802,maest,unweighted,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""identity""]",0,0,0
+2026092802,maest,unweighted,0.25,pop,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,maest,unweighted,0.25,rock,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,maest,unweighted,0.5,ambient,5,4,1,"[""0.01"", ""identity"", ""0.0"", ""0.1"", ""0.1""]",0,0,0
+2026092802,maest,unweighted,0.5,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,maest,unweighted,0.5,pop,5,4,2,"[""identity"", ""1.0"", ""0.1"", ""identity"", ""0.01""]",0,0,0
+2026092802,maest,unweighted,0.5,rock,5,3,3,"[""identity"", ""0.01"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092802,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092802,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092802,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092802,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.1"", ""0.01"", ""0.0"", ""0.01""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.25,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.25,rock,5,4,2,"[""identity"", ""0.01"", ""identity"", ""0.001"", ""1.0""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.001"", ""0.0"", ""0.0"", ""0.001"", ""0.01""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""0.01"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.1"", ""0.01"", ""identity""]",0,0,0
+2026092802,mert_v0,ambient_balanced,0.5,rock,5,4,1,"[""0.01"", ""0.001"", ""identity"", ""0.0"", ""0.01""]",0,0,0
+2026092802,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092802,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092802,mert_v0,unweighted,0.25,ambient,5,3,3,"[""1.0"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v0,unweighted,0.25,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v0,unweighted,0.25,pop,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v0,unweighted,0.25,rock,5,4,2,"[""identity"", ""0.01"", ""identity"", ""0.001"", ""1.0""]",0,0,0
+2026092802,mert_v0,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092802,mert_v0,unweighted,0.5,electronic,5,3,3,"[""identity"", ""0.01"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092802,mert_v0,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.1"", ""0.01"", ""identity""]",0,0,0
+2026092802,mert_v0,unweighted,0.5,rock,5,4,1,"[""0.01"", ""0.001"", ""identity"", ""0.0"", ""0.01""]",0,0,0
+2026092802,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.1"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.25,rock,5,4,2,"[""identity"", ""0.01"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.001"", ""0.001"", ""0.0"", ""0.01"", ""0.01""]",1,0,0
+2026092802,mert_v1,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""0.0"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v1,ambient_balanced,0.5,rock,5,4,1,"[""0.01"", ""0.01"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092802,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092802,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092802,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092802,mert_v1,unweighted,0.25,ambient,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v1,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092802,mert_v1,unweighted,0.25,pop,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v1,unweighted,0.25,rock,5,4,2,"[""identity"", ""0.01"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092802,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092802,mert_v1,unweighted,0.5,electronic,5,3,3,"[""identity"", ""0.0"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092802,mert_v1,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092802,mert_v1,unweighted,0.5,rock,5,4,1,"[""0.01"", ""0.01"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092802,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092802,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092802,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092803,maest,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.1"", ""0.01""]",0,0,0
+2026092803,maest,ambient_balanced,0.25,electronic,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092803,maest,ambient_balanced,0.25,pop,5,3,2,"[""0.0"", ""identity"", ""identity"", ""0.01"", ""0.01""]",10,1,0
+2026092803,maest,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092803,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.001"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092803,maest,ambient_balanced,0.5,electronic,5,4,1,"[""identity"", ""0.01"", ""0.1"", ""0.1"", ""1.0""]",0,0,0
+2026092803,maest,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""0.001"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092803,maest,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092803,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092803,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092803,maest,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092803,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092803,maest,unweighted,0.25,ambient,5,2,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""1.0""]",0,0,0
+2026092803,maest,unweighted,0.25,electronic,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092803,maest,unweighted,0.25,pop,5,3,2,"[""0.0"", ""identity"", ""identity"", ""0.01"", ""0.01""]",10,1,0
+2026092803,maest,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092803,maest,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092803,maest,unweighted,0.5,electronic,5,4,1,"[""identity"", ""0.01"", ""0.1"", ""0.1"", ""1.0""]",0,0,0
+2026092803,maest,unweighted,0.5,pop,5,2,4,"[""identity"", ""0.001"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092803,maest,unweighted,0.5,rock,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092803,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092803,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092803,maest,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092803,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.1"", ""0.01""]",1,0,0
+2026092803,mert_v0,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""1.0""]",10,1,0
+2026092803,mert_v0,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092803,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.0"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092803,mert_v0,ambient_balanced,0.5,electronic,5,3,2,"[""identity"", ""0.01"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v0,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092803,mert_v0,ambient_balanced,0.5,rock,5,3,3,"[""0.001"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092803,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092803,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,unweighted,0.25,ambient,5,2,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""1.0""]",0,0,0
+2026092803,mert_v0,unweighted,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""1.0""]",10,1,0
+2026092803,mert_v0,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092803,mert_v0,unweighted,0.5,ambient,5,4,1,"[""1.0"", ""0.1"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v0,unweighted,0.5,electronic,5,3,2,"[""identity"", ""0.01"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v0,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092803,mert_v0,unweighted,0.5,rock,5,3,3,"[""0.001"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092803,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v0,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.1"", ""0.001"", ""0.1"", ""0.01""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.25,electronic,5,3,2,"[""0.1"", ""identity"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""1.0""]",10,1,0
+2026092803,mert_v1,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""0.01""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.0"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.5,electronic,5,3,2,"[""identity"", ""0.1"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092803,mert_v1,ambient_balanced,0.5,rock,5,5,1,"[""0.001"", ""0.01"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092803,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092803,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092803,mert_v1,unweighted,0.25,electronic,5,3,2,"[""0.1"", ""identity"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092803,mert_v1,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""1.0""]",10,1,0
+2026092803,mert_v1,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""0.01""]",0,0,0
+2026092803,mert_v1,unweighted,0.5,ambient,5,4,1,"[""1.0"", ""0.1"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v1,unweighted,0.5,electronic,5,3,2,"[""identity"", ""0.1"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092803,mert_v1,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092803,mert_v1,unweighted,0.5,rock,5,5,1,"[""0.001"", ""0.01"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092803,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092803,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092804,maest,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.1"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092804,maest,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,ambient_balanced,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,ambient_balanced,0.25,rock,5,3,3,"[""0.01"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.01"", ""0.01"", ""0.001"", ""0.001""]",0,0,0
+2026092804,maest,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,ambient_balanced,0.5,pop,5,3,2,"[""identity"", ""identity"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092804,maest,ambient_balanced,0.5,rock,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092804,maest,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092804,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092804,maest,ambient_balanced,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092804,maest,unweighted,0.25,ambient,5,2,4,"[""0.1"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,unweighted,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,unweighted,0.25,rock,5,3,3,"[""0.01"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,maest,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092804,maest,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,maest,unweighted,0.5,pop,5,3,2,"[""identity"", ""identity"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092804,maest,unweighted,0.5,rock,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092804,maest,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092804,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092804,maest,unweighted,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.0"", ""0.1"", ""0.01"", ""0.01"", ""0.1""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.25,pop,5,2,4,"[""0.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.25,rock,5,3,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.5,ambient,5,1,0,"[""0.01"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.5,pop,5,2,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092804,mert_v0,ambient_balanced,0.5,rock,5,3,2,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092804,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092804,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092804,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092804,mert_v0,unweighted,0.25,ambient,5,2,4,"[""0.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,unweighted,0.25,pop,5,2,4,"[""0.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,unweighted,0.25,rock,5,3,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092804,mert_v0,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v0,unweighted,0.5,pop,5,2,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092804,mert_v0,unweighted,0.5,rock,5,3,2,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092804,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v0,unweighted,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092804,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.1"", ""0.0"", ""0.01"", ""0.1""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.25,rock,5,3,2,"[""0.001"", ""1.0"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.5,ambient,5,1,0,"[""0.01"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.5,pop,5,2,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092804,mert_v1,ambient_balanced,0.5,rock,5,3,2,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092804,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092804,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092804,mert_v1,unweighted,0.25,ambient,5,3,3,"[""0.01"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,unweighted,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,unweighted,0.25,rock,5,3,2,"[""0.001"", ""1.0"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092804,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092804,mert_v1,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092804,mert_v1,unweighted,0.5,pop,5,2,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092804,mert_v1,unweighted,0.5,rock,5,3,2,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092804,mert_v1,unweighted,1.0,ambient,1,1,0,"[""1.0""]",0,0,0
+2026092804,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092804,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092805,maest,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.01"", ""0.1""]",0,0,0
+2026092805,maest,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092805,maest,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092805,maest,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092805,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.01"", ""0.1"", ""0.1"", ""0.001""]",0,0,0
+2026092805,maest,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,ambient_balanced,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092805,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092805,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092805,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092805,maest,unweighted,0.25,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092805,maest,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092805,maest,unweighted,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092805,maest,unweighted,0.5,ambient,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092805,maest,unweighted,0.5,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,unweighted,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092805,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092805,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092805,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.01"", ""0.1"", ""0.1"", ""0.0""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",1,0,0
+2026092805,mert_v0,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v0,ambient_balanced,0.5,rock,5,2,4,"[""0.1"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092805,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v0,unweighted,0.25,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v0,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092805,mert_v0,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092805,mert_v0,unweighted,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092805,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092805,mert_v0,unweighted,0.5,electronic,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",1,0,0
+2026092805,mert_v0,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v0,unweighted,0.5,rock,5,2,4,"[""0.1"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v0,unweighted,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092805,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.1"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.01"", ""0.01"", ""0.1"", ""0.0""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v1,ambient_balanced,0.5,rock,5,2,3,"[""1.0"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092805,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v1,unweighted,0.25,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v1,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092805,mert_v1,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092805,mert_v1,unweighted,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092805,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092805,mert_v1,unweighted,0.5,electronic,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v1,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092805,mert_v1,unweighted,0.5,rock,5,2,3,"[""1.0"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092805,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.01""]",0,0,0
+2026092805,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092805,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092806,maest,ambient_balanced,0.25,ambient,5,3,0,"[""1.0"", ""0.01"", ""1.0"", ""0.01"", ""0.1""]",0,0,0
+2026092806,maest,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""0.1"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092806,maest,ambient_balanced,0.25,rock,5,2,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092806,maest,ambient_balanced,0.5,ambient,5,2,1,"[""0.01"", ""0.01"", ""identity"", ""0.01"", ""0.01""]",0,0,0
+2026092806,maest,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092806,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092806,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092806,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092806,maest,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092806,maest,unweighted,0.25,electronic,5,2,3,"[""identity"", ""0.1"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,unweighted,0.25,pop,5,3,3,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092806,maest,unweighted,0.25,rock,5,2,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092806,maest,unweighted,0.5,ambient,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,unweighted,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,unweighted,0.5,rock,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092806,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092806,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092806,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092806,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""1.0"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""1.0"", ""0.1"", ""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.25,rock,5,3,2,"[""0.001"", ""identity"", ""0.0"", ""identity"", ""0.001""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.5,pop,5,2,4,"[""0.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,0.5,rock,5,3,3,"[""0.01"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092806,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092806,mert_v0,unweighted,0.25,ambient,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,0.25,electronic,5,3,3,"[""identity"", ""1.0"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""1.0"", ""0.1"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,0.25,rock,5,3,2,"[""0.001"", ""identity"", ""0.0"", ""identity"", ""0.001""]",0,0,0
+2026092806,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,0.5,pop,5,2,4,"[""0.0"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,0.5,rock,5,3,3,"[""0.01"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v0,unweighted,1.0,ambient,1,1,0,"[""0.1""]",0,0,0
+2026092806,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""0.01"", ""identity"", ""identity""]",1,0,0
+2026092806,mert_v1,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""1.0"", ""0.1"", ""identity""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.25,rock,5,4,2,"[""0.0"", ""identity"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.5,electronic,5,3,2,"[""0.01"", ""0.1"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.5,pop,5,4,2,"[""0.0"", ""identity"", ""1.0"", ""0.001"", ""identity""]",0,0,0
+2026092806,mert_v1,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092806,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092806,mert_v1,unweighted,0.25,ambient,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v1,unweighted,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""0.01"", ""identity"", ""identity""]",1,0,0
+2026092806,mert_v1,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""1.0"", ""0.1"", ""identity""]",0,0,0
+2026092806,mert_v1,unweighted,0.25,rock,5,4,2,"[""0.0"", ""identity"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092806,mert_v1,unweighted,0.5,ambient,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v1,unweighted,0.5,electronic,5,3,2,"[""0.01"", ""0.1"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092806,mert_v1,unweighted,0.5,pop,5,4,2,"[""0.0"", ""identity"", ""1.0"", ""0.001"", ""identity""]",0,0,0
+2026092806,mert_v1,unweighted,0.5,rock,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092806,mert_v1,unweighted,1.0,ambient,1,1,0,"[""0.1""]",0,0,0
+2026092806,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092806,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092807,maest,ambient_balanced,0.25,ambient,5,4,1,"[""identity"", ""0.1"", ""0.001"", ""0.001"", ""0.01""]",0,0,0
+2026092807,maest,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,ambient_balanced,0.25,pop,5,3,1,"[""0.1"", ""0.1"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092807,maest,ambient_balanced,0.25,rock,5,4,2,"[""0.1"", ""0.0"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092807,maest,ambient_balanced,0.5,electronic,5,3,3,"[""1.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,ambient_balanced,0.5,pop,5,4,2,"[""1.0"", ""0.1"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092807,maest,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092807,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092807,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092807,maest,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092807,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092807,maest,unweighted,0.25,ambient,5,3,2,"[""identity"", ""identity"", ""0.001"", ""0.001"", ""0.0""]",0,0,0
+2026092807,maest,unweighted,0.25,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,unweighted,0.25,pop,5,3,1,"[""0.1"", ""0.1"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092807,maest,unweighted,0.25,rock,5,4,2,"[""0.1"", ""0.0"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,unweighted,0.5,electronic,5,3,3,"[""1.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092807,maest,unweighted,0.5,pop,5,4,2,"[""1.0"", ""0.1"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092807,maest,unweighted,0.5,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092807,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092807,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092807,maest,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092807,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.1"", ""0.0"", ""0.01"", ""0.01""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.25,pop,5,2,0,"[""0.1"", ""0.001"", ""0.1"", ""0.001"", ""0.1""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.25,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.5,pop,5,2,3,"[""identity"", ""0.1"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092807,mert_v0,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092807,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092807,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092807,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092807,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092807,mert_v0,unweighted,0.25,ambient,5,3,3,"[""identity"", ""identity"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092807,mert_v0,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092807,mert_v0,unweighted,0.25,pop,5,2,0,"[""0.1"", ""0.001"", ""0.1"", ""0.001"", ""0.1""]",0,0,0
+2026092807,mert_v0,unweighted,0.25,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092807,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092807,mert_v0,unweighted,0.5,electronic,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092807,mert_v0,unweighted,0.5,pop,5,2,3,"[""identity"", ""0.1"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092807,mert_v0,unweighted,0.5,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092807,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092807,mert_v0,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092807,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092807,mert_v0,unweighted,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.1"", ""0.0"", ""0.01"", ""0.01""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.25,electronic,5,4,1,"[""0.0"", ""1.0"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.25,pop,5,3,0,"[""0.1"", ""0.001"", ""1.0"", ""0.1"", ""0.1""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.25,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.001""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.5,electronic,5,4,2,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092807,mert_v1,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092807,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092807,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092807,mert_v1,ambient_balanced,1.0,pop,1,1,0,"[""0.1""]",0,0,0
+2026092807,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092807,mert_v1,unweighted,0.25,ambient,5,3,3,"[""identity"", ""identity"", ""0.0"", ""1.0"", ""identity""]",0,0,0
+2026092807,mert_v1,unweighted,0.25,electronic,5,4,1,"[""0.0"", ""1.0"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092807,mert_v1,unweighted,0.25,pop,5,3,0,"[""0.1"", ""0.001"", ""1.0"", ""0.1"", ""0.1""]",0,0,0
+2026092807,mert_v1,unweighted,0.25,rock,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092807,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""1.0"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092807,mert_v1,unweighted,0.5,electronic,5,4,2,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092807,mert_v1,unweighted,0.5,pop,5,3,3,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092807,mert_v1,unweighted,0.5,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092807,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092807,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092807,mert_v1,unweighted,1.0,pop,1,1,0,"[""0.1""]",0,0,0
+2026092807,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,ambient_balanced,0.25,ambient,5,4,0,"[""0.01"", ""0.001"", ""0.0"", ""0.01"", ""1.0""]",0,0,0
+2026092808,maest,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,ambient_balanced,0.25,pop,5,2,1,"[""0.1"", ""0.1"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092808,maest,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.0"", ""0.01"", ""0.01"", ""0.0"", ""0.001""]",0,0,0
+2026092808,maest,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092808,maest,ambient_balanced,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092808,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,unweighted,0.25,ambient,5,2,3,"[""0.1"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,unweighted,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,unweighted,0.25,pop,5,2,1,"[""0.1"", ""0.1"", ""0.1"", ""identity"", ""0.1""]",0,0,0
+2026092808,maest,unweighted,0.25,rock,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,unweighted,0.5,ambient,5,2,4,"[""0.01"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092808,maest,unweighted,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092808,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.001"", ""0.01"", ""0.01"", ""0.01"", ""0.1""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""0.0"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.25,pop,5,3,1,"[""0.001"", ""0.1"", ""0.001"", ""identity"", ""0.001""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.25,rock,5,3,3,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.0"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.001"", ""identity""]",0,0,0
+2026092808,mert_v0,ambient_balanced,0.5,rock,5,3,2,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092808,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092808,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092808,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092808,mert_v0,unweighted,0.25,ambient,5,3,3,"[""0.1"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,unweighted,0.25,electronic,5,3,3,"[""identity"", ""0.0"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,unweighted,0.25,pop,5,3,1,"[""0.001"", ""0.1"", ""0.001"", ""identity"", ""0.001""]",0,0,0
+2026092808,mert_v0,unweighted,0.25,rock,5,3,3,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,unweighted,0.5,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v0,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.001"", ""identity""]",0,0,0
+2026092808,mert_v0,unweighted,0.5,rock,5,3,2,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092808,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092808,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.001"", ""0.01"", ""0.01"", ""0.01"", ""0.1""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.25,electronic,5,3,2,"[""identity"", ""0.01"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.25,pop,5,3,1,"[""0.001"", ""0.1"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.5,pop,5,3,3,"[""0.0"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092808,mert_v1,ambient_balanced,0.5,rock,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092808,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092808,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v1,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092808,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v1,unweighted,0.25,ambient,5,4,1,"[""0.1"", ""1.0"", ""identity"", ""0.01"", ""0.01""]",0,0,0
+2026092808,mert_v1,unweighted,0.25,electronic,5,3,2,"[""identity"", ""0.01"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092808,mert_v1,unweighted,0.25,pop,5,3,1,"[""0.001"", ""0.1"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092808,mert_v1,unweighted,0.25,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v1,unweighted,0.5,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v1,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092808,mert_v1,unweighted,0.5,pop,5,3,3,"[""0.0"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092808,mert_v1,unweighted,0.5,rock,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092808,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092808,mert_v1,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092808,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092809,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.001"", ""0.0"", ""0.001"", ""0.1"", ""0.001""]",0,0,0
+2026092809,maest,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""1.0""]",0,0,0
+2026092809,maest,ambient_balanced,0.25,pop,5,4,1,"[""identity"", ""0.01"", ""0.1"", ""0.01"", ""0.0""]",0,0,0
+2026092809,maest,ambient_balanced,0.25,rock,5,2,4,"[""0.01"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092809,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.0""]",0,0,0
+2026092809,maest,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""identity"", ""0.1"", ""0.001"", ""identity""]",0,0,0
+2026092809,maest,ambient_balanced,0.5,pop,5,3,2,"[""identity"", ""1.0"", ""0.1"", ""0.1"", ""identity""]",0,0,0
+2026092809,maest,ambient_balanced,0.5,rock,5,2,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""1.0""]",0,0,0
+2026092809,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092809,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092809,maest,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092809,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092809,maest,unweighted,0.25,ambient,5,2,3,"[""0.0"", ""identity"", ""identity"", ""identity"", ""0.0""]",1,0,0
+2026092809,maest,unweighted,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.01"", ""1.0""]",0,0,0
+2026092809,maest,unweighted,0.25,pop,5,4,1,"[""identity"", ""0.01"", ""0.1"", ""0.01"", ""0.0""]",0,0,0
+2026092809,maest,unweighted,0.25,rock,5,2,4,"[""0.01"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092809,maest,unweighted,0.5,ambient,5,3,2,"[""0.0"", ""identity"", ""0.001"", ""identity"", ""0.0""]",0,0,0
+2026092809,maest,unweighted,0.5,electronic,5,3,3,"[""identity"", ""identity"", ""0.1"", ""0.001"", ""identity""]",0,0,0
+2026092809,maest,unweighted,0.5,pop,5,3,2,"[""identity"", ""1.0"", ""0.1"", ""0.1"", ""identity""]",0,0,0
+2026092809,maest,unweighted,0.5,rock,5,2,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""1.0""]",0,0,0
+2026092809,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092809,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092809,maest,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092809,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.25,ambient,5,4,0,"[""0.01"", ""0.0"", ""0.0"", ""0.1"", ""0.001""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.25,electronic,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.01"", ""0.001""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.25,pop,5,3,1,"[""identity"", ""0.01"", ""0.01"", ""0.0"", ""0.0""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.25,rock,5,4,1,"[""0.01"", ""0.01"", ""identity"", ""1.0"", ""0.001""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.0"", ""0.01"", ""0.0""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.5,electronic,5,4,1,"[""0.1"", ""identity"", ""0.0"", ""0.01"", ""0.01""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.01"", ""0.1"", ""identity""]",0,0,0
+2026092809,mert_v0,ambient_balanced,0.5,rock,5,5,1,"[""0.01"", ""0.001"", ""0.1"", ""identity"", ""0.0""]",0,0,0
+2026092809,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092809,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""0.0""]",0,0,0
+2026092809,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092809,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092809,mert_v0,unweighted,0.25,ambient,5,4,1,"[""0.1"", ""1.0"", ""0.0"", ""identity"", ""0.0""]",0,0,0
+2026092809,mert_v0,unweighted,0.25,electronic,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.01"", ""0.001""]",0,0,0
+2026092809,mert_v0,unweighted,0.25,pop,5,3,1,"[""identity"", ""0.01"", ""0.01"", ""0.0"", ""0.0""]",0,0,0
+2026092809,mert_v0,unweighted,0.25,rock,5,4,1,"[""0.01"", ""0.01"", ""identity"", ""1.0"", ""0.001""]",0,0,0
+2026092809,mert_v0,unweighted,0.5,ambient,5,3,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092809,mert_v0,unweighted,0.5,electronic,5,4,1,"[""0.1"", ""identity"", ""0.0"", ""0.01"", ""0.01""]",0,0,0
+2026092809,mert_v0,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.01"", ""0.1"", ""identity""]",0,0,0
+2026092809,mert_v0,unweighted,0.5,rock,5,5,1,"[""0.01"", ""0.001"", ""0.1"", ""identity"", ""0.0""]",0,0,0
+2026092809,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092809,mert_v0,unweighted,1.0,electronic,1,1,0,"[""0.0""]",0,0,0
+2026092809,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092809,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.25,ambient,5,4,0,"[""0.001"", ""0.001"", ""0.0"", ""0.1"", ""0.01""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.25,electronic,5,3,2,"[""identity"", ""identity"", ""1.0"", ""0.001"", ""0.001""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.25,pop,5,3,1,"[""identity"", ""0.01"", ""0.0"", ""0.01"", ""0.0""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.25,rock,5,3,3,"[""0.01"", ""identity"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.001"", ""0.01"", ""0.001"", ""0.01"", ""0.001""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.5,electronic,5,3,0,"[""0.001"", ""1.0"", ""0.001"", ""0.001"", ""0.1""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.001"", ""0.0"", ""identity""]",0,0,0
+2026092809,mert_v1,ambient_balanced,0.5,rock,5,4,2,"[""identity"", ""0.0"", ""1.0"", ""identity"", ""0.001""]",1,1,0
+2026092809,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092809,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.0""]",0,0,0
+2026092809,mert_v1,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092809,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092809,mert_v1,unweighted,0.25,ambient,5,4,1,"[""0.01"", ""1.0"", ""1.0"", ""identity"", ""0.1""]",0,0,0
+2026092809,mert_v1,unweighted,0.25,electronic,5,3,2,"[""identity"", ""identity"", ""1.0"", ""0.001"", ""0.001""]",0,0,0
+2026092809,mert_v1,unweighted,0.25,pop,5,3,1,"[""identity"", ""0.01"", ""0.0"", ""0.01"", ""0.0""]",0,0,0
+2026092809,mert_v1,unweighted,0.25,rock,5,3,3,"[""0.01"", ""identity"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092809,mert_v1,unweighted,0.5,ambient,5,3,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092809,mert_v1,unweighted,0.5,electronic,5,3,0,"[""0.001"", ""1.0"", ""0.001"", ""0.001"", ""0.1""]",0,0,0
+2026092809,mert_v1,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.001"", ""0.0"", ""identity""]",0,0,0
+2026092809,mert_v1,unweighted,0.5,rock,5,4,2,"[""identity"", ""0.0"", ""1.0"", ""identity"", ""0.001""]",1,1,0
+2026092809,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092809,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.0""]",0,0,0
+2026092809,mert_v1,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092809,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092810,maest,ambient_balanced,0.25,ambient,5,4,2,"[""0.1"", ""identity"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092810,maest,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,maest,ambient_balanced,0.25,pop,5,4,2,"[""0.001"", ""0.1"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092810,maest,ambient_balanced,0.25,rock,5,3,3,"[""0.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",5,1,0
+2026092810,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.1"", ""0.1""]",0,0,0
+2026092810,maest,ambient_balanced,0.5,electronic,5,3,2,"[""1.0"", ""identity"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092810,maest,ambient_balanced,0.5,pop,5,2,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092810,maest,ambient_balanced,0.5,rock,5,4,1,"[""0.001"", ""0.01"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092810,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092810,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092810,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092810,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092810,maest,unweighted,0.25,ambient,5,3,3,"[""0.01"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,maest,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,maest,unweighted,0.25,pop,5,4,2,"[""0.001"", ""0.1"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092810,maest,unweighted,0.25,rock,5,3,3,"[""0.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",5,1,0
+2026092810,maest,unweighted,0.5,ambient,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,maest,unweighted,0.5,electronic,5,3,2,"[""1.0"", ""identity"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092810,maest,unweighted,0.5,pop,5,2,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092810,maest,unweighted,0.5,rock,5,4,1,"[""0.001"", ""0.01"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092810,maest,unweighted,1.0,ambient,1,1,0,"[""0.1""]",0,0,0
+2026092810,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092810,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092810,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v0,ambient_balanced,0.25,ambient,5,2,0,"[""0.1"", ""1.0"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092810,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,ambient_balanced,0.25,pop,5,3,2,"[""0.01"", ""0.001"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,ambient_balanced,0.25,rock,5,3,1,"[""0.1"", ""0.001"", ""0.001"", ""identity"", ""0.001""]",5,1,0
+2026092810,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",1,0,0
+2026092810,mert_v0,ambient_balanced,0.5,electronic,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,ambient_balanced,0.5,rock,5,4,0,"[""1.0"", ""0.001"", ""0.0"", ""0.01"", ""0.001""]",1,0,0
+2026092810,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092810,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092810,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092810,mert_v0,unweighted,0.25,ambient,5,4,2,"[""0.01"", ""0.1"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092810,mert_v0,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,unweighted,0.25,pop,5,3,2,"[""0.01"", ""0.001"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,unweighted,0.25,rock,5,3,1,"[""0.1"", ""0.001"", ""0.001"", ""identity"", ""0.001""]",5,1,0
+2026092810,mert_v0,unweighted,0.5,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,unweighted,0.5,electronic,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v0,unweighted,0.5,rock,5,4,0,"[""1.0"", ""0.001"", ""0.0"", ""0.01"", ""0.001""]",1,0,0
+2026092810,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092810,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""1.0"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.25,electronic,5,2,3,"[""1.0"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.25,pop,5,4,2,"[""0.01"", ""0.1"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.25,rock,5,3,1,"[""0.01"", ""0.001"", ""0.001"", ""identity"", ""0.001""]",5,1,0
+2026092810,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.5,electronic,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092810,mert_v1,ambient_balanced,0.5,rock,5,2,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092810,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092810,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v1,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092810,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092810,mert_v1,unweighted,0.25,ambient,5,4,2,"[""0.001"", ""0.1"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092810,mert_v1,unweighted,0.25,electronic,5,2,3,"[""1.0"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,unweighted,0.25,pop,5,4,2,"[""0.01"", ""0.1"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,unweighted,0.25,rock,5,3,1,"[""0.01"", ""0.001"", ""0.001"", ""identity"", ""0.001""]",5,1,0
+2026092810,mert_v1,unweighted,0.5,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,unweighted,0.5,electronic,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092810,mert_v1,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092810,mert_v1,unweighted,0.5,rock,5,2,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092810,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092810,mert_v1,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092810,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092811,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""1.0"", ""1.0"", ""0.1"", ""0.01""]",5,1,0
+2026092811,maest,ambient_balanced,0.25,electronic,5,3,1,"[""0.1"", ""0.1"", ""0.1"", ""identity"", ""0.01""]",0,0,0
+2026092811,maest,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092811,maest,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""0.1"", ""0.0"", ""identity""]",0,0,0
+2026092811,maest,ambient_balanced,0.5,ambient,5,4,0,"[""0.1"", ""0.001"", ""0.1"", ""1.0"", ""0.0""]",0,0,0
+2026092811,maest,ambient_balanced,0.5,electronic,5,4,2,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""0.01""]",0,0,0
+2026092811,maest,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092811,maest,ambient_balanced,0.5,rock,5,3,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.001""]",0,0,0
+2026092811,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092811,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092811,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092811,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092811,maest,unweighted,0.25,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",5,0,0
+2026092811,maest,unweighted,0.25,electronic,5,3,1,"[""0.1"", ""0.1"", ""0.1"", ""identity"", ""0.01""]",0,0,0
+2026092811,maest,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092811,maest,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""0.1"", ""0.0"", ""identity""]",0,0,0
+2026092811,maest,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092811,maest,unweighted,0.5,electronic,5,4,2,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""0.01""]",0,0,0
+2026092811,maest,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092811,maest,unweighted,0.5,rock,5,3,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.001""]",0,0,0
+2026092811,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092811,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092811,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092811,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.0"", ""0.1"", ""0.01"", ""0.1""]",5,1,0
+2026092811,mert_v0,ambient_balanced,0.25,electronic,5,4,1,"[""0.1"", ""0.1"", ""identity"", ""0.01"", ""0.001""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.25,rock,5,2,2,"[""0.01"", ""identity"", ""0.01"", ""0.01"", ""identity""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.5,ambient,5,4,0,"[""0.01"", ""0.0"", ""0.1"", ""0.1"", ""0.001""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.5,electronic,5,3,1,"[""0.01"", ""0.01"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.5,pop,5,4,2,"[""0.001"", ""0.0"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092811,mert_v0,ambient_balanced,0.5,rock,5,2,1,"[""identity"", ""0.0"", ""0.0"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092811,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""0.0""]",0,0,0
+2026092811,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092811,mert_v0,unweighted,0.25,ambient,5,2,4,"[""1.0"", ""identity"", ""identity"", ""identity"", ""identity""]",5,0,0
+2026092811,mert_v0,unweighted,0.25,electronic,5,4,1,"[""0.1"", ""0.1"", ""identity"", ""0.01"", ""0.001""]",0,0,0
+2026092811,mert_v0,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092811,mert_v0,unweighted,0.25,rock,5,2,2,"[""0.01"", ""identity"", ""0.01"", ""0.01"", ""identity""]",0,0,0
+2026092811,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092811,mert_v0,unweighted,0.5,electronic,5,3,1,"[""0.01"", ""0.01"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v0,unweighted,0.5,pop,5,4,2,"[""0.001"", ""0.0"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092811,mert_v0,unweighted,0.5,rock,5,2,1,"[""identity"", ""0.0"", ""0.0"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v0,unweighted,1.0,electronic,1,1,0,"[""0.0""]",0,0,0
+2026092811,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.01""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",5,1,0
+2026092811,mert_v1,ambient_balanced,0.25,electronic,5,3,2,"[""0.1"", ""0.1"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.25,pop,5,4,2,"[""identity"", ""1.0"", ""0.1"", ""0.0"", ""identity""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.25,rock,5,4,1,"[""0.01"", ""identity"", ""0.1"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.5,ambient,5,4,0,"[""0.01"", ""0.001"", ""0.1"", ""0.1"", ""0.0""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.5,electronic,5,4,1,"[""0.01"", ""0.01"", ""identity"", ""0.001"", ""0.0""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.5,pop,5,4,2,"[""0.001"", ""1.0"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092811,mert_v1,ambient_balanced,0.5,rock,5,2,1,"[""identity"", ""0.0"", ""0.0"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092811,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.01""]",0,0,0
+2026092811,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092811,mert_v1,unweighted,0.25,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",5,0,0
+2026092811,mert_v1,unweighted,0.25,electronic,5,3,2,"[""0.1"", ""0.1"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092811,mert_v1,unweighted,0.25,pop,5,4,2,"[""identity"", ""1.0"", ""0.1"", ""0.0"", ""identity""]",0,0,0
+2026092811,mert_v1,unweighted,0.25,rock,5,4,1,"[""0.01"", ""identity"", ""0.1"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v1,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092811,mert_v1,unweighted,0.5,electronic,5,4,1,"[""0.01"", ""0.01"", ""identity"", ""0.001"", ""0.0""]",0,0,0
+2026092811,mert_v1,unweighted,0.5,pop,5,4,2,"[""0.001"", ""1.0"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092811,mert_v1,unweighted,0.5,rock,5,2,1,"[""identity"", ""0.0"", ""0.0"", ""0.0"", ""0.0""]",0,0,0
+2026092811,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.01""]",0,0,0
+2026092811,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092811,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092812,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.01"", ""0.01"", ""0.1"", ""1.0""]",0,0,0
+2026092812,maest,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,ambient_balanced,0.25,pop,5,3,2,"[""identity"", ""identity"", ""1.0"", ""0.01"", ""1.0""]",0,0,0
+2026092812,maest,ambient_balanced,0.25,rock,5,3,2,"[""1.0"", ""0.001"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092812,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092812,maest,ambient_balanced,0.5,electronic,5,3,3,"[""1.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,ambient_balanced,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092812,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092812,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092812,maest,ambient_balanced,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092812,maest,unweighted,0.25,ambient,5,3,3,"[""0.01"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092812,maest,unweighted,0.25,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,unweighted,0.25,pop,5,3,2,"[""identity"", ""identity"", ""1.0"", ""0.01"", ""1.0""]",0,0,0
+2026092812,maest,unweighted,0.25,rock,5,3,2,"[""1.0"", ""0.001"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092812,maest,unweighted,0.5,ambient,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,unweighted,0.5,electronic,5,3,3,"[""1.0"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,unweighted,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,maest,unweighted,1.0,ambient,1,1,0,"[""0.1""]",0,0,0
+2026092812,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092812,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092812,maest,unweighted,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.001"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.25,pop,5,3,2,"[""identity"", ""identity"", ""1.0"", ""1.0"", ""0.1""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.25,rock,5,2,3,"[""identity"", ""0.01"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""0.01"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092812,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092812,mert_v0,unweighted,0.25,ambient,5,4,2,"[""0.0"", ""identity"", ""identity"", ""1.0"", ""0.01""]",0,0,0
+2026092812,mert_v0,unweighted,0.25,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,unweighted,0.25,pop,5,3,2,"[""identity"", ""identity"", ""1.0"", ""1.0"", ""0.1""]",0,0,0
+2026092812,mert_v0,unweighted,0.25,rock,5,2,3,"[""identity"", ""0.01"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092812,mert_v0,unweighted,0.5,electronic,5,3,3,"[""identity"", ""0.01"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,unweighted,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v0,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092812,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.001"", ""0.01"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.25,pop,5,3,2,"[""identity"", ""identity"", ""1.0"", ""1.0"", ""0.01""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.25,rock,5,3,2,"[""0.0"", ""0.01"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092812,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092812,mert_v1,unweighted,0.25,ambient,5,4,2,"[""0.001"", ""identity"", ""identity"", ""0.1"", ""0.01""]",0,0,0
+2026092812,mert_v1,unweighted,0.25,electronic,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,unweighted,0.25,pop,5,3,2,"[""identity"", ""identity"", ""1.0"", ""1.0"", ""0.01""]",0,0,0
+2026092812,mert_v1,unweighted,0.25,rock,5,3,2,"[""0.0"", ""0.01"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092812,mert_v1,unweighted,0.5,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,unweighted,0.5,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092812,mert_v1,unweighted,1.0,ambient,1,1,0,"[""0.1""]",0,0,0
+2026092812,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092812,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092813,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.1"", ""0.0"", ""0.1"", ""0.1""]",5,1,0
+2026092813,maest,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092813,maest,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092813,maest,ambient_balanced,0.25,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.1"", ""0.01""]",0,0,0
+2026092813,maest,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""0.001"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092813,maest,ambient_balanced,0.5,pop,5,3,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""1.0""]",0,0,0
+2026092813,maest,ambient_balanced,0.5,rock,5,2,2,"[""1.0"", ""identity"", ""1.0"", ""1.0"", ""identity""]",0,0,0
+2026092813,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092813,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092813,maest,ambient_balanced,1.0,pop,1,1,0,"[""1.0""]",0,0,0
+2026092813,maest,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092813,maest,unweighted,0.25,ambient,5,4,2,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""0.001""]",5,1,0
+2026092813,maest,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092813,maest,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092813,maest,unweighted,0.25,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,maest,unweighted,0.5,ambient,5,2,3,"[""identity"", ""0.1"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092813,maest,unweighted,0.5,electronic,5,3,3,"[""identity"", ""0.001"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092813,maest,unweighted,0.5,pop,5,3,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""1.0""]",0,0,0
+2026092813,maest,unweighted,0.5,rock,5,2,2,"[""1.0"", ""identity"", ""1.0"", ""1.0"", ""identity""]",0,0,0
+2026092813,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092813,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092813,maest,unweighted,1.0,pop,1,1,0,"[""1.0""]",0,0,0
+2026092813,maest,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092813,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.001"", ""0.001"", ""0.1"", ""0.01""]",5,1,0
+2026092813,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""0.01"", ""0.1"", ""identity""]",0,0,0
+2026092813,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092813,mert_v0,ambient_balanced,0.25,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.001"", ""0.001"", ""0.1"", ""0.01""]",1,0,0
+2026092813,mert_v0,ambient_balanced,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v0,ambient_balanced,0.5,pop,5,3,2,"[""identity"", ""1.0"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092813,mert_v0,ambient_balanced,0.5,rock,5,3,1,"[""0.0"", ""identity"", ""0.01"", ""0.0"", ""0.0""]",0,0,0
+2026092813,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092813,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092813,mert_v0,unweighted,0.25,ambient,5,3,2,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""0.01""]",5,1,0
+2026092813,mert_v0,unweighted,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""0.01"", ""0.1"", ""identity""]",0,0,0
+2026092813,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092813,mert_v0,unweighted,0.25,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v0,unweighted,0.5,ambient,5,3,3,"[""identity"", ""0.1"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v0,unweighted,0.5,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v0,unweighted,0.5,pop,5,3,2,"[""identity"", ""1.0"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092813,mert_v0,unweighted,0.5,rock,5,3,1,"[""0.0"", ""identity"", ""0.01"", ""0.0"", ""0.0""]",0,0,0
+2026092813,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",1,0,0
+2026092813,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.01"", ""0.01"", ""0.1""]",5,1,0
+2026092813,mert_v1,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.25,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.1"", ""0.01""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.5,pop,5,3,2,"[""identity"", ""0.1"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,0.5,rock,5,3,0,"[""0.0"", ""0.0"", ""0.0"", ""0.01"", ""0.001""]",0,0,0
+2026092813,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092813,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092813,mert_v1,unweighted,0.25,ambient,5,3,1,"[""0.1"", ""identity"", ""0.1"", ""0.01"", ""0.01""]",5,1,0
+2026092813,mert_v1,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v1,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092813,mert_v1,unweighted,0.25,rock,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""0.1"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092813,mert_v1,unweighted,0.5,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092813,mert_v1,unweighted,0.5,pop,5,3,2,"[""identity"", ""0.1"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092813,mert_v1,unweighted,0.5,rock,5,3,0,"[""0.0"", ""0.0"", ""0.0"", ""0.01"", ""0.001""]",0,0,0
+2026092813,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092813,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092814,maest,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092814,maest,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.01""]",0,0,0
+2026092814,maest,ambient_balanced,0.25,pop,5,3,2,"[""identity"", ""identity"", ""0.0"", ""0.0"", ""0.01""]",0,0,0
+2026092814,maest,ambient_balanced,0.25,rock,5,3,2,"[""identity"", ""0.01"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092814,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.001"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092814,maest,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092814,maest,ambient_balanced,0.5,pop,5,3,2,"[""identity"", ""0.01"", ""1.0"", ""1.0"", ""identity""]",0,0,0
+2026092814,maest,ambient_balanced,0.5,rock,5,4,1,"[""0.1"", ""0.1"", ""identity"", ""0.001"", ""1.0""]",0,0,0
+2026092814,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092814,maest,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092814,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092814,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092814,maest,unweighted,0.25,ambient,5,4,1,"[""1.0"", ""0.1"", ""0.001"", ""1.0"", ""identity""]",0,0,0
+2026092814,maest,unweighted,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""0.01""]",0,0,0
+2026092814,maest,unweighted,0.25,pop,5,3,2,"[""identity"", ""identity"", ""0.0"", ""0.0"", ""0.01""]",0,0,0
+2026092814,maest,unweighted,0.25,rock,5,3,2,"[""identity"", ""0.01"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092814,maest,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""0.1""]",0,0,0
+2026092814,maest,unweighted,0.5,electronic,5,3,3,"[""identity"", ""identity"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092814,maest,unweighted,0.5,pop,5,3,2,"[""identity"", ""0.01"", ""1.0"", ""1.0"", ""identity""]",0,0,0
+2026092814,maest,unweighted,0.5,rock,5,4,1,"[""0.1"", ""0.1"", ""identity"", ""0.001"", ""1.0""]",0,0,0
+2026092814,maest,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092814,maest,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092814,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092814,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.0"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.25,electronic,5,4,1,"[""1.0"", ""identity"", ""0.1"", ""0.1"", ""0.001""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.25,pop,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.001"", ""0.01""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.25,rock,5,3,2,"[""identity"", ""0.01"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.001"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.5,electronic,5,3,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""1.0""]",1,0,0
+2026092814,mert_v0,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v0,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092814,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092814,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v0,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v0,unweighted,0.25,ambient,5,3,3,"[""identity"", ""0.01"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092814,mert_v0,unweighted,0.25,electronic,5,4,1,"[""1.0"", ""identity"", ""0.1"", ""0.1"", ""0.001""]",0,0,0
+2026092814,mert_v0,unweighted,0.25,pop,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.001"", ""0.01""]",0,0,0
+2026092814,mert_v0,unweighted,0.25,rock,5,3,2,"[""identity"", ""0.01"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092814,mert_v0,unweighted,0.5,ambient,5,3,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092814,mert_v0,unweighted,0.5,electronic,5,3,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""1.0""]",1,0,0
+2026092814,mert_v0,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v0,unweighted,0.5,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v0,unweighted,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092814,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v0,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.001"", ""0.1"", ""0.01"", ""0.01""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.25,electronic,5,4,1,"[""0.1"", ""identity"", ""0.1"", ""1.0"", ""0.001""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.25,pop,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.0"", ""0.01""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.25,rock,5,4,2,"[""identity"", ""0.001"", ""identity"", ""0.0"", ""0.1""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.001"", ""0.01"", ""0.01"", ""0.01"", ""0.001""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.5,electronic,5,2,3,"[""identity"", ""1.0"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v1,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092814,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092814,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v1,unweighted,0.25,ambient,5,3,3,"[""identity"", ""0.1"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092814,mert_v1,unweighted,0.25,electronic,5,4,1,"[""0.1"", ""identity"", ""0.1"", ""1.0"", ""0.001""]",0,0,0
+2026092814,mert_v1,unweighted,0.25,pop,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.0"", ""0.01""]",0,0,0
+2026092814,mert_v1,unweighted,0.25,rock,5,4,2,"[""identity"", ""0.001"", ""identity"", ""0.0"", ""0.1""]",0,0,0
+2026092814,mert_v1,unweighted,0.5,ambient,5,2,3,"[""0.1"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092814,mert_v1,unweighted,0.5,electronic,5,2,3,"[""identity"", ""1.0"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092814,mert_v1,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v1,unweighted,0.5,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092814,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v1,unweighted,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092814,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092814,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092815,maest,ambient_balanced,0.25,ambient,5,3,1,"[""0.01"", ""0.1"", ""identity"", ""0.1"", ""0.01""]",0,0,0
+2026092815,maest,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092815,maest,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092815,maest,ambient_balanced,0.25,rock,5,4,2,"[""0.001"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092815,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.01"", ""0.1"", ""0.01"", ""0.01"", ""0.0""]",0,0,0
+2026092815,maest,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092815,maest,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092815,maest,ambient_balanced,0.5,rock,5,2,2,"[""identity"", ""0.1"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092815,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092815,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092815,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092815,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092815,maest,unweighted,0.25,ambient,5,2,3,"[""1.0"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092815,maest,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092815,maest,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092815,maest,unweighted,0.25,rock,5,4,2,"[""0.001"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092815,maest,unweighted,0.5,ambient,5,2,3,"[""identity"", ""1.0"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092815,maest,unweighted,0.5,electronic,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""1.0""]",0,0,0
+2026092815,maest,unweighted,0.5,pop,5,3,3,"[""identity"", ""identity"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092815,maest,unweighted,0.5,rock,5,2,2,"[""identity"", ""0.1"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092815,maest,unweighted,1.0,ambient,1,1,0,"[""1.0""]",0,0,0
+2026092815,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092815,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092815,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.1"", ""0.1"", ""0.1"", ""0.01""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.25,rock,5,3,2,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.1"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.5,electronic,5,2,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""1.0""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092815,mert_v0,ambient_balanced,0.5,rock,5,5,1,"[""1.0"", ""0.1"", ""identity"", ""0.0"", ""0.001""]",0,0,0
+2026092815,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092815,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092815,mert_v0,unweighted,0.25,ambient,5,3,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092815,mert_v0,unweighted,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092815,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092815,mert_v0,unweighted,0.25,rock,5,3,2,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092815,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092815,mert_v0,unweighted,0.5,electronic,5,2,3,"[""identity"", ""identity"", ""1.0"", ""identity"", ""1.0""]",0,0,0
+2026092815,mert_v0,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092815,mert_v0,unweighted,0.5,rock,5,5,1,"[""1.0"", ""0.1"", ""identity"", ""0.0"", ""0.001""]",0,0,0
+2026092815,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.1"", ""0.1"", ""0.1"", ""0.01""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.25,pop,5,4,2,"[""0.001"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.1"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.5,electronic,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.001"", ""1.0""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092815,mert_v1,ambient_balanced,0.5,rock,5,3,2,"[""1.0"", ""0.1"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092815,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092815,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092815,mert_v1,unweighted,0.25,ambient,5,3,3,"[""1.0"", ""identity"", ""identity"", ""identity"", ""0.001""]",0,0,0
+2026092815,mert_v1,unweighted,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092815,mert_v1,unweighted,0.25,pop,5,4,2,"[""0.001"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092815,mert_v1,unweighted,0.25,rock,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092815,mert_v1,unweighted,0.5,ambient,5,2,4,"[""identity"", ""1.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092815,mert_v1,unweighted,0.5,electronic,5,4,2,"[""identity"", ""identity"", ""0.1"", ""0.001"", ""1.0""]",0,0,0
+2026092815,mert_v1,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092815,mert_v1,unweighted,0.5,rock,5,3,2,"[""1.0"", ""0.1"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092815,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092815,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.0""]",0,0,0
+2026092816,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.0""]",0,0,0
+2026092816,maest,ambient_balanced,0.25,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,maest,ambient_balanced,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,maest,ambient_balanced,0.25,rock,5,3,3,"[""0.001"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,maest,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.01"", ""0.01"", ""0.001"", ""0.001""]",0,0,0
+2026092816,maest,ambient_balanced,0.5,electronic,5,2,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092816,maest,ambient_balanced,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092816,maest,ambient_balanced,0.5,rock,5,4,1,"[""0.001"", ""1.0"", ""0.001"", ""identity"", ""0.01""]",0,0,0
+2026092816,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092816,maest,ambient_balanced,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092816,maest,ambient_balanced,1.0,pop,1,1,0,"[""1.0""]",0,0,0
+2026092816,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092816,maest,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092816,maest,unweighted,0.25,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,maest,unweighted,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,maest,unweighted,0.25,rock,5,3,3,"[""0.001"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,maest,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.001"", ""0.0""]",0,0,0
+2026092816,maest,unweighted,0.5,electronic,5,2,2,"[""identity"", ""identity"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092816,maest,unweighted,0.5,pop,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092816,maest,unweighted,0.5,rock,5,4,1,"[""0.001"", ""1.0"", ""0.001"", ""identity"", ""0.01""]",0,0,0
+2026092816,maest,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092816,maest,unweighted,1.0,electronic,1,1,0,"[""0.1""]",0,0,0
+2026092816,maest,unweighted,1.0,pop,1,1,0,"[""1.0""]",0,0,0
+2026092816,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.25,ambient,5,4,0,"[""0.1"", ""0.1"", ""1.0"", ""0.01"", ""0.0""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""0.01"", ""0.01"", ""identity""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.25,rock,5,4,2,"[""identity"", ""0.1"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.5,ambient,5,4,0,"[""0.1"", ""0.01"", ""0.01"", ""0.0"", ""0.001""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.5,electronic,5,4,2,"[""identity"", ""identity"", ""0.01"", ""0.0"", ""0.1""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v0,ambient_balanced,0.5,rock,5,4,2,"[""0.01"", ""identity"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092816,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092816,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""0.001""]",0,0,0
+2026092816,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v0,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v0,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092816,mert_v0,unweighted,0.25,electronic,5,2,3,"[""identity"", ""identity"", ""0.01"", ""0.01"", ""identity""]",0,0,0
+2026092816,mert_v0,unweighted,0.25,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v0,unweighted,0.25,rock,5,4,2,"[""identity"", ""0.1"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092816,mert_v0,unweighted,0.5,ambient,5,2,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092816,mert_v0,unweighted,0.5,electronic,5,4,2,"[""identity"", ""identity"", ""0.01"", ""0.0"", ""0.1""]",0,0,0
+2026092816,mert_v0,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v0,unweighted,0.5,rock,5,4,2,"[""0.01"", ""identity"", ""0.001"", ""identity"", ""0.1""]",0,0,0
+2026092816,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v0,unweighted,1.0,electronic,1,1,0,"[""0.001""]",0,0,0
+2026092816,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v0,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.25,ambient,5,4,1,"[""0.1"", ""0.1"", ""identity"", ""0.01"", ""0.0""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""0.01"", ""0.0"", ""identity""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""0.1"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.1"", ""0.01"", ""0.01"", ""0.0"", ""0.01""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.5,electronic,5,4,1,"[""identity"", ""0.1"", ""0.01"", ""0.0"", ""0.1""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v1,ambient_balanced,0.5,rock,5,4,2,"[""0.001"", ""identity"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092816,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092816,mert_v1,ambient_balanced,1.0,electronic,1,1,0,"[""0.01""]",0,0,0
+2026092816,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v1,unweighted,0.25,ambient,5,3,3,"[""identity"", ""1.0"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092816,mert_v1,unweighted,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""0.01"", ""0.0"", ""identity""]",0,0,0
+2026092816,mert_v1,unweighted,0.25,pop,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v1,unweighted,0.25,rock,5,3,3,"[""identity"", ""0.1"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v1,unweighted,0.5,ambient,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""0.001""]",0,0,0
+2026092816,mert_v1,unweighted,0.5,electronic,5,4,1,"[""identity"", ""0.1"", ""0.01"", ""0.0"", ""0.1""]",0,0,0
+2026092816,mert_v1,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092816,mert_v1,unweighted,0.5,rock,5,4,2,"[""0.001"", ""identity"", ""0.0"", ""identity"", ""1.0""]",0,0,0
+2026092816,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v1,unweighted,1.0,electronic,1,1,0,"[""0.01""]",0,0,0
+2026092816,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092816,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092817,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.0""]",0,0,0
+2026092817,maest,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,ambient_balanced,0.25,pop,5,3,2,"[""identity"", ""0.001"", ""0.1"", ""0.001"", ""identity""]",5,1,0
+2026092817,maest,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.0"", ""0.01"", ""0.0"", ""0.01"", ""0.0""]",0,0,0
+2026092817,maest,ambient_balanced,0.5,electronic,5,2,3,"[""0.1"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,ambient_balanced,0.5,pop,5,2,4,"[""0.01"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092817,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092817,maest,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092817,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092817,maest,unweighted,0.25,ambient,5,3,3,"[""0.1"", ""identity"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,unweighted,0.25,electronic,5,3,3,"[""identity"", ""0.1"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,unweighted,0.25,pop,5,3,2,"[""identity"", ""0.001"", ""0.1"", ""0.001"", ""identity""]",5,1,0
+2026092817,maest,unweighted,0.25,rock,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,unweighted,0.5,ambient,5,3,2,"[""0.0"", ""identity"", ""identity"", ""0.1"", ""0.0""]",0,0,0
+2026092817,maest,unweighted,0.5,electronic,5,2,3,"[""0.1"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,unweighted,0.5,pop,5,2,4,"[""0.01"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,unweighted,0.5,rock,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,maest,unweighted,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092817,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092817,maest,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092817,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.25,ambient,5,1,0,"[""0.01"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.25,electronic,5,2,3,"[""identity"", ""1.0"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""0.0"", ""0.1"", ""identity"", ""identity""]",5,1,0
+2026092817,mert_v0,ambient_balanced,0.25,rock,5,4,1,"[""0.001"", ""0.0"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.0"", ""0.01"", ""0.01"", ""0.01"", ""0.01""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.5,electronic,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,ambient_balanced,0.5,rock,5,3,3,"[""identity"", ""0.0"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092817,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,unweighted,0.25,ambient,5,3,3,"[""1.0"", ""identity"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,unweighted,0.25,electronic,5,2,3,"[""identity"", ""1.0"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""0.0"", ""0.1"", ""identity"", ""identity""]",5,1,0
+2026092817,mert_v0,unweighted,0.25,rock,5,4,1,"[""0.001"", ""0.0"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092817,mert_v0,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092817,mert_v0,unweighted,0.5,electronic,5,3,3,"[""identity"", ""0.1"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092817,mert_v0,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,unweighted,0.5,rock,5,3,3,"[""identity"", ""0.0"", ""0.001"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v0,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""0.01"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""0.0"", ""0.1"", ""identity"", ""identity""]",5,1,0
+2026092817,mert_v1,ambient_balanced,0.25,rock,5,4,2,"[""0.001"", ""identity"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.5,ambient,5,3,0,"[""0.0"", ""0.01"", ""0.001"", ""0.01"", ""0.01""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.5,electronic,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,0.5,rock,5,2,4,"[""identity"", ""0.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.0""]",0,0,0
+2026092817,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v1,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v1,unweighted,0.25,ambient,5,3,3,"[""0.1"", ""identity"", ""0.01"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,unweighted,0.25,electronic,5,3,3,"[""identity"", ""0.01"", ""1.0"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,unweighted,0.25,pop,5,3,3,"[""identity"", ""0.0"", ""0.1"", ""identity"", ""identity""]",5,1,0
+2026092817,mert_v1,unweighted,0.25,rock,5,4,2,"[""0.001"", ""identity"", ""0.0"", ""identity"", ""0.1""]",0,0,0
+2026092817,mert_v1,unweighted,0.5,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""1.0"", ""identity""]",0,0,0
+2026092817,mert_v1,unweighted,0.5,electronic,5,2,4,"[""identity"", ""0.01"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,unweighted,0.5,pop,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,unweighted,0.5,rock,5,2,4,"[""identity"", ""0.0"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092817,mert_v1,unweighted,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092817,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v1,unweighted,1.0,pop,1,1,1,"[""identity""]",0,0,0
+2026092817,mert_v1,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092818,maest,ambient_balanced,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""identity"", ""identity"", ""0.1""]",0,0,0
+2026092818,maest,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092818,maest,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""0.01""]",0,0,0
+2026092818,maest,ambient_balanced,0.25,rock,5,3,1,"[""1.0"", ""0.1"", ""0.1"", ""identity"", ""1.0""]",5,1,0
+2026092818,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092818,maest,ambient_balanced,0.5,electronic,5,4,2,"[""1.0"", ""identity"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092818,maest,ambient_balanced,0.5,pop,5,4,1,"[""0.01"", ""0.0"", ""0.01"", ""identity"", ""0.001""]",0,0,0
+2026092818,maest,ambient_balanced,0.5,rock,5,3,2,"[""0.1"", ""0.1"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092818,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092818,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092818,maest,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092818,maest,ambient_balanced,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092818,maest,unweighted,0.25,ambient,5,4,1,"[""0.0"", ""1.0"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092818,maest,unweighted,0.25,electronic,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.0"", ""identity""]",0,0,0
+2026092818,maest,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.1"", ""0.01""]",0,0,0
+2026092818,maest,unweighted,0.25,rock,5,3,1,"[""1.0"", ""0.1"", ""0.1"", ""identity"", ""1.0""]",5,1,0
+2026092818,maest,unweighted,0.5,ambient,5,2,3,"[""0.0"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092818,maest,unweighted,0.5,electronic,5,4,2,"[""1.0"", ""identity"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092818,maest,unweighted,0.5,pop,5,4,1,"[""0.01"", ""0.0"", ""0.01"", ""identity"", ""0.001""]",0,0,0
+2026092818,maest,unweighted,0.5,rock,5,3,2,"[""0.1"", ""0.1"", ""identity"", ""identity"", ""0.01""]",0,0,0
+2026092818,maest,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092818,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092818,maest,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092818,maest,unweighted,1.0,rock,1,1,1,"[""identity""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.25,ambient,5,3,2,"[""0.1"", ""identity"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.001"", ""0.1""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.25,rock,5,3,1,"[""0.0"", ""0.1"", ""0.1"", ""identity"", ""0.0""]",5,1,0
+2026092818,mert_v0,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.1"", ""0.1""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.5,electronic,5,3,2,"[""1.0"", ""0.1"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""0.001"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092818,mert_v0,ambient_balanced,0.5,rock,5,4,2,"[""0.01"", ""0.001"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092818,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v0,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092818,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092818,mert_v0,unweighted,0.25,ambient,5,4,1,"[""0.0"", ""1.0"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092818,mert_v0,unweighted,0.25,electronic,5,3,3,"[""1.0"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092818,mert_v0,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.001"", ""0.1""]",0,0,0
+2026092818,mert_v0,unweighted,0.25,rock,5,3,1,"[""0.0"", ""0.1"", ""0.1"", ""identity"", ""0.0""]",5,1,0
+2026092818,mert_v0,unweighted,0.5,ambient,5,4,2,"[""0.001"", ""identity"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092818,mert_v0,unweighted,0.5,electronic,5,3,2,"[""1.0"", ""0.1"", ""0.1"", ""identity"", ""identity""]",0,0,0
+2026092818,mert_v0,unweighted,0.5,pop,5,3,3,"[""identity"", ""0.001"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092818,mert_v0,unweighted,0.5,rock,5,4,2,"[""0.01"", ""0.001"", ""identity"", ""identity"", ""0.0""]",0,0,0
+2026092818,mert_v0,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v0,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092818,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.001""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.25,ambient,5,3,1,"[""0.1"", ""1.0"", ""identity"", ""1.0"", ""0.1""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.25,electronic,5,4,1,"[""0.1"", ""0.01"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""0.1""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.25,rock,5,4,1,"[""0.0"", ""1.0"", ""0.01"", ""1.0"", ""identity""]",5,1,0
+2026092818,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.1"", ""0.01"", ""0.01"", ""0.1"", ""0.1""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.5,electronic,5,4,1,"[""1.0"", ""0.01"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.5,pop,5,3,3,"[""identity"", ""0.001"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092818,mert_v1,ambient_balanced,0.5,rock,5,4,1,"[""0.01"", ""0.001"", ""1.0"", ""identity"", ""0.001""]",0,0,0
+2026092818,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092818,mert_v1,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""0.01""]",1,0,0
+2026092818,mert_v1,unweighted,0.25,ambient,5,4,1,"[""0.0"", ""1.0"", ""0.1"", ""identity"", ""1.0""]",0,0,0
+2026092818,mert_v1,unweighted,0.25,electronic,5,4,1,"[""0.1"", ""0.01"", ""identity"", ""0.1"", ""1.0""]",0,0,0
+2026092818,mert_v1,unweighted,0.25,pop,5,3,3,"[""identity"", ""identity"", ""identity"", ""0.0"", ""0.1""]",0,0,0
+2026092818,mert_v1,unweighted,0.25,rock,5,4,1,"[""0.0"", ""1.0"", ""0.01"", ""1.0"", ""identity""]",5,1,0
+2026092818,mert_v1,unweighted,0.5,ambient,5,3,2,"[""0.001"", ""identity"", ""0.001"", ""1.0"", ""identity""]",0,0,0
+2026092818,mert_v1,unweighted,0.5,electronic,5,4,1,"[""1.0"", ""0.01"", ""0.01"", ""identity"", ""0.1""]",0,0,0
+2026092818,mert_v1,unweighted,0.5,pop,5,3,3,"[""identity"", ""0.001"", ""identity"", ""identity"", ""1.0""]",0,0,0
+2026092818,mert_v1,unweighted,0.5,rock,5,4,1,"[""0.01"", ""0.001"", ""1.0"", ""identity"", ""0.001""]",0,0,0
+2026092818,mert_v1,unweighted,1.0,ambient,1,1,0,"[""0.001""]",0,0,0
+2026092818,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092818,mert_v1,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092818,mert_v1,unweighted,1.0,rock,1,1,0,"[""0.01""]",1,0,0
+2026092819,maest,ambient_balanced,0.25,ambient,5,3,0,"[""0.01"", ""0.01"", ""0.0"", ""0.001"", ""0.01""]",0,0,0
+2026092819,maest,ambient_balanced,0.25,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,maest,ambient_balanced,0.25,pop,5,4,1,"[""0.1"", ""identity"", ""1.0"", ""0.01"", ""0.01""]",0,0,0
+2026092819,maest,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092819,maest,ambient_balanced,0.5,ambient,5,2,0,"[""0.0"", ""0.01"", ""0.01"", ""0.0"", ""0.0""]",0,0,0
+2026092819,maest,ambient_balanced,0.5,electronic,5,3,2,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092819,maest,ambient_balanced,0.5,pop,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092819,maest,ambient_balanced,0.5,rock,5,4,2,"[""0.1"", ""0.001"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,maest,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092819,maest,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092819,maest,ambient_balanced,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092819,maest,ambient_balanced,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092819,maest,unweighted,0.25,ambient,5,3,2,"[""identity"", ""1.0"", ""0.0"", ""0.0"", ""identity""]",0,0,0
+2026092819,maest,unweighted,0.25,electronic,5,2,4,"[""identity"", ""0.1"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,maest,unweighted,0.25,pop,5,4,1,"[""0.1"", ""identity"", ""1.0"", ""0.01"", ""0.01""]",0,0,0
+2026092819,maest,unweighted,0.25,rock,5,2,4,"[""identity"", ""identity"", ""identity"", ""0.1"", ""identity""]",0,0,0
+2026092819,maest,unweighted,0.5,ambient,5,3,1,"[""0.0"", ""0.1"", ""identity"", ""0.0"", ""0.0""]",0,0,0
+2026092819,maest,unweighted,0.5,electronic,5,3,2,"[""identity"", ""1.0"", ""identity"", ""0.1"", ""0.1""]",0,0,0
+2026092819,maest,unweighted,0.5,pop,5,2,0,"[""0.1"", ""0.01"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092819,maest,unweighted,0.5,rock,5,4,2,"[""0.1"", ""0.001"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,maest,unweighted,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092819,maest,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092819,maest,unweighted,1.0,pop,1,1,0,"[""0.001""]",0,0,0
+2026092819,maest,unweighted,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.0"", ""0.01"", ""0.01""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""1.0"", ""0.1"", ""identity""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.25,pop,5,4,1,"[""0.1"", ""identity"", ""0.1"", ""0.001"", ""0.01""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.25,rock,5,3,3,"[""identity"", ""0.001"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.5,ambient,5,3,0,"[""0.0"", ""0.01"", ""0.01"", ""0.001"", ""0.001""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.5,electronic,5,4,2,"[""identity"", ""0.1"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.5,pop,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092819,mert_v0,ambient_balanced,0.5,rock,5,4,2,"[""1.0"", ""0.0"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,mert_v0,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092819,mert_v0,ambient_balanced,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092819,mert_v0,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092819,mert_v0,ambient_balanced,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092819,mert_v0,unweighted,0.25,ambient,5,2,4,"[""identity"", ""identity"", ""0.0"", ""identity"", ""identity""]",0,0,0
+2026092819,mert_v0,unweighted,0.25,electronic,5,3,3,"[""identity"", ""identity"", ""1.0"", ""0.1"", ""identity""]",0,0,0
+2026092819,mert_v0,unweighted,0.25,pop,5,4,1,"[""0.1"", ""identity"", ""0.1"", ""0.001"", ""0.01""]",0,0,0
+2026092819,mert_v0,unweighted,0.25,rock,5,3,3,"[""identity"", ""0.001"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,mert_v0,unweighted,0.5,ambient,5,4,2,"[""0.0"", ""identity"", ""identity"", ""0.01"", ""1.0""]",0,0,0
+2026092819,mert_v0,unweighted,0.5,electronic,5,4,2,"[""identity"", ""0.1"", ""0.01"", ""1.0"", ""identity""]",0,0,0
+2026092819,mert_v0,unweighted,0.5,pop,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092819,mert_v0,unweighted,0.5,rock,5,4,2,"[""1.0"", ""0.0"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,mert_v0,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092819,mert_v0,unweighted,1.0,electronic,1,1,0,"[""1.0""]",0,0,0
+2026092819,mert_v0,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092819,mert_v0,unweighted,1.0,rock,1,1,0,"[""0.1""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.25,ambient,5,2,0,"[""0.01"", ""0.01"", ""0.0"", ""0.01"", ""0.01""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.25,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.25,pop,5,4,1,"[""1.0"", ""identity"", ""0.0"", ""0.001"", ""0.0""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.25,rock,5,2,4,"[""identity"", ""0.001"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.5,ambient,5,2,0,"[""0.001"", ""0.01"", ""0.01"", ""0.001"", ""0.01""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.5,electronic,5,3,2,"[""identity"", ""1.0"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.5,pop,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092819,mert_v1,ambient_balanced,0.5,rock,5,4,2,"[""1.0"", ""0.0"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,mert_v1,ambient_balanced,1.0,ambient,1,1,0,"[""0.01""]",0,0,0
+2026092819,mert_v1,ambient_balanced,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092819,mert_v1,ambient_balanced,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092819,mert_v1,ambient_balanced,1.0,rock,1,1,0,"[""1.0""]",0,0,0
+2026092819,mert_v1,unweighted,0.25,ambient,5,4,2,"[""0.01"", ""identity"", ""0.0"", ""0.001"", ""identity""]",0,0,0
+2026092819,mert_v1,unweighted,0.25,electronic,5,1,5,"[""identity"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,mert_v1,unweighted,0.25,pop,5,4,1,"[""1.0"", ""identity"", ""0.0"", ""0.001"", ""0.0""]",0,0,0
+2026092819,mert_v1,unweighted,0.25,rock,5,2,4,"[""identity"", ""0.001"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,mert_v1,unweighted,0.5,ambient,5,2,4,"[""0.001"", ""identity"", ""identity"", ""identity"", ""identity""]",0,0,0
+2026092819,mert_v1,unweighted,0.5,electronic,5,3,2,"[""identity"", ""1.0"", ""0.1"", ""1.0"", ""identity""]",0,0,0
+2026092819,mert_v1,unweighted,0.5,pop,5,2,0,"[""0.1"", ""0.1"", ""0.1"", ""0.01"", ""0.1""]",0,0,0
+2026092819,mert_v1,unweighted,0.5,rock,5,4,2,"[""1.0"", ""0.0"", ""identity"", ""0.01"", ""identity""]",0,0,0
+2026092819,mert_v1,unweighted,1.0,ambient,1,1,1,"[""identity""]",0,0,0
+2026092819,mert_v1,unweighted,1.0,electronic,1,1,1,"[""identity""]",0,0,0
+2026092819,mert_v1,unweighted,1.0,pop,1,1,0,"[""0.01""]",0,0,0
+2026092819,mert_v1,unweighted,1.0,rock,1,1,0,"[""1.0""]",0,0,0

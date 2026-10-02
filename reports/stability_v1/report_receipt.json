@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-02T06:03:07.641427+00:00",
+  "study_freeze_sha256": "edb59c04e8444f9fe3949be008c2ff7f2a245aff32d30ac75d693bb6396e841e",
+  "run_completed_sha256": "1f72dfae80d79c8eb46eb9d62960cf882317258a92cedb359ce83bd2ddac018b",
+  "artifact_hashes": {
+    "REPORT.md": "16e2658160219380676698337998b9c5802de5ecff8a40d33d17d91ebab69e24",
+    "budget_brier.pdf": "414f55691c1cebba37474dbfec3ce9e5cf6d816ae59f023d8f2f289b1fc69498",
+    "budget_brier.png": "983c879dc96b704e69db442ccd57c3ae2e73e2bf2fbb742e4c1dd496738dfd46",
+    "case_metrics.csv": "cd807ed39c5acdb46d0015be12de7a642c90b90283fe23f140e56f7d59a5ee92",
+    "config.json": "1cd36772e982a6fc04716fa36b72f51a022804f8c0080d31a66d2cd9a41626a6",
+    "controls.json": "0547e7dcbddd14c60e25dfd07bb1acc7956f24fa5512e378997abad00e5865e8",
+    "plan_audit.json": "df3774b9a8e6e948dec0effd3801a2a6d305735f5fd2a90b1c0039f1161b0ee9",
+    "ridge_selections.csv": "001150cefecf4a9a117642708249558259ba623ba61f0e28f25270eef6e60db5",
+    "ridge_stability.csv": "f863c01dd0a923e4df7701a678a8f02aace522466b5c8cd81fe45b287e2ffd50",
+    "run_completed.json": "1f72dfae80d79c8eb46eb9d62960cf882317258a92cedb359ce83bd2ddac018b",
+    "study_freeze.json": "edb59c04e8444f9fe3949be008c2ff7f2a245aff32d30ac75d693bb6396e841e",
+    "summary.json": "9527c1aa67522d5cdf09f53efa25445a3b5a2376a23d590762612e9add1fc873",
+    "summary_cells.csv": "0b9c2a7c1cd976a10e73ce7c342b2c1f4696f0072333f0f2641e3081a2a69487",
+    "within_split.csv": "d8538c63feb1b40c471a53638576fb053584f0b01279d92c0977ec597a07e636"
+  }
+}

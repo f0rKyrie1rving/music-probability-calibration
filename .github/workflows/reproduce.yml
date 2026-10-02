@@ -7,11 +7,16 @@ permissions:
   contents: read
 jobs:
   score-level-reproduction:
-    runs-on: ubuntu-latest
+    name: Reproduce on ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     env:
       MPLBACKEND: Agg
-      MPLCONFIGDIR: /tmp/music-calibration-mpl
+      PYTHONUTF8: '1'
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -22,21 +27,16 @@ jobs:
         run: python -m pip install -r requirements-lock.txt
       - name: Unit and integrity guards
         run: python -m unittest discover -s tests -v
-      - name: Audit included scores
-        run: python -m music_calibration audit --data data/legacy_scores
-      - name: Freeze all planned cases
-        run: python -m music_calibration freeze --data data/legacy_scores --out runs/ci
-      - name: Fit and evaluate all calibration methods
-        run: python -m music_calibration run --out runs/ci
-      - name: Rebuild report
-        run: python -m music_calibration summarize --out runs/ci --report reports/ci
-      - name: Independent numerical reconstruction
-        run: python -m music_calibration verify --out runs/ci
+      - name: Reproduce and independently verify all planned cases
+        run: python scripts/reproduce.py --out runs/ci --report reports/ci
+      - name: Compare every numeric report with the published baseline
+        run: python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/ci --out runs/ci/regression.json
       - uses: actions/upload-artifact@v4
         with:
-          name: calibration-reproduction
+          name: calibration-reproduction-${{ matrix.os }}
           path: |
             reports/ci
             runs/ci/freeze.json
             runs/ci/verification.json
+            runs/ci/regression.json
           if-no-files-found: error
