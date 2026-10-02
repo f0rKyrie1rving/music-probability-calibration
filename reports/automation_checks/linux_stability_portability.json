@@ -1,0 +1,1401 @@
+{
+  "status": "not_reproduced",
+  "absolute_tolerance": 1e-08,
+  "relative_tolerance": 0.0,
+  "scope": "Diagnostic enumeration of report differences, not an acceptance override or fresh-data validation.",
+  "reference_sha256": {
+    "summary.json": "9527c1aa67522d5cdf09f53efa25445a3b5a2376a23d590762612e9add1fc873",
+    "controls.json": "0547e7dcbddd14c60e25dfd07bb1acc7956f24fa5512e378997abad00e5865e8",
+    "case_metrics.csv": "cd807ed39c5acdb46d0015be12de7a642c90b90283fe23f140e56f7d59a5ee92",
+    "within_split.csv": "d8538c63feb1b40c471a53638576fb053584f0b01279d92c0977ec597a07e636",
+    "summary_cells.csv": "0b9c2a7c1cd976a10e73ce7c342b2c1f4696f0072333f0f2641e3081a2a69487",
+    "ridge_selections.csv": "001150cefecf4a9a117642708249558259ba623ba61f0e28f25270eef6e60db5",
+    "ridge_stability.csv": "f863c01dd0a923e4df7701a678a8f02aace522466b5c8cd81fe45b287e2ffd50",
+    "config.json": "1cd36772e982a6fc04716fa36b72f51a022804f8c0080d31a66d2cd9a41626a6",
+    "study_freeze.json": "edb59c04e8444f9fe3949be008c2ff7f2a245aff32d30ac75d693bb6396e841e"
+  },
+  "actual_sha256": {
+    "summary.json": "8182dde12f0900c6bc3cfb2b901840e97af2c3ef9b4090d8332fff750a4ff957",
+    "controls.json": "b910873c6a0ab1fe1c19ea455b677418e1e9d7e45107f5ff2d800749a06df6f8",
+    "case_metrics.csv": "36f4a7027e057f426677ff2c259393d1bb894f069907d11e5904f0bbfbdb34d5",
+    "within_split.csv": "db01c606e9ec69477114b9ac92a23c892acc1d402fe50ed494bb2fc6087d5a21",
+    "summary_cells.csv": "d74906fc596c4bf4775dacec3878fc26d9f8ac182b6309bb3f15780c36a94d0d",
+    "ridge_selections.csv": "7c1eea0c84effa4fdf0a3fb22cb2eca5e2147f9d25fb834e3181425074eb2b5a",
+    "ridge_stability.csv": "195d27f32022669b10dbb28c91a7656f6a542be1441436b2ee1a082219bc3f21",
+    "config.json": "1cd36772e982a6fc04716fa36b72f51a022804f8c0080d31a66d2cd9a41626a6",
+    "study_freeze.json": "a3b24a030c83b64fb1279408f5b6c8562a328acc9bcdd783f5a4e3ac72093b06"
+  },
+  "differences": [
+    {
+      "file": "summary.json",
+      "location": "summary.json/cells/117/mean_brier",
+      "field": "mean_brier",
+      "kind": "numeric",
+      "reference": 0.14475283492692614,
+      "actual": 0.14475445396029638,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": 0.5,
+        "method": "ridge_platt"
+      },
+      "absolute_error": 1.619033370231504e-06
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/cells/117/mean_log_loss",
+      "field": "mean_log_loss",
+      "kind": "numeric",
+      "reference": 0.4535090002862897,
+      "actual": 0.4535126053705678,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": 0.5,
+        "method": "ridge_platt"
+      },
+      "absolute_error": 3.605084278102133e-06
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/cells/117/mean_delta_raw",
+      "field": "mean_delta_raw",
+      "kind": "numeric",
+      "reference": 0.0007338122728654132,
+      "actual": 0.0007354313062356483,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": 0.5,
+        "method": "ridge_platt"
+      },
+      "absolute_error": 1.619033370235082e-06
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/cells/117/mean_within_split_range_raw",
+      "field": "mean_within_split_range_raw",
+      "kind": "numeric",
+      "reference": 0.004346958473362838,
+      "actual": 0.004342870493453306,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": 0.5,
+        "method": "ridge_platt"
+      },
+      "absolute_error": 4.08797990953183e-06
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/cells/117/mean_delta_platt",
+      "field": "mean_delta_platt",
+      "kind": "numeric",
+      "reference": -0.002070396015427839,
+      "actual": -0.0020687769820576076,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": 0.5,
+        "method": "ridge_platt"
+      },
+      "absolute_error": 1.619033370231504e-06
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/controls/child_verification_checks",
+      "field": "child_verification_checks",
+      "kind": "discrete",
+      "reference": 9454134,
+      "actual": 9454115
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/distinct_ridge_inner_fallbacks",
+      "field": "distinct_ridge_inner_fallbacks",
+      "kind": "discrete",
+      "reference": 260,
+      "actual": 261
+    },
+    {
+      "file": "summary.json",
+      "location": "summary.json/distinct_selected_inner_fallbacks",
+      "field": "distinct_selected_inner_fallbacks",
+      "kind": "discrete",
+      "reference": 41,
+      "actual": 42
+    },
+    {
+      "file": "controls.json",
+      "location": "controls.json/child_verification_checks",
+      "field": "child_verification_checks",
+      "kind": "discrete",
+      "reference": 9454134,
+      "actual": 9454115
+    },
+    {
+      "file": "case_metrics.csv",
+      "location": "case_metrics.csv:12594/macro_brier",
+      "field": "macro_brier",
+      "kind": "numeric",
+      "reference": 0.15222465327643742,
+      "actual": 0.15238655661416234,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 0.00016190333772492238
+    },
+    {
+      "file": "case_metrics.csv",
+      "location": "case_metrics.csv:12594/macro_log_loss",
+      "field": "macro_log_loss",
+      "kind": "numeric",
+      "reference": 0.4719666941823157,
+      "actual": 0.47232720262974953,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 0.00036050844743384935
+    },
+    {
+      "file": "case_metrics.csv",
+      "location": "case_metrics.csv:12594/delta_raw",
+      "field": "delta_raw",
+      "kind": "numeric",
+      "reference": 0.00022703601414425512,
+      "actual": 0.0003889393518691775,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 0.00016190333772492238
+    },
+    {
+      "file": "case_metrics.csv",
+      "location": "case_metrics.csv:12594/delta_platt",
+      "field": "delta_platt",
+      "kind": "numeric",
+      "reference": -0.0036910617536621004,
+      "actual": -0.003529158415937178,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 0.00016190333772492238
+    },
+    {
+      "file": "within_split.csv",
+      "location": "within_split.csv:2513/mean_brier",
+      "field": "mean_brier",
+      "kind": "numeric",
+      "reference": 0.1533252722677126,
+      "actual": 0.15335765293525758,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 3.238066754499003e-05
+    },
+    {
+      "file": "within_split.csv",
+      "location": "within_split.csv:2513/mean_log_loss",
+      "field": "mean_log_loss",
+      "kind": "numeric",
+      "reference": 0.4764976229638852,
+      "actual": 0.476569724653372,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 7.210168948679208e-05
+    },
+    {
+      "file": "within_split.csv",
+      "location": "within_split.csv:2513/raw_mean",
+      "field": "raw_mean",
+      "kind": "numeric",
+      "reference": 0.0013276550054194315,
+      "actual": 0.0013600356729644215,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 3.238066754499003e-05
+    },
+    {
+      "file": "within_split.csv",
+      "location": "within_split.csv:2513/raw_min",
+      "field": "raw_min",
+      "kind": "numeric",
+      "reference": 0.00022703601414425512,
+      "actual": 0.00030879561163343894,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 8.175959748918382e-05
+    },
+    {
+      "file": "within_split.csv",
+      "location": "within_split.csv:2513/raw_range",
+      "field": "raw_range",
+      "kind": "numeric",
+      "reference": 0.0045220531799974595,
+      "actual": 0.004440293582508276,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 8.175959748918382e-05
+    },
+    {
+      "file": "within_split.csv",
+      "location": "within_split.csv:2513/platt_mean",
+      "field": "platt_mean",
+      "kind": "numeric",
+      "reference": -0.0032953209996907816,
+      "actual": -0.003262940332145803,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 3.238066754497875e-05
+    },
+    {
+      "file": "summary_cells.csv",
+      "location": "summary_cells.csv:119/mean_brier",
+      "field": "mean_brier",
+      "kind": "numeric",
+      "reference": 0.14475283492692614,
+      "actual": 0.14475445396029638,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 1.619033370231504e-06
+    },
+    {
+      "file": "summary_cells.csv",
+      "location": "summary_cells.csv:119/mean_log_loss",
+      "field": "mean_log_loss",
+      "kind": "numeric",
+      "reference": 0.4535090002862897,
+      "actual": 0.4535126053705678,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 3.605084278102133e-06
+    },
+    {
+      "file": "summary_cells.csv",
+      "location": "summary_cells.csv:119/mean_delta_raw",
+      "field": "mean_delta_raw",
+      "kind": "numeric",
+      "reference": 0.0007338122728654132,
+      "actual": 0.0007354313062356483,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 1.619033370235082e-06
+    },
+    {
+      "file": "summary_cells.csv",
+      "location": "summary_cells.csv:119/mean_within_split_range_raw",
+      "field": "mean_within_split_range_raw",
+      "kind": "numeric",
+      "reference": 0.004346958473362838,
+      "actual": 0.004342870493453306,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 4.08797990953183e-06
+    },
+    {
+      "file": "summary_cells.csv",
+      "location": "summary_cells.csv:119/mean_delta_platt",
+      "field": "mean_delta_platt",
+      "kind": "numeric",
+      "reference": -0.002070396015427839,
+      "actual": -0.0020687769820576076,
+      "identity": {
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "method": "ridge_platt"
+      },
+      "absolute_error": 1.619033370231504e-06
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:1068/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 0,
+        "seed": 2026092814,
+        "representation": "mert_v1",
+        "weighting": "ambient_balanced",
+        "fraction": "1.0",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:2508/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 1,
+        "seed": 2026092814,
+        "representation": "mert_v1",
+        "weighting": "ambient_balanced",
+        "fraction": "1.0",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:3452/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 2,
+        "seed": 2026092807,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:3948/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 2,
+        "seed": 2026092814,
+        "representation": "mert_v1",
+        "weighting": "ambient_balanced",
+        "fraction": "1.0",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:4984/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 1,
+      "actual": 0,
+      "identity": {
+        "draw": 3,
+        "seed": 2026092809,
+        "representation": "maest",
+        "weighting": "unweighted",
+        "fraction": "0.25",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:5073/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 1,
+      "actual": 0,
+      "identity": {
+        "draw": 3,
+        "seed": 2026092810,
+        "representation": "mert_v0",
+        "weighting": "ambient_balanced",
+        "fraction": "0.5",
+        "label": "rock"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:5085/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 1,
+      "actual": 0,
+      "identity": {
+        "draw": 3,
+        "seed": 2026092810,
+        "representation": "mert_v0",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "rock"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:5156/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 3,
+        "seed": 2026092811,
+        "representation": "mert_v0",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:5388/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 3,
+        "seed": 2026092814,
+        "representation": "mert_v1",
+        "weighting": "ambient_balanced",
+        "fraction": "1.0",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:6828/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092814,
+        "representation": "mert_v1",
+        "weighting": "ambient_balanced",
+        "fraction": "1.0",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:7196/selected_penalty",
+      "field": "selected_penalty",
+      "kind": "discrete",
+      "reference": "identity",
+      "actual": "1.0",
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:7196/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_selections.csv",
+      "location": "ridge_selections.csv:7196/selected_inner_fallback_count",
+      "field": "selected_inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "draw": 4,
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:570/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "seed": 2026092807,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:662/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 1,
+      "actual": 0,
+      "identity": {
+        "seed": 2026092809,
+        "representation": "maest",
+        "weighting": "unweighted",
+        "fraction": "0.25",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:753/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 1,
+      "actual": 0,
+      "identity": {
+        "seed": 2026092810,
+        "representation": "mert_v0",
+        "weighting": "ambient_balanced",
+        "fraction": "0.5",
+        "label": "rock"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:765/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 1,
+      "actual": 0,
+      "identity": {
+        "seed": 2026092810,
+        "representation": "mert_v0",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "rock"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:834/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "seed": 2026092811,
+        "representation": "mert_v0",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:1066/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "seed": 2026092814,
+        "representation": "mert_v1",
+        "weighting": "ambient_balanced",
+        "fraction": "1.0",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:1434/distinct_strengths",
+      "field": "distinct_strengths",
+      "kind": "discrete",
+      "reference": 2,
+      "actual": 3,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:1434/identity_draws",
+      "field": "identity_draws",
+      "kind": "discrete",
+      "reference": 4,
+      "actual": 3,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:1434/selected_strengths",
+      "field": "selected_strengths",
+      "kind": "discrete",
+      "reference": "[\"0.001\", \"identity\", \"identity\", \"identity\", \"identity\"]",
+      "actual": "[\"0.001\", \"identity\", \"identity\", \"identity\", \"1.0\"]",
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:1434/inner_fallback_count",
+      "field": "inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    },
+    {
+      "file": "ridge_stability.csv",
+      "location": "ridge_stability.csv:1434/selected_inner_fallback_count",
+      "field": "selected_inner_fallback_count",
+      "kind": "discrete",
+      "reference": 0,
+      "actual": 1,
+      "identity": {
+        "seed": 2026092819,
+        "representation": "mert_v1",
+        "weighting": "unweighted",
+        "fraction": "0.5",
+        "label": "ambient"
+      }
+    }
+  ],
+  "errors": [],
+  "configuration_context": {
+    "reference": {
+      "config": {
+        "schema_version": 1,
+        "experiment": "stability_v1",
+        "base_experiment": "budget_v1",
+        "budget_seeds": [
+          2026100201,
+          2026100202,
+          2026100203,
+          2026100204,
+          2026100205
+        ],
+        "expected_source_cases": 120,
+        "expected_outer_splits": 20,
+        "expected_calibration_artists": 94,
+        "expected_executed_cases": 1800,
+        "expected_distinct_subset_cases": 1320,
+        "comparison_tolerance": 1e-12,
+        "historical_metric_tolerance": 1e-08,
+        "only_changed_child_config_field": "budget_seed",
+        "full_budget_rule": "Execute five times as an identical-input control; require matching saved prediction, metric and calibrator hashes; count once per source case in aggregates",
+        "historical_partial_budget_rule": "Original budget_v1 draw is a historical reference, excluded from the new five-draw summaries",
+        "scope": "Exploratory subset and calibration-selection stability under the unchanged fixed OOF assignment procedure; no fresh-data confirmation, method tuning or model replacement"
+      },
+      "data_manifest_sha256": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9",
+      "source_hashes": {
+        "music_calibration/__init__.py": "7e939b0dd132358dc0bc1ff68e0725b69d3f169c230fcaf01e4a2ec0939af2f7",
+        "music_calibration/__main__.py": "afbeb41e69d8b5f1d38577aa4c55f9ffe7c952547add69498186cb64065e5686",
+        "music_calibration/calibrators.py": "17861fe1693d32b8e968db73899fdaa1ae2ee2b857b09e2f26a8ebbc258f61e1",
+        "music_calibration/data.py": "fd97cc49cecae103739c66dd161f60adb92a624d8026aee51bcfc476b9c2a4f8",
+        "music_calibration/experiment.py": "d10bec3ee75ee31edf4a5f871243575b38a3d9d58d290bb4ef0ecf3575d6e77b",
+        "music_calibration/io.py": "d0e176a2eea1152e841e7dcc83f45f2f183a9566062644ef86ce2a66baa38f4a",
+        "music_calibration/metrics.py": "c0296e75915b684d8f15d0b128906e64b52073b029de9e0ef4195169db4000a4",
+        "music_calibration/report.py": "4f690679674c84e51bcd000f30d498200c28563f2ef5cc3e0b7baa6218f911e0",
+        "music_calibration/verify.py": "efdc4f7cf29aec7c82b9f6b256c09ba8460859918a3b91f49f99b1d45c29438c",
+        "protocols/budget_v1.json": "187c3c6952090b5a0832fef4a384efacf795a1b4c5f7321dd27806588621cace",
+        "protocols/budget_v1.md": "72526bc8ba03e6d4fc2c140f52fb860d2955c4bce7541b5edceb81b57ad7a992",
+        "protocols/stability_v1.json": "c79400ff6628728fe975dff300ee58141c79b0c74f392e4495e301eeeb596135",
+        "protocols/stability_v1.md": "3a80dddda1ba529288305dfd9822d7b99233fc97bb6a69d19782d75e21d9d1b0",
+        "reports/budget_v1/REPORT.md": "132fba33b8a8a724cd64f219251ed99533f84db5ae93ba24ab9b694fe036d0dd",
+        "reports/budget_v1/SUMMARY_ZH.md": "9202463b416418350fc25ea35e68431300a791cdf75c49d409750ea284c1e77b",
+        "reports/budget_v1/budget_brier.pdf": "eb419d3b1dfaf4da6ad1d1784b5c387c63384c1dece98827f307d7aff3458f58",
+        "reports/budget_v1/budget_brier.png": "c8a5f9c3bc05a4551f3801c0e79c7d67ce856ff08f7d15738e3913397dd7b3e5",
+        "reports/budget_v1/case_metrics.csv": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d",
+        "reports/budget_v1/example_reliability.csv": "c60f3f13d539836fd1de8e93539ec5ab392ae6c3171e5475e053b392af7b8a3c",
+        "reports/budget_v1/fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "reports/budget_v1/freeze.json": "3f4b4123c49ae2e653760227e5fe2d9fe560dfd3d1de0d6d5575660a29fce998",
+        "reports/budget_v1/label_metrics.csv": "4be3e0adbc4e8f34be099058f7f6bbd33e69366095a191920d6a8c8d9146581f",
+        "reports/budget_v1/plans.json": "8c2c7edb04fe8fb12b0954b4c8f099c50e7549668fc542829c62e6b693e8c96f",
+        "reports/budget_v1/reproduction.json": "178ec981b28ef7e5166cce81d440bfbc02ea933e44ed92962c52e530841d153f",
+        "reports/budget_v1/ridge_selections.csv": "30f669889e4b4be87318a6da05518338236c93c44b4398ded7a69e23adf569e4",
+        "reports/budget_v1/summary.json": "f978f2dd340ae2c8d1a7147fb19eb5f07cddce3f976ae6bcfecc8d90a5902ec7",
+        "reports/budget_v1/summary_cells.csv": "d648b04dfe05d47393abd7d4b2ee09bfe42f7a61a6cda9ed474d8f05de4055e0",
+        "reports/budget_v1/verification.json": "9f0d94c59ec0fe12a727d3788500224294faea6556ca8732fb2afdef304444a6",
+        "scripts/stability.py": "170a8db00a452df99578091e1f51c8910966ce3be01ad633e0d2605de2e54027"
+      },
+      "study_freeze_sha256": "edb59c04e8444f9fe3949be008c2ff7f2a245aff32d30ac75d693bb6396e841e"
+    },
+    "actual": {
+      "config": {
+        "schema_version": 1,
+        "experiment": "stability_v1",
+        "base_experiment": "budget_v1",
+        "budget_seeds": [
+          2026100201,
+          2026100202,
+          2026100203,
+          2026100204,
+          2026100205
+        ],
+        "expected_source_cases": 120,
+        "expected_outer_splits": 20,
+        "expected_calibration_artists": 94,
+        "expected_executed_cases": 1800,
+        "expected_distinct_subset_cases": 1320,
+        "comparison_tolerance": 1e-12,
+        "historical_metric_tolerance": 1e-08,
+        "only_changed_child_config_field": "budget_seed",
+        "full_budget_rule": "Execute five times as an identical-input control; require matching saved prediction, metric and calibrator hashes; count once per source case in aggregates",
+        "historical_partial_budget_rule": "Original budget_v1 draw is a historical reference, excluded from the new five-draw summaries",
+        "scope": "Exploratory subset and calibration-selection stability under the unchanged fixed OOF assignment procedure; no fresh-data confirmation, method tuning or model replacement"
+      },
+      "data_manifest_sha256": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9",
+      "source_hashes": {
+        "music_calibration/__init__.py": "7e939b0dd132358dc0bc1ff68e0725b69d3f169c230fcaf01e4a2ec0939af2f7",
+        "music_calibration/__main__.py": "afbeb41e69d8b5f1d38577aa4c55f9ffe7c952547add69498186cb64065e5686",
+        "music_calibration/calibrators.py": "17861fe1693d32b8e968db73899fdaa1ae2ee2b857b09e2f26a8ebbc258f61e1",
+        "music_calibration/data.py": "fd97cc49cecae103739c66dd161f60adb92a624d8026aee51bcfc476b9c2a4f8",
+        "music_calibration/experiment.py": "d10bec3ee75ee31edf4a5f871243575b38a3d9d58d290bb4ef0ecf3575d6e77b",
+        "music_calibration/io.py": "d0e176a2eea1152e841e7dcc83f45f2f183a9566062644ef86ce2a66baa38f4a",
+        "music_calibration/metrics.py": "c0296e75915b684d8f15d0b128906e64b52073b029de9e0ef4195169db4000a4",
+        "music_calibration/report.py": "4f690679674c84e51bcd000f30d498200c28563f2ef5cc3e0b7baa6218f911e0",
+        "music_calibration/verify.py": "efdc4f7cf29aec7c82b9f6b256c09ba8460859918a3b91f49f99b1d45c29438c",
+        "protocols/budget_v1.json": "187c3c6952090b5a0832fef4a384efacf795a1b4c5f7321dd27806588621cace",
+        "protocols/budget_v1.md": "72526bc8ba03e6d4fc2c140f52fb860d2955c4bce7541b5edceb81b57ad7a992",
+        "protocols/stability_v1.json": "c79400ff6628728fe975dff300ee58141c79b0c74f392e4495e301eeeb596135",
+        "protocols/stability_v1.md": "3a80dddda1ba529288305dfd9822d7b99233fc97bb6a69d19782d75e21d9d1b0",
+        "reports/budget_v1/REPORT.md": "132fba33b8a8a724cd64f219251ed99533f84db5ae93ba24ab9b694fe036d0dd",
+        "reports/budget_v1/SUMMARY_ZH.md": "9202463b416418350fc25ea35e68431300a791cdf75c49d409750ea284c1e77b",
+        "reports/budget_v1/budget_brier.pdf": "eb419d3b1dfaf4da6ad1d1784b5c387c63384c1dece98827f307d7aff3458f58",
+        "reports/budget_v1/budget_brier.png": "c8a5f9c3bc05a4551f3801c0e79c7d67ce856ff08f7d15738e3913397dd7b3e5",
+        "reports/budget_v1/case_metrics.csv": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d",
+        "reports/budget_v1/example_reliability.csv": "c60f3f13d539836fd1de8e93539ec5ab392ae6c3171e5475e053b392af7b8a3c",
+        "reports/budget_v1/fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "reports/budget_v1/freeze.json": "3f4b4123c49ae2e653760227e5fe2d9fe560dfd3d1de0d6d5575660a29fce998",
+        "reports/budget_v1/label_metrics.csv": "4be3e0adbc4e8f34be099058f7f6bbd33e69366095a191920d6a8c8d9146581f",
+        "reports/budget_v1/plans.json": "8c2c7edb04fe8fb12b0954b4c8f099c50e7549668fc542829c62e6b693e8c96f",
+        "reports/budget_v1/reproduction.json": "178ec981b28ef7e5166cce81d440bfbc02ea933e44ed92962c52e530841d153f",
+        "reports/budget_v1/ridge_selections.csv": "30f669889e4b4be87318a6da05518338236c93c44b4398ded7a69e23adf569e4",
+        "reports/budget_v1/summary.json": "f978f2dd340ae2c8d1a7147fb19eb5f07cddce3f976ae6bcfecc8d90a5902ec7",
+        "reports/budget_v1/summary_cells.csv": "d648b04dfe05d47393abd7d4b2ee09bfe42f7a61a6cda9ed474d8f05de4055e0",
+        "reports/budget_v1/verification.json": "9f0d94c59ec0fe12a727d3788500224294faea6556ca8732fb2afdef304444a6",
+        "scripts/stability.py": "170a8db00a452df99578091e1f51c8910966ce3be01ad633e0d2605de2e54027"
+      },
+      "study_freeze_sha256": "a3b24a030c83b64fb1279408f5b6c8562a328acc9bcdd783f5a4e3ac72093b06"
+    }
+  },
+  "same_data_and_source_hashes": true,
+  "context_differences": [],
+  "ridge_vs_raw_and_platt": [
+    {
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "fraction": "0.25",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.002458308489833345,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0032802609741738207,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.0024583084898333447,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.003280260974173819,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "fraction": "0.5",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.006109007364898554,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0018744597894759115,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.006109007364898554,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0018744597894759137,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "maest",
+      "weighting": "ambient_balanced",
+      "fraction": "1.0",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.007849197144421612,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0009078569795268928,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.007849197144421612,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0009078569795268942,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "maest",
+      "weighting": "unweighted",
+      "fraction": "0.25",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.0031863625328031678,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.005787047114767229,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.0031863625328031678,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.005787047114767226,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "maest",
+      "weighting": "unweighted",
+      "fraction": "0.5",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.0010606018541692215,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0028643839266732185,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.0010606018541692206,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0028643839266732207,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "maest",
+      "weighting": "unweighted",
+      "fraction": "1.0",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.00035054166258814966,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.00088493021271389,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.00035054166258814966,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0008849302127138893,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "fraction": "0.25",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.005980893347139682,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.002320555391880859,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.005980893347139682,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0023205553918808604,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "fraction": "0.5",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.010035213646853985,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0009254005734689831,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.010035213646853985,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0009254005734689834,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v0",
+      "weighting": "ambient_balanced",
+      "fraction": "1.0",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.011809256887444431,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.00011983829296136964,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.011809256887444431,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.00011983829296136825,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "fraction": "0.25",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.0031518149917904846,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.005004794357006478,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.0031518149917904837,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.005004794357006482,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "fraction": "0.5",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.0005782712932492345,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0021337268712468818,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.0005782712932492346,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0021337268712468827,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v0",
+      "weighting": "unweighted",
+      "fraction": "1.0",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.0002521432324595743,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.00035545040521294815,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.0002521432324595757,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0003554504052129516,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "fraction": "0.25",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.0066530462312728396,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.002770423213954076,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.006653046231272837,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.002770423213954072,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "fraction": "0.5",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.010350992846676293,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0008731138691678592,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.010350992846683307,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0008731138691748751,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v1",
+      "weighting": "ambient_balanced",
+      "fraction": "1.0",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.012296949190771322,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.00029257045749554316,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.012296949190771322,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.00029257045749554316,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "fraction": "0.25",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.003222938144415185,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.005159408574652683,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.0032229381444151854,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.005159408574652679,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "fraction": "0.5",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": 0.0007338122728654132,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.002070396015427839,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": 0.0007354313062356483,
+          "direction": "deteriorates"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0020687769820576076,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    },
+    {
+      "representation": "mert_v1",
+      "weighting": "unweighted",
+      "fraction": "1.0",
+      "reference": {
+        "raw": {
+          "mean_brier_delta": -0.00026966960242640753,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0005430862522620913,
+          "direction": "improves"
+        }
+      },
+      "actual": {
+        "raw": {
+          "mean_brier_delta": -0.00026966960242640753,
+          "direction": "improves"
+        },
+        "platt": {
+          "mean_brier_delta": -0.0005430862522620913,
+          "direction": "improves"
+        }
+      },
+      "direction_changed": false
+    }
+  ],
+  "ridge_direction_changed_cells": 0,
+  "ridge_sign_tolerance": 1e-12,
+  "per_file": {
+    "summary.json": {
+      "scalar_comparisons": 3544,
+      "numeric_roundoff_within_tolerance": 593,
+      "maximum_absolute_error": 4.08797990953183e-06,
+      "differences": 8
+    },
+    "controls.json": {
+      "scalar_comparisons": 5,
+      "numeric_roundoff_within_tolerance": 1,
+      "maximum_absolute_error": 2.0580204207476527e-11,
+      "differences": 1
+    },
+    "case_metrics.csv": {
+      "scalar_comparisons": 189000,
+      "numeric_roundoff_within_tolerance": 7326,
+      "maximum_absolute_error": 0.00036050844743384935,
+      "differences": 4
+    },
+    "within_split.csv": {
+      "scalar_comparisons": 68040,
+      "numeric_roundoff_within_tolerance": 5580,
+      "maximum_absolute_error": 8.175959748918382e-05,
+      "differences": 6
+    },
+    "summary_cells.csv": {
+      "scalar_comparisons": 3528,
+      "numeric_roundoff_within_tolerance": 592,
+      "maximum_absolute_error": 4.08797990953183e-06,
+      "differences": 5
+    },
+    "ridge_selections.csv": {
+      "scalar_comparisons": 72000,
+      "numeric_roundoff_within_tolerance": 0,
+      "maximum_absolute_error": 0.0,
+      "differences": 13
+    },
+    "ridge_stability.csv": {
+      "scalar_comparisons": 17280,
+      "numeric_roundoff_within_tolerance": 0,
+      "maximum_absolute_error": 0.0,
+      "differences": 11
+    },
+    "config.json": {
+      "scalar_comparisons": 19,
+      "numeric_roundoff_within_tolerance": 0,
+      "maximum_absolute_error": 0.0,
+      "differences": 0
+    }
+  },
+  "difference_count": 48,
+  "difference_kinds": {
+    "numeric": 20,
+    "discrete": 28
+  },
+  "maximum_absolute_error": 0.00036050844743384935,
+  "completed_utc": "2026-10-02T06:29:19.814921+00:00",
+  "audit_script_sha256": "8c364073fbe5d50504d1e27a638ac46b41b011a295b5567e73b00c01e15fcef7",
+  "schema_helper_sha256": "31ef8a6404f8c06b11a6a4cf1875abecc4f54ac4a4927eb0a4b7c156c645ad30"
+}

@@ -1,0 +1,28 @@
+{
+  "source_commit": "12c1a85e452c2d85af8ff2fbb20c67016f4c7382",
+  "repository": "f0rKyrie1rving/music-probability-calibration",
+  "verification": "Downloaded archive digests matched GitHub artifact metadata. Compact diagnoses are retained here; CI storage has a separate retention period.",
+  "artifacts": [
+    {
+      "name": "original-linux",
+      "artifact_id": 11212590587,
+      "run_id": 36973137078,
+      "zip_sha256": "e33b60c333add1979d72cb47aff2d410b0c4aaf39d4629532c272ba9d2b85ab9",
+      "bytes": 679097
+    },
+    {
+      "name": "original-windows",
+      "artifact_id": 11212412367,
+      "run_id": 36973137078,
+      "zip_sha256": "51903d80e8c55299874dc5d42a53e5cdfb60c56d7d4814df98048c1c55f062c8",
+      "bytes": 666112
+    },
+    {
+      "name": "stability-linux",
+      "artifact_id": 11212561408,
+      "run_id": 36973137034,
+      "zip_sha256": "c8cef145b72c25ae73d09ff5dc1e15223dd8987ad84d25e49dad40278a93d3db",
+      "bytes": 74397524
+    }
+  ]
+}

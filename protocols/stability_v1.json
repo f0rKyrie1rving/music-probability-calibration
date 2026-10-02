@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment": "stability_v1",
+  "base_experiment": "budget_v1",
+  "budget_seeds": [2026100201, 2026100202, 2026100203, 2026100204, 2026100205],
+  "expected_source_cases": 120,
+  "expected_outer_splits": 20,
+  "expected_calibration_artists": 94,
+  "expected_executed_cases": 1800,
+  "expected_distinct_subset_cases": 1320,
+  "comparison_tolerance": 1e-12,
+  "historical_metric_tolerance": 1e-8,
+  "only_changed_child_config_field": "budget_seed",
+  "full_budget_rule": "Execute five times as an identical-input control; require matching saved prediction, metric and calibrator hashes; count once per source case in aggregates",
+  "historical_partial_budget_rule": "Original budget_v1 draw is a historical reference, excluded from the new five-draw summaries",
+  "scope": "Exploratory subset and calibration-selection stability under the unchanged fixed OOF assignment procedure; no fresh-data confirmation, method tuning or model replacement"
+}

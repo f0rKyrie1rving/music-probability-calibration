@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "absolute_tolerance": 1e-08,
+  "relative_tolerance": 0.0,
+  "scope": "Numerical regression against committed report values; not fresh-data or scientific validation.",
+  "compared_files": [
+    "summary.json",
+    "summary_cells.csv",
+    "case_metrics.csv",
+    "label_metrics.csv",
+    "ridge_selections.csv",
+    "example_reliability.csv",
+    "fallbacks.json"
+  ],
+  "reference_sha256": {
+    "summary.json": "f978f2dd340ae2c8d1a7147fb19eb5f07cddce3f976ae6bcfecc8d90a5902ec7",
+    "summary_cells.csv": "d648b04dfe05d47393abd7d4b2ee09bfe42f7a61a6cda9ed474d8f05de4055e0",
+    "case_metrics.csv": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d",
+    "label_metrics.csv": "4be3e0adbc4e8f34be099058f7f6bbd33e69366095a191920d6a8c8d9146581f",
+    "ridge_selections.csv": "30f669889e4b4be87318a6da05518338236c93c44b4398ded7a69e23adf569e4",
+    "example_reliability.csv": "c60f3f13d539836fd1de8e93539ec5ab392ae6c3171e5475e053b392af7b8a3c",
+    "fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "actual_sha256": {
+    "summary.json": "9fbf0158e2180f3331958b8f22860ed3940642dcb271e5038c879785be3f6a8d",
+    "summary_cells.csv": "12b08c92ab8bfec260e6269a5aac2d4751f32f7cf9d23fc9476884b471748f4a",
+    "case_metrics.csv": "34abe3226abd96e8bc8eae8b232bc84292ec91a21d66a7e248c917fad838af18",
+    "label_metrics.csv": "2ff349a0d6e05d996d231fa6649133431683c0784546c2676276ebc9adfe080a",
+    "ridge_selections.csv": "c91164d0a5b4cf524330a3806fb644981b0552e4630b5567b4a39c3642c3bd2b",
+    "example_reliability.csv": "655549d9066f4209f171ccfff0f12b9ffa7bddc223b933d5ed7b6e709a43825f",
+    "fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "row_counts": {
+    "summary.json": 126,
+    "summary_cells.csv": 126,
+    "case_metrics.csv": 2520,
+    "label_metrics.csv": 10080,
+    "ridge_selections.csv": 1440,
+    "example_reliability.csv": 2520,
+    "fallbacks.json": 0
+  },
+  "errors": [],
+  "unselected_fallback_drift": {
+    "allowed": true,
+    "accepted": true,
+    "differences": [
+      {
+        "location": "ridge_selections.csv:56/inner_fallback_count",
+        "reference": 0,
+        "actual": 1,
+        "delta": 1,
+        "identity": {
+          "case": "cases/2026092800/mert_v1/ambient_balanced/budget_1",
+          "label": "ambient"
+        }
+      },
+      {
+        "location": "ridge_selections.csv:152/inner_fallback_count",
+        "reference": 1,
+        "actual": 0,
+        "delta": -1,
+        "identity": {
+          "case": "cases/2026092802/maest/ambient_balanced/budget_1",
+          "label": "ambient"
+        }
+      },
+      {
+        "location": "ridge_selections.csv:320/inner_fallback_count",
+        "reference": 2,
+        "actual": 1,
+        "delta": -1,
+        "identity": {
+          "case": "cases/2026092804/mert_v0/ambient_balanced/budget_1",
+          "label": "ambient"
+        }
+      },
+      {
+        "location": "ridge_selections.csv:1068/inner_fallback_count",
+        "reference": 0,
+        "actual": 1,
+        "delta": 1,
+        "identity": {
+          "case": "cases/2026092814/mert_v1/ambient_balanced/budget_2",
+          "label": "ambient"
+        }
+      }
+    ],
+    "totals": {
+      "reference": {
+        "inner_fallbacks": 134,
+        "selected_inner_fallbacks": 19,
+        "unselected_inner_fallbacks": 115,
+        "final_ridge_fallbacks": 0
+      },
+      "actual": {
+        "inner_fallbacks": 134,
+        "selected_inner_fallbacks": 19,
+        "unselected_inner_fallbacks": 115,
+        "final_ridge_fallbacks": 0
+      }
+    },
+    "guard": "All seven reports checked; selected penalties, selected inner fallbacks, final fallbacks, other counts and categories match exactly; output metrics match within the declared absolute tolerance. Both inner-fallback totals match their complete row inventories; per-row counts respect the original five fitted penalties and three-fold limits, with no optimizer fits for identity."
+  },
+  "numeric_comparisons": 76466,
+  "exact_comparisons": 122478,
+  "maximum_absolute_error": 3.478305143911342e-10,
+  "completed_utc": "2026-10-02T06:22:33.129130+00:00"
+}

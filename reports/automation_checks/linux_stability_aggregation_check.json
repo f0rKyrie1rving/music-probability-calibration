@@ -1,0 +1,60 @@
+{
+  "schema": "independent-stability-aggregation-check-v1",
+  "status": "passed",
+  "created_utc": "2026-10-02T06:30:51.199436+00:00",
+  "helper_sha256": "a4400758a30d34559249890eb04e2e591ba0dcc4a909e6711fb7d11ff789427c",
+  "scope": "Independent standard-library reconstruction from published case metrics and ridge selections; no study implementation imported. This audits numerical aggregation, not new-data confirmation or independent rerunning of fitted predictions.",
+  "absolute_tolerance": 1e-12,
+  "max_absolute_error": 4.440892098500626e-16,
+  "historical_full_control": {
+    "reconstructed_max_absolute_error": 2.0580204207476527e-11,
+    "frozen_metric_tolerance": 1e-08
+  },
+  "checks": 619386,
+  "checks_by_category": {
+    "structure": 177922,
+    "provenance": 28,
+    "paired_deltas": 176400,
+    "unchanged_controls": 7200,
+    "full_endpoint_control": 34800,
+    "aggregation": 223036
+  },
+  "input_sha256": {
+    "case_metrics.csv": "36f4a7027e057f426677ff2c259393d1bb894f069907d11e5904f0bbfbdb34d5",
+    "within_split.csv": "db01c606e9ec69477114b9ac92a23c892acc1d402fe50ed494bb2fc6087d5a21",
+    "summary_cells.csv": "d74906fc596c4bf4775dacec3878fc26d9f8ac182b6309bb3f15780c36a94d0d",
+    "summary.json": "8182dde12f0900c6bc3cfb2b901840e97af2c3ef9b4090d8332fff750a4ff957",
+    "ridge_selections.csv": "7c1eea0c84effa4fdf0a3fb22cb2eca5e2147f9d25fb834e3181425074eb2b5a",
+    "ridge_stability.csv": "195d27f32022669b10dbb28c91a7656f6a542be1441436b2ee1a082219bc3f21",
+    "config.json": "1cd36772e982a6fc04716fa36b72f51a022804f8c0080d31a66d2cd9a41626a6",
+    "controls.json": "b910873c6a0ab1fe1c19ea455b677418e1e9d7e45107f5ff2d800749a06df6f8",
+    "run_completed.json": "03320e01ea674f159c37b169af4b0d92e35d01911b04ace758ffdca3fdb484a0",
+    "study_freeze.json": "a3b24a030c83b64fb1279408f5b6c8562a328acc9bcdd783f5a4e3ac72093b06",
+    "report_receipt.json": "3384ebab822be160663d6bb03ada7b314cc434f580674e0445cb899ad8c9ee44",
+    "base_config": "187c3c6952090b5a0832fef4a384efacf795a1b4c5f7321dd27806588621cace",
+    "score_manifest": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9",
+    "historical_case_metrics": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d"
+  },
+  "rows": {
+    "case_metrics": 12600,
+    "distinct_method_cases": 9240,
+    "within_split": 2520,
+    "summary_cells": 126,
+    "ridge_selections": 7200,
+    "ridge_stability": 1440
+  },
+  "full_endpoint": {
+    "executed_source_cases": 600,
+    "counted_source_cases": 120,
+    "duplicate_method_rows_removed": 3360
+  },
+  "reconstructed_totals": {
+    "executed_cases": 1800,
+    "distinct_subset_cases": 1320,
+    "distinct_case_fallback_labels": 0,
+    "distinct_ridge_inner_fallbacks": 261,
+    "distinct_selected_inner_fallbacks": 42,
+    "partial_label_cells_with_varying_ridge_strength": 870,
+    "partial_label_cells": 960
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-10-02T06:02:31.547560+00:00",
+  "python": "3.13.15",
+  "platform": "Darwin arm64",
+  "unit_tests_passed": 117,
+  "full_benchmark_cases": 360,
+  "numerical_regression_max_absolute_error": 0.0,
+  "numeric_report_files_compared": 7,
+  "frozen_original_package_unchanged": true,
+  "scripts_sha256": {
+    "reproduce.py": "d6b9480a30aa91d11e2173f108a9abc864dc1c634cc5d096cf2eb9b8368482a2",
+    "compare_reports.py": "31ef8a6404f8c06b11a6a4cf1875abecc4f54ac4a4927eb0a4b7c156c645ad30",
+    "stability.py": "170a8db00a452df99578091e1f51c8910966ce3be01ad633e0d2605de2e54027",
+    "verify_stability_report.py": "a4400758a30d34559249890eb04e2e591ba0dcc4a909e6711fb7d11ff789427c",
+    "audit_stability_portability.py": "8c364073fbe5d50504d1e27a638ac46b41b011a295b5567e73b00c01e15fcef7"
+  },
+  "validation_scope": "Local tests, full one-command benchmark and baseline report regression. Cross-platform CI evidence is recorded in GitHub Actions.",
+  "independent_aggregation_tamper_probes": [
+    "dropped case rejected despite refreshed report checksum",
+    "changed summary mean rejected despite refreshed report checksum"
+  ],
+  "checks_refreshed_utc": "2026-10-02T06:31:50.832217+00:00",
+  "portability": "Not fully reproduced across platforms; see PORTABILITY.md. Mac complete studies pass; original Linux metrics pass with explicit unselected diagnostics; Windows original study and Linux five-draw study have selected-map differences."
+}

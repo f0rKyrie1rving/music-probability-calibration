@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "absolute_tolerance": 1e-08,
+  "relative_tolerance": 0.0,
+  "scope": "Numerical regression against committed report values; not fresh-data or scientific validation.",
+  "compared_files": [
+    "summary.json",
+    "summary_cells.csv",
+    "case_metrics.csv",
+    "label_metrics.csv",
+    "ridge_selections.csv",
+    "example_reliability.csv",
+    "fallbacks.json"
+  ],
+  "reference_sha256": {
+    "summary.json": "f978f2dd340ae2c8d1a7147fb19eb5f07cddce3f976ae6bcfecc8d90a5902ec7",
+    "summary_cells.csv": "d648b04dfe05d47393abd7d4b2ee09bfe42f7a61a6cda9ed474d8f05de4055e0",
+    "case_metrics.csv": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d",
+    "label_metrics.csv": "4be3e0adbc4e8f34be099058f7f6bbd33e69366095a191920d6a8c8d9146581f",
+    "ridge_selections.csv": "30f669889e4b4be87318a6da05518338236c93c44b4398ded7a69e23adf569e4",
+    "example_reliability.csv": "c60f3f13d539836fd1de8e93539ec5ab392ae6c3171e5475e053b392af7b8a3c",
+    "fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "actual_sha256": {
+    "summary.json": "f978f2dd340ae2c8d1a7147fb19eb5f07cddce3f976ae6bcfecc8d90a5902ec7",
+    "summary_cells.csv": "d648b04dfe05d47393abd7d4b2ee09bfe42f7a61a6cda9ed474d8f05de4055e0",
+    "case_metrics.csv": "b0a140922bc90e5006c3d45fe703a2ff8b58ba706b31e27865d87acac901247d",
+    "label_metrics.csv": "4be3e0adbc4e8f34be099058f7f6bbd33e69366095a191920d6a8c8d9146581f",
+    "ridge_selections.csv": "30f669889e4b4be87318a6da05518338236c93c44b4398ded7a69e23adf569e4",
+    "example_reliability.csv": "c60f3f13d539836fd1de8e93539ec5ab392ae6c3171e5475e053b392af7b8a3c",
+    "fallbacks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "row_counts": {
+    "summary.json": 126,
+    "summary_cells.csv": 126,
+    "case_metrics.csv": 2520,
+    "label_metrics.csv": 10080,
+    "ridge_selections.csv": 1440,
+    "example_reliability.csv": 2520,
+    "fallbacks.json": 0
+  },
+  "errors": [],
+  "unselected_fallback_drift": {
+    "allowed": false,
+    "accepted": false,
+    "differences": []
+  },
+  "numeric_comparisons": 76466,
+  "exact_comparisons": 122482,
+  "maximum_absolute_error": 0.0,
+  "completed_utc": "2026-10-02T06:20:51.498695+00:00"
+}

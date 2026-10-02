@@ -37,6 +37,18 @@ this project does not claim to invent probability calibration.
   rerun; seven numeric reports reproduced byte-for-byte; 38 tests passed.
 - [Data attribution and exposure boundary](DATA.md)
 
+A follow-up [sampling-stability study](protocols/stability_v1.md) repeats the
+calibration-subset selection five times under a fixed rule. It checks sensitivity
+to which artists supply calibration examples; it does not create new test data.
+See its [complete results](reports/stability_v1/REPORT.md) and
+[Chinese explanation](reports/stability_v1/SUMMARY_ZH.md).
+
+**Known portability limitation:** the complete studies reproduce on the tested
+macOS environment. The new checks found changed calibration choices on Windows
+(original benchmark) and Linux (five-draw study). These are recorded failures,
+not accepted floating-point roundoff; the strict CI comparisons remain enabled.
+See [platform results and diagnosis](reports/automation_checks/PORTABILITY.md).
+
 ![Calibration budget comparison](reports/budget_v1/budget_brier.png)
 
 Negative Brier changes mean lower probability error. The curves average 20
@@ -58,23 +70,71 @@ python3 -m venv .venv
 # Windows: use .venv\Scripts\python.exe instead of .venv/bin/python
 .venv/bin/python -m pip install -r requirements-lock.txt
 .venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python -m music_calibration audit --data data/legacy_scores
-.venv/bin/python -m music_calibration freeze --data data/legacy_scores --out runs/reproduction_01
-.venv/bin/python -m music_calibration run --out runs/reproduction_01
-.venv/bin/python -m music_calibration summarize --out runs/reproduction_01 --report reports/reproduction_01
-.venv/bin/python -m music_calibration verify --out runs/reproduction_01
+.venv/bin/python scripts/reproduce.py
 ```
 
-Choose a new directory for a new execution. Freezing refuses to overwrite old runs;
-resuming accepts only completed cases with matching receipts. The verifier reads
+After installing the environment, the last command audits the data, freezes the
+plan, runs all cases, writes the report and independently checks the calculations.
+It uses `runs/reproduction` and `reports/reproduction` by default. To run a separate
+copy, pass `--out runs/reproduction_02 --report reports/reproduction_02`.
+
+Running the same command again resumes verified completed cases. Interrupted
+cases owned by this automation are archived with a recovery record before being refitted; programming
+failures remain visible and stop the default run. A process lock protects a run
+from simultaneous writers. Frozen source, input and environment changes are
+rejected before fitting. The original lower-level commands remain available
+through `python -m music_calibration --help`.
+
+Do not run the lower-level engine and this wrapper simultaneously against the
+same output directory: only wrapper processes participate in its locks. The
+wrapper refuses to take over an unfinished legacy run. Missing or malformed
+status/lock files are preserved for investigation rather than guessed away.
+
+The verifier reads
 saved parameters and reconstructs probabilities/metrics independently of the fitting
 functions, including inner-fold ridge selection. This verifies numerical consistency,
 not external scientific validity.
+
+The automated workflow runs the same command on Linux, macOS and Windows, then
+compares all seven numeric reports against the published baseline. Small
+floating-point differences are allowed; missing cases and changed selection or
+selected/final fallback counts fail the check. The strict local comparison is:
+
+```bash
+.venv/bin/python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/reproduction --out runs/reproduction/regression.json
+```
+
+CI explicitly enables `--allow-unselected-fallback-drift` for this seven-report
+baseline check. It permits only the number of failed **unselected** inner
+optimizer fits to vary across platforms, checks both diagnostic totals against
+their complete row inventories, and records each difference in the receipt.
+Selected penalties, selected/final fallbacks and all output-metric tolerances
+remain enforced. The default command above retains exact diagnostic checks.
 
 All model parameters, OOF scores, fallback records, prediction arrays, per-label
 metrics and 5/10-bin reliability tables are saved under `runs/`. Compact reported
 tables and figures are committed under `reports/`. The first historical split is
 declared in advance for readable example reliability tables; no best split is chosen.
+
+To execute the follow-up stability study with all five sampling plans frozen
+before any fitting:
+
+```bash
+.venv/bin/python scripts/stability.py all --out runs/stability_reproduction --report reports/stability_reproduction
+.venv/bin/python scripts/verify_stability_report.py --report reports/stability_reproduction --base-config protocols/budget_v1.json --manifest data/legacy_scores/manifest.json
+```
+
+This executes 1,800 cases, covering 1,320 distinct source/subset conditions. The
+identical full-budget endpoint is an implementation control and is counted once
+per original split in the analysis. The historical fitting/verification engine,
+hyperparameters and all original
+`budget_v1` artifacts stay unchanged. A separate GitHub workflow reproduces the
+five-draw study and compares its tables automatically.
+
+The five-draw study deliberately calls the unchanged historical engine. It can
+reuse completed cases, but stops on a partially written case; the automatic
+interrupted-case recovery described above applies to runs started through
+`scripts/reproduce.py`. All partial study evidence is retained.
 
 ## Data provenance
 
@@ -100,8 +160,10 @@ It is preserved alongside per-track source/artist/license attribution.
 
 This is same-source, source-tag-based evidence. Missing tags, artist aliases,
 encoder pretraining overlap, selected sample composition and previously inspected
-results limit generalization. One nested budget draw per split does not estimate
-within-split sampling variability. Single-class or failed calibrator fits use
+results limit generalization. The original `budget_v1` uses one nested budget draw per split. The five-draw
+follow-up describes within-split subset and selection variability under the
+fixed fold rule, but does not provide
+population confidence intervals. Single-class or failed calibrator fits use
 explicitly reported identity fallback; unexpected errors abort.
 
 Beta calibration reached the declared parameter bounds in 648 of 1,440 final

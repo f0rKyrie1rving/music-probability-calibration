@@ -7,11 +7,16 @@ permissions:
   contents: read
 jobs:
   score-level-reproduction:
-    runs-on: ubuntu-latest
+    name: Reproduce on ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     env:
       MPLBACKEND: Agg
-      MPLCONFIGDIR: /tmp/music-calibration-mpl
+      PYTHONUTF8: '1'
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -20,23 +25,23 @@ jobs:
           cache: pip
       - name: Install numeric dependencies
         run: python -m pip install -r requirements-lock.txt
+      - name: Record numerical runtime
+        run: >-
+          python -c "import json, platform, sys, numpy, scipy, sklearn; from pathlib import Path; from threadpoolctl import threadpool_info; keys=('internal_api','version','threading_layer','architecture','num_threads'); Path('ci-environment.json').write_text(json.dumps({'python':sys.version.split()[0], 'system':platform.system(), 'machine':platform.machine(), 'numpy':numpy.__version__, 'scipy':scipy.__version__, 'sklearn':sklearn.__version__, 'numeric_libraries':[{k:r.get(k) for k in keys} for r in threadpool_info()]}, indent=2), encoding='utf-8')"
       - name: Unit and integrity guards
         run: python -m unittest discover -s tests -v
-      - name: Audit included scores
-        run: python -m music_calibration audit --data data/legacy_scores
-      - name: Freeze all planned cases
-        run: python -m music_calibration freeze --data data/legacy_scores --out runs/ci
-      - name: Fit and evaluate all calibration methods
-        run: python -m music_calibration run --out runs/ci
-      - name: Rebuild report
-        run: python -m music_calibration summarize --out runs/ci --report reports/ci
-      - name: Independent numerical reconstruction
-        run: python -m music_calibration verify --out runs/ci
+      - name: Reproduce and independently verify all planned cases
+        run: python scripts/reproduce.py --out runs/ci --report reports/ci
+      - name: Compare every numeric report with the published baseline
+        run: python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/ci --out runs/ci/regression.json --allow-unselected-fallback-drift
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: calibration-reproduction
+          name: calibration-reproduction-${{ matrix.os }}
           path: |
+            ci-environment.json
             reports/ci
             runs/ci/freeze.json
             runs/ci/verification.json
-          if-no-files-found: error
+            runs/ci/regression.json
+          if-no-files-found: warn
