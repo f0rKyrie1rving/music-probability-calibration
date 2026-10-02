@@ -52,6 +52,22 @@ class ReportRegressionTests(unittest.TestCase):
         rows[1][rows[0].index(column)] = value
         self.write_csv(name, rows)
 
+    def full_reports(self):
+        for name in comparison.FILES:
+            for folder in [self.reference, self.actual]:
+                shutil.copyfile(PROJECT / 'reports/budget_v1' / name, folder / name)
+
+    def change_inner_fallback(self, row_index=1, change=1, update_total=True):
+        records = self.read_csv('ridge_selections.csv')
+        index = records[0].index('inner_fallback_count')
+        records[row_index][index] = str(int(records[row_index][index]) + change)
+        self.write_csv('ridge_selections.csv', records)
+        if update_total:
+            path = self.actual / 'summary.json'
+            summary = json.loads(path.read_text())
+            summary['ridge_inner_fallbacks'] += change
+            path.write_text(json.dumps(summary))
+
     def assert_rejected(self, pattern):
         with self.assertRaisesRegex((ValueError, TypeError), pattern):
             comparison.compare_reports(self.reference, self.actual, self.receipt)
@@ -215,6 +231,168 @@ class ReportRegressionTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn('Report regression failed', result.stderr)
         self.assertEqual(json.loads(self.receipt.read_text())['status'], 'failed')
+
+    def test_default_remains_strict_for_unselected_diagnostic_drift(self):
+        self.full_reports()
+        self.change_inner_fallback(update_total=False)
+        self.assert_rejected('inner_fallback_count.*exact value/type changed')
+
+    def test_explicit_diagnostic_mode_discloses_row_and_total_differences(self):
+        self.full_reports()
+        self.change_inner_fallback()
+        result = comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                            allow_unselected_fallback_drift=True)
+        drift = result['unselected_fallback_drift']
+        self.assertTrue(drift['accepted'])
+        self.assertEqual(len(drift['differences']), 2)
+        self.assertEqual({entry['location'] for entry in drift['differences']},
+                         {'summary.json/ridge_inner_fallbacks', 'ridge_selections.csv:2/inner_fallback_count'})
+        self.assertEqual(drift['totals']['actual']['inner_fallbacks'], drift['totals']['reference']['inner_fallbacks'] + 1)
+        self.assertEqual(drift['totals']['actual']['selected_inner_fallbacks'], drift['totals']['reference']['selected_inner_fallbacks'])
+        self.assertIn('identity', drift['differences'][1])
+
+    def test_cancelling_diagnostic_changes_are_both_disclosed(self):
+        self.full_reports()
+        rows = self.read_csv('ridge_selections.csv')
+        inner = rows[0].index('inner_fallback_count')
+        selected = rows[0].index('selected_inner_fallback_count')
+        subtract = next(i for i in range(2, len(rows)) if int(rows[i][inner]) > int(rows[i][selected]))
+        self.change_inner_fallback()
+        self.change_inner_fallback(subtract, -1)
+        result = comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                            allow_unselected_fallback_drift=True)
+        drift = result['unselected_fallback_drift']
+        self.assertEqual(len(drift['differences']), 2)
+        self.assertEqual(sum(row['delta'] for row in drift['differences']), 0)
+        self.assertEqual(drift['totals']['actual'], drift['totals']['reference'])
+
+    def test_diagnostic_total_must_equal_all_row_counts(self):
+        self.full_reports()
+        self.change_inner_fallback(update_total=False)
+        with self.assertRaisesRegex(ValueError, 'ridge_inner_fallbacks is inconsistent'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+        drift = json.loads(self.receipt.read_text())['unselected_fallback_drift']
+        self.assertFalse(drift['accepted'])
+        self.assertEqual(len(drift['differences']), 1)
+
+    def test_reference_diagnostic_total_must_also_be_consistent(self):
+        self.full_reports()
+        for folder in [self.reference, self.actual]:
+            path = folder / 'summary.json'
+            summary = json.loads(path.read_text())
+            summary['ridge_inner_fallbacks'] += 1
+            path.write_text(json.dumps(summary))
+        with self.assertRaisesRegex(ValueError, 'reference: ridge_inner_fallbacks is inconsistent'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+
+    def test_impossible_diagnostic_count_is_rejected_even_with_matching_total(self):
+        self.full_reports()
+        self.change_inner_fallback(change=999)
+        with self.assertRaisesRegex(ValueError, 'exceeds the original budget_v1 fit count'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+        self.assertFalse(json.loads(self.receipt.read_text())['unselected_fallback_drift']['accepted'])
+
+    def test_unselected_count_respects_the_selected_candidate_fold_budget(self):
+        self.full_reports()
+        # The selected fitted candidate has zero fallbacks. The other four
+        # candidates can therefore contribute at most 4 x 3, not 5 x 3.
+        self.change_inner_fallback(change=13)
+        with self.assertRaisesRegex(ValueError, 'unselected inner fallback count exceeds'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+
+    def test_selected_candidate_count_cannot_exceed_three_folds_in_either_input(self):
+        self.full_reports()
+        for folder in [self.reference, self.actual]:
+            path = folder / 'ridge_selections.csv'
+            with path.open(newline='') as stream:
+                records = list(csv.reader(stream))
+            records[1][records[0].index('inner_fallback_count')] = '4'
+            records[1][records[0].index('selected_inner_fallback_count')] = '4'
+            with path.open('w', newline='') as stream:
+                csv.writer(stream).writerows(records)
+            path = folder / 'summary.json'
+            summary = json.loads(path.read_text())
+            summary['ridge_inner_fallbacks'] += 4
+            summary['ridge_selected_inner_fallbacks'] += 4
+            path.write_text(json.dumps(summary))
+        with self.assertRaisesRegex(ValueError, 'selected inner fallback count exceeds its possible fold fits'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+
+    def test_identity_has_no_optimizer_fold_fallbacks(self):
+        self.full_reports()
+        for folder in [self.reference, self.actual]:
+            path = folder / 'ridge_selections.csv'
+            with path.open(newline='') as stream:
+                records = list(csv.reader(stream))
+            self.assertEqual(records[2][records[0].index('selected_penalty')], 'identity')
+            records[2][records[0].index('inner_fallback_count')] = '1'
+            records[2][records[0].index('selected_inner_fallback_count')] = '1'
+            with path.open('w', newline='') as stream:
+                csv.writer(stream).writerows(records)
+            path = folder / 'summary.json'
+            summary = json.loads(path.read_text())
+            summary['ridge_inner_fallbacks'] += 1
+            summary['ridge_selected_inner_fallbacks'] += 1
+            path.write_text(json.dumps(summary))
+        with self.assertRaisesRegex(ValueError, 'selected inner fallback count exceeds its possible fold fits'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+
+    def test_explicit_mode_does_not_allow_selected_or_final_outcome_changes(self):
+        for column, value in [('selected_penalty', 'identity'), ('selected_inner_fallback_count', '1'),
+                              ('final_fit_fallback', 'True')]:
+            with self.subTest(column=column):
+                self.full_reports()
+                self.change_inner_fallback()
+                self.mutate_csv('ridge_selections.csv', column, value)
+                with self.assertRaisesRegex(ValueError, 'exact value/type changed'):
+                    comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                               allow_unselected_fallback_drift=True)
+                self.assertFalse(json.loads(self.receipt.read_text())['unselected_fallback_drift']['accepted'])
+
+    def test_explicit_mode_does_not_allow_metric_or_other_count_changes(self):
+        for column, value in [('macro_brier', '0.9'), ('fallback_labels', '1')]:
+            with self.subTest(column=column):
+                self.full_reports()
+                self.change_inner_fallback()
+                self.mutate_csv('case_metrics.csv', column, value)
+                with self.assertRaisesRegex(ValueError, 'numeric drift|exact value/type changed'):
+                    comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                               allow_unselected_fallback_drift=True)
+                self.assertFalse(json.loads(self.receipt.read_text())['unselected_fallback_drift']['accepted'])
+
+    def test_explicit_mode_requires_full_original_seven_reports(self):
+        with self.assertRaisesRegex(ValueError, 'requires all seven original budget reports'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       files=['summary.json'], allow_unselected_fallback_drift=True)
+
+    def test_explicit_mode_does_not_relax_integer_type(self):
+        self.full_reports()
+        path = self.actual / 'summary.json'
+        summary = json.loads(path.read_text())
+        summary['ridge_inner_fallbacks'] = float(summary['ridge_inner_fallbacks'])
+        path.write_text(json.dumps(summary))
+        with self.assertRaisesRegex(ValueError, 'nonnegative integer'):
+            comparison.compare_reports(self.reference, self.actual, self.receipt,
+                                       allow_unselected_fallback_drift=True)
+
+    def test_cli_discloses_every_allowed_difference(self):
+        self.full_reports()
+        self.change_inner_fallback()
+        result = subprocess.run([sys.executable, str(PROJECT / 'scripts/compare_reports.py'),
+                                 '--reference', str(self.reference), '--actual', str(self.actual),
+                                 '--out', str(self.receipt), '--allow-unselected-fallback-drift'],
+                                capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn('not an exact diagnostic match', result.stdout)
+        self.assertIn('summary.json/ridge_inner_fallbacks', result.stdout)
+        self.assertIn('ridge_selections.csv:2/inner_fallback_count', result.stdout)
+        self.assertEqual(result.stdout.count('Unselected fallback diagnostic drift:'), 2)
 
 
 if __name__ == '__main__':

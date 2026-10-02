@@ -4,10 +4,13 @@
 Floating-point measurements allow a declared absolute tolerance. Experimental
 identities, selected candidates, counts, row order and schema must match exactly.
 Figures and timestamp-bearing execution receipts are deliberately outside scope.
+An explicit budget-only option can disclose unselected-candidate inner-fallback
+count differences after all selected/final outcomes and numerical guards pass.
 """
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import csv
 from datetime import datetime, timezone
 import hashlib
@@ -21,6 +24,11 @@ import tempfile
 
 FILES = ('summary.json', 'summary_cells.csv', 'case_metrics.csv', 'label_metrics.csv',
          'ridge_selections.csv', 'example_reliability.csv', 'fallbacks.json')
+# Bounds apply only to the original budget_v1 schema enabled by the explicit
+# diagnostic option. protocols/budget_v1.json declares five fitted penalties and
+# three inner folds. Identity is evaluated directly and has no optimizer fits.
+BUDGET_RIDGE_PENALTIES = frozenset({'0.0', '0.001', '0.01', '0.1', '1.0'})
+BUDGET_INNER_FOLDS = 3
 # Each tuple is (ordered columns, integer-count columns, continuous numeric columns,
 # nullable continuous columns, unique row-identity columns). Unlisted columns are
 # exact categorical strings, including budgets and selected penalty-grid values.
@@ -134,8 +142,10 @@ def _json(path):
 
 
 class Comparison:
-    def __init__(self, tolerance):
+    def __init__(self, tolerance, allow_unselected_fallback_drift=False):
         self.tolerance = tolerance
+        self.allow_unselected_fallback_drift = allow_unselected_fallback_drift
+        self.diagnostic_differences = []
         self.numeric_comparisons = 0
         self.exact_comparisons = 0
         self.maximum_absolute_error = 0.
@@ -154,8 +164,24 @@ class Comparison:
         _require(type(reference) is type(actual) and actual == reference,
                  f'{location}: exact value/type changed: {actual!r} versus {reference!r}')
 
+    def diagnostic(self, reference, actual, location, identity=None):
+        # These differences remain provisional until every ordinary report
+        # comparison and the diagnostic-total consistency checks have passed.
+        _require(type(reference) is int and type(actual) is int and reference >= 0 and actual >= 0,
+                 location + ': diagnostic count must remain a nonnegative integer')
+        if actual == reference:
+            self.exact(reference, actual, location)
+        else:
+            difference = {'location': location, 'reference': reference, 'actual': actual,
+                          'delta': actual - reference}
+            if identity is not None:
+                difference['identity'] = identity
+            self.diagnostic_differences.append(difference)
+
     def json(self, reference, actual, location, key=None):
-        if isinstance(reference, dict):
+        if self.allow_unselected_fallback_drift and location == 'summary.json/ridge_inner_fallbacks':
+            self.diagnostic(reference, actual, location)
+        elif isinstance(reference, dict):
             _require(isinstance(actual, dict) and actual.keys() == reference.keys(),
                      location + ': JSON keys changed or missing')
             for child_key, value in reference.items():
@@ -251,7 +277,42 @@ def _atomic_json(path, data):
             temporary.unlink()
 
 
-def compare_reports(reference, actual, out=None, atol=1e-8, files=None):
+def _diagnostic_totals(summary, selections, case_metrics, side):
+    """Check that the only relaxed total is exactly the sum of recorded rows."""
+    inner = sum(row['inner_fallback_count'] for row in selections)
+    selected = sum(row['selected_inner_fallback_count'] for row in selections)
+    final = sum(row['final_fit_fallback'] == 'True' for row in selections)
+    for row in selections:
+        fitted_selection = row['selected_penalty'] != 'identity'
+        _require(not fitted_selection or row['selected_penalty'] in BUDGET_RIDGE_PENALTIES,
+                 side + ': candidate is outside the original budget_v1 penalty grid')
+        selected_limit = BUDGET_INNER_FOLDS if fitted_selection else 0
+        _require(row['selected_inner_fallback_count'] <= selected_limit,
+                 side + ': selected inner fallback count exceeds its possible fold fits')
+        _require(row['inner_fallback_count'] <= len(BUDGET_RIDGE_PENALTIES) * BUDGET_INNER_FOLDS,
+                 side + ': inner fallback count exceeds the original budget_v1 fit count')
+        _require(row['selected_inner_fallback_count'] <= row['inner_fallback_count'],
+                 side + ': selected inner fallback count exceeds the total')
+        unselected_limit = (len(BUDGET_RIDGE_PENALTIES) - int(fitted_selection)) * BUDGET_INNER_FOLDS
+        _require(row['inner_fallback_count'] - row['selected_inner_fallback_count'] <= unselected_limit,
+                 side + ': unselected inner fallback count exceeds its possible fold fits')
+    for key, total in [('ridge_inner_fallbacks', inner), ('ridge_selected_inner_fallbacks', selected)]:
+        _require(type(summary.get(key)) is int and summary[key] == total,
+                 side + ': ' + key + ' is inconsistent with ridge_selections.csv')
+    _require(summary.get('ridge_selection_counts') == dict(Counter(row['selected_penalty'] for row in selections)),
+             side + ': selected candidate totals are inconsistent')
+    _require(len({row['case'] for row in selections}) == summary.get('cases'),
+             side + ': ridge source-case count is inconsistent')
+    _require(len(case_metrics) == summary.get('method_cases'), side + ': method-case count is inconsistent')
+    _require(sum(row['fallback_labels'] for row in case_metrics) == summary.get('final_fallback_labels'),
+             side + ': final fallback label total is inconsistent')
+    _require(final == sum(row['fallback_labels'] for row in case_metrics if row['method'] == 'ridge_platt'),
+             side + ': final ridge fallback count is inconsistent')
+    return {'inner_fallbacks': inner, 'selected_inner_fallbacks': selected,
+            'unselected_inner_fallbacks': inner - selected, 'final_ridge_fallbacks': final}
+
+
+def compare_reports(reference, actual, out=None, atol=1e-8, files=None, allow_unselected_fallback_drift=False):
     reference, actual = Path(reference).resolve(), Path(actual).resolve()
     out = Path(out).resolve() if out is not None else None
     files = tuple(FILES if files is None else files)
@@ -260,14 +321,20 @@ def compare_reports(reference, actual, out=None, atol=1e-8, files=None):
              'Choose distinct supported report basenames; paths outside the report root are forbidden')
     _require(isinstance(atol, (int, float)) and not isinstance(atol, bool) and math.isfinite(atol) and atol >= 0,
              'Absolute tolerance must be finite and nonnegative')
+    _require(type(allow_unselected_fallback_drift) is bool, 'Diagnostic drift flag must be boolean')
+    _require(not allow_unselected_fallback_drift or set(files) == set(FILES),
+             'Unselected fallback drift mode requires all seven original budget reports')
     if out is not None:
         _require(not out.is_relative_to(reference), 'Receipt cannot overwrite or be written inside the reference reports')
         _require(out not in {(actual / name).resolve() for name in files}, 'Receipt cannot overwrite an actual report')
-    comparison = Comparison(float(atol))
+    comparison = Comparison(float(atol), allow_unselected_fallback_drift)
     receipt = {'status': 'running', 'absolute_tolerance': float(atol), 'relative_tolerance': 0.,
                'scope': 'Numerical regression against committed report values; not fresh-data or scientific validation.',
                'compared_files': list(files), 'reference_sha256': {}, 'actual_sha256': {},
-               'row_counts': {}, 'errors': []}
+               'row_counts': {}, 'errors': [],
+               'unselected_fallback_drift': {'allowed': allow_unselected_fallback_drift,
+                   'accepted': False, 'differences': comparison.diagnostic_differences}}
+    parsed = {}
     try:
         for name in files:
             rp, ap = reference / name, actual / name
@@ -282,22 +349,41 @@ def compare_reports(reference, actual, out=None, atol=1e-8, files=None):
                 receipt['row_counts'][name] = len(expected['cells']) if name == 'summary.json' else len(expected)
             else:
                 schema = _schema(rp)
+                _require(not allow_unselected_fallback_drift or schema == CSV_SCHEMAS[name],
+                         'Unselected fallback drift mode only supports original budget report schemas')
                 expected, observed = _csv(rp, schema), _csv(ap, schema)
                 _require(len(expected) == len(observed), name + ': row count changed')
                 for index, (left, right) in enumerate(zip(expected, observed), start=2):
                     for column in schema[0]:
                         location = f'{name}:{index}/{column}'
-                        if column in schema[2] and left[column] is not None and right[column] is not None:
+                        if allow_unselected_fallback_drift and name == 'ridge_selections.csv' and column == 'inner_fallback_count':
+                            comparison.diagnostic(left[column], right[column], location,
+                                                  {key: left[key] for key in schema[4]})
+                        elif column in schema[2] and left[column] is not None and right[column] is not None:
                             comparison.numeric(left[column], right[column], location)
                         else:
                             comparison.exact(left[column], right[column], location)
                 receipt['row_counts'][name] = len(expected)
+            parsed[name] = (expected, observed)
+        if allow_unselected_fallback_drift:
+            totals = {}
+            for index, side in enumerate(['reference', 'actual']):
+                totals[side] = _diagnostic_totals(parsed['summary.json'][index],
+                    parsed['ridge_selections.csv'][index], parsed['case_metrics.csv'][index], side)
+            receipt['unselected_fallback_drift']['totals'] = totals
+            receipt['unselected_fallback_drift']['guard'] = (
+                'All seven reports checked; selected penalties, selected inner fallbacks, final fallbacks, '
+                'other counts and categories match exactly; output metrics match within the declared '
+                'absolute tolerance. Both inner-fallback totals match their complete row inventories; '
+                'per-row counts respect the original five fitted penalties and three-fold limits, '
+                'with no optimizer fits for identity.')
         # A report being concurrently rewritten is not a stable regression input.
         for name in files:
             _require(_sha(reference / name) == receipt['reference_sha256'][name] and
                      _sha(actual / name) == receipt['actual_sha256'][name],
                      'Report changed during comparison: ' + name)
         receipt['status'] = 'passed'
+        receipt['unselected_fallback_drift']['accepted'] = bool(comparison.diagnostic_differences)
     except (OSError, ValueError, csv.Error, TypeError) as error:
         receipt['status'] = 'failed'
         receipt['errors'] = [str(error)]
@@ -320,14 +406,22 @@ def main():
     parser.add_argument('--atol', type=float, default=1e-8)
     parser.add_argument('--files', nargs='+', default=list(FILES),
                         help='Override the default seven reports with supported report basenames')
+    parser.add_argument('--allow-unselected-fallback-drift', action='store_true',
+                        help='Explicitly disclose and allow only unselected ridge inner-fallback count differences; all seven budget reports and consistency guards are required')
     args = parser.parse_args()
     try:
-        result = compare_reports(args.reference, args.actual, args.out, args.atol, files=args.files)
+        result = compare_reports(args.reference, args.actual, args.out, args.atol, files=args.files,
+                                 allow_unselected_fallback_drift=args.allow_unselected_fallback_drift)
     except (OSError, ValueError, csv.Error, TypeError) as error:
         print('Report regression failed: ' + str(error), file=sys.stderr)
         return 1
     print(f"Report regression passed: {len(result['compared_files'])} files, {result['numeric_comparisons']} numeric "
           f"comparisons, maximum absolute error {result['maximum_absolute_error']:.12g}.")
+    drift = result['unselected_fallback_drift']
+    if drift['differences']:
+        print(f"Explicitly allowed diagnostic differences: {len(drift['differences'])}; this is not an exact diagnostic match.")
+        for difference in drift['differences']:
+            print('Unselected fallback diagnostic drift: ' + json.dumps(difference, sort_keys=True))
     return 0
 
 

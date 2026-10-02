@@ -1,6 +1,6 @@
 # Automated reproduction checks
 
-The 2026-10-02 local acceptance run passed 87 tests and reproduced all 360
+The 2026-10-02 local acceptance run passed 102 tests and reproduced all 360
 original benchmark cases through `scripts/reproduce.py`. The independent
 numerical verifier passed, and all seven numeric reports matched the published
 baseline with zero numerical difference in this environment.

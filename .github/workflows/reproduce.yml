@@ -30,8 +30,9 @@ jobs:
       - name: Reproduce and independently verify all planned cases
         run: python scripts/reproduce.py --out runs/ci --report reports/ci
       - name: Compare every numeric report with the published baseline
-        run: python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/ci --out runs/ci/regression.json
+        run: python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/ci --out runs/ci/regression.json --allow-unselected-fallback-drift
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: calibration-reproduction-${{ matrix.os }}
           path: |
@@ -39,4 +40,4 @@ jobs:
             runs/ci/freeze.json
             runs/ci/verification.json
             runs/ci/regression.json
-          if-no-files-found: error
+          if-no-files-found: warn

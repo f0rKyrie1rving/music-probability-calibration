@@ -92,11 +92,18 @@ not external scientific validity.
 The automated workflow runs the same command on Linux, macOS and Windows, then
 compares all seven numeric reports against the published baseline. Small
 floating-point differences are allowed; missing cases and changed selection or
-fallback counts fail the check. Reproduce that comparison locally with:
+selected/final fallback counts fail the check. The strict local comparison is:
 
 ```bash
 .venv/bin/python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/reproduction --out runs/reproduction/regression.json
 ```
+
+CI explicitly enables `--allow-unselected-fallback-drift` for this seven-report
+baseline check. It permits only the number of failed **unselected** inner
+optimizer fits to vary across platforms, checks both diagnostic totals against
+their complete row inventories, and records each difference in the receipt.
+Selected penalties, selected/final fallbacks and all output-metric tolerances
+remain enforced. The default command above retains exact diagnostic checks.
 
 All model parameters, OOF scores, fallback records, prediction arrays, per-label
 metrics and 5/10-bin reliability tables are saved under `runs/`. Compact reported
@@ -146,8 +153,9 @@ It is preserved alongside per-track source/artist/license attribution.
 
 This is same-source, source-tag-based evidence. Missing tags, artist aliases,
 encoder pretraining overlap, selected sample composition and previously inspected
-results limit generalization. One nested budget draw per split does not estimate
-within-split sampling variability. Single-class or failed calibrator fits use
+results limit generalization. The original `budget_v1` uses one nested budget draw per split. The five-draw
+follow-up describes within-split sampling variability, but does not provide
+population confidence intervals. Single-class or failed calibrator fits use
 explicitly reported identity fallback; unexpected errors abort.
 
 Beta calibration reached the declared parameter bounds in 648 of 1,440 final

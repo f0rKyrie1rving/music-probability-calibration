@@ -136,7 +136,10 @@ class StabilityFreezeTests(unittest.TestCase):
             p.parent.mkdir(parents=True, exist_ok=True)
             p.write_text(text, encoding="utf-8")
         write(self.project / "protocols/stability_v1.json", self.study)
-        write(self.project / "protocols/budget_v1.json", BASE)
+        # The historical receipt binds LF bytes saved by the original run.
+        # Avoid platform newline conversion when constructing that fixture.
+        (self.project / "protocols/budget_v1.json").write_bytes(
+            (json.dumps(BASE, indent=2, allow_nan=False) + "\n").encode("utf-8"))
         self.manifest = {"cases": [{"id": i} for i in range(120)]}
         write(self.data / "manifest.json", self.manifest)
         write(self.project / "reports/budget_v1/freeze.json", {
@@ -209,6 +212,16 @@ class StabilityFreezeTests(unittest.TestCase):
         # Original freeze stored a normalized JSON serialization, not source bytes.
         config_path = self.project / "protocols/budget_v1.json"
         config_path.write_text(json.dumps(BASE, separators=(",", ":")), encoding="utf-8")
+        stability.freeze_study(self.data, self.out)
+        self.assertEqual(read(self.out / "base_config.json"), BASE)
+
+    def test_crlf_base_source_matches_historical_lf_receipt(self):
+        config_path = self.project / "protocols/budget_v1.json"
+        lf_bytes = config_path.read_bytes()
+        self.assertNotIn(b"\r\n", lf_bytes)
+        config_path.write_bytes(lf_bytes.replace(b"\n", b"\r\n"))
+        receipt = read(self.project / "reports/budget_v1/freeze.json")
+        self.assertNotEqual(digest(config_path), receipt["local_hashes"]["config.json"])
         stability.freeze_study(self.data, self.out)
         self.assertEqual(read(self.out / "base_config.json"), BASE)
 

@@ -40,8 +40,13 @@
     "fallbacks.json": 0
   },
   "errors": [],
+  "unselected_fallback_drift": {
+    "allowed": false,
+    "accepted": false,
+    "differences": []
+  },
   "numeric_comparisons": 76466,
   "exact_comparisons": 122482,
   "maximum_absolute_error": 0.0,
-  "completed_utc": "2026-10-02T06:00:38.006119+00:00"
+  "completed_utc": "2026-10-02T06:20:51.498695+00:00"
 }
