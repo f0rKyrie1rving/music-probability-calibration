@@ -1,2 +1,4 @@
 * -text
 *.csv whitespace=cr-at-eol
+# Keep the original Windows receipt bytes for artifact-hash verification.
+reports/numerical_v2/platforms/windows-latest/*.json whitespace=cr-at-eol

@@ -1,0 +1,17 @@
+{
+  "python": "3.13.15",
+  "system": "Darwin",
+  "machine": "arm64",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0",
+  "numeric_libraries": [
+    {
+      "internal_api": "openmp",
+      "version": null,
+      "threading_layer": null,
+      "architecture": null,
+      "num_threads": 3
+    }
+  ]
+}

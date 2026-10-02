@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "experiment": "numerical_v2",
+  "scope": "Numerical portability re-execution of the exposed-data budget benchmark; same statistical methods, data, objectives, bounds and selection policy",
+  "expected_source_cases": 120,
+  "budgets": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "budget_seed": 2026100201,
+  "inner_seed": 2026100102,
+  "inner_folds": 3,
+  "methods": [
+    "raw",
+    "prior_offset",
+    "temperature",
+    "platt",
+    "beta",
+    "isotonic",
+    "ridge_platt"
+  ],
+  "ridge_penalties": [
+    0.0,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "identity_candidate": true,
+  "selection_metric": "per-label out-of-fold Brier",
+  "selection_tie_tolerance": 1e-12,
+  "primary_metric": "track-weighted mean of four binary Brier scores",
+  "reliability_bins": [
+    5,
+    10
+  ],
+  "historical_prediction_tolerance": 1e-08,
+  "failure_rule": "Per-label identity fallback for single-class calibration or explicit optimizer nonconvergence; report every fallback. Programming errors, corruption or nonfinite inputs abort. No redraws.",
+  "interpretation": "Paired descriptive sensitivity across 20 overlapping historical splits, not 20 independent datasets or a fresh holdout; one nested budget draw per split. No application update.",
+  "numerical_solver": "bounded-logistic-newton-v1"
+}

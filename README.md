@@ -7,8 +7,13 @@ partitions, and explicit controls for training class weights.
 
 This is the separate research project following
 [Music Classification v1.2](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0).
-It does not change the released application. The first study is exploratory and
-uses previously observed MTG-Jamendo data; it is not a new independent test set.
+It does not change the released application. The studies are exploratory and use
+previously observed MTG-Jamendo data; they are not new independent test sets.
+
+The current implementation is **numerical v2**. It addresses platform-dependent
+optimizer failures found in the original benchmark while preserving the original
+statistical objectives and all historical results. This is a numerical
+reproducibility improvement, not a claim of better music classification.
 
 ## What is compared
 
@@ -17,11 +22,13 @@ temperature scaling, Platt scaling, beta calibration, isotonic regression, and
 identity-centered Platt regularization selected by artist-grouped cross-validation.
 They estimate four separate label probabilities: electronic, pop, ambient and rock.
 
-The fixed design contains **360 cases**: 20 historical artist splits × three audio
+Each budget draw contains **360 cases**: 20 historical artist splits × three audio
 representations × two ambient-weight settings × three calibration-artist budgets
 (25%, 50%, 100%). Every method uses the same evaluation rows within each case.
-Within each source case, classifiers stay fixed. The new comparisons isolate calibration choices rather
-than differences in audio-model training or decision thresholds.
+Within each source case, classifiers stay fixed. Numerical v2 repeats the original
+draw and five declared follow-up draws: **2,160 case executions**, covering
+**1,560 distinct source/subset conditions**. The full-budget endpoint is identical
+across draws, serves as a numerical control, and counts once in pooled summaries.
 
 The regularized method can select exact identity (retain the original score), but
 has no guarantee against deterioration. Beta and isotonic are existing methods;
@@ -29,32 +36,42 @@ this project does not claim to invent probability calibration.
 
 ## Results and protocol
 
-- [Full report and all comparison tables](reports/budget_v1/REPORT.md)
-- [Chinese explanation](reports/budget_v1/SUMMARY_ZH.md)
-- [Frozen study protocol](protocols/budget_v1.md) and [configuration](protocols/budget_v1.json)
-- [Numerical verification](reports/budget_v1/verification.json)
-- [Clean-environment reproduction](reports/budget_v1/reproduction.json): all 360 cases
-  rerun; seven numeric reports reproduced byte-for-byte; 38 tests passed.
+- [Numerical-v2 validation status and evidence](reports/numerical_v2/PORTABILITY.md)
+- [Chinese explanation](reports/numerical_v2/SUMMARY_ZH.md) and
+  [retained v1-to-v2 differences](reports/numerical_v2/LEGACY_DIFFERENCES.md)
+- [Numerical-v2 protocol](protocols/numerical_v2.md),
+  [child configuration](protocols/numerical_v2.json) and
+  [six-run acceptance plan](protocols/numerical_study_v2.json)
 - [Data attribution and exposure boundary](DATA.md)
 
-A follow-up [sampling-stability study](protocols/stability_v1.md) repeats the
-calibration-subset selection five times under a fixed rule. It checks sensitivity
-to which artists supply calibration examples; it does not create new test data.
-See its [complete results](reports/stability_v1/REPORT.md) and
-[Chinese explanation](reports/stability_v1/SUMMARY_ZH.md).
+**Validation status:** [the complete three-system run passed](https://github.com/f0rKyrie1rving/music-probability-calibration/actions/runs/36978254282).
+Windows, Linux and macOS each passed 166 tests and all 2,160 case executions.
+Every selected penalty and fallback decision matched; the largest probability
+difference was `1.84e-13`, below the fixed `1e-8` limit. The linked validation
+record preserves the exact environments, source hashes and comparison receipts.
 
-**Known portability limitation:** the complete studies reproduce on the tested
-macOS environment. The new checks found changed calibration choices on Windows
-(original benchmark) and Linux (five-draw study). These are recorded failures,
-not accepted floating-point roundoff; the strict CI comparisons remain enabled.
-See [platform results and diagnosis](reports/automation_checks/PORTABILITY.md).
+The original evidence remains available unchanged:
 
-![Calibration budget comparison](reports/budget_v1/budget_brier.png)
+- Budget v1: [full report](reports/budget_v1/REPORT.md),
+  [Chinese explanation](reports/budget_v1/SUMMARY_ZH.md),
+  [protocol](protocols/budget_v1.md),
+  [independent verification](reports/budget_v1/verification.json) and
+  [original clean-environment reproduction](reports/budget_v1/reproduction.json).
+- Five-draw stability v1: [full report](reports/stability_v1/REPORT.md),
+  [Chinese explanation](reports/stability_v1/SUMMARY_ZH.md) and
+  [protocol](protocols/stability_v1.md). It studies subset and calibration-selection
+  variability under a fixed fold-assignment rule, using the same observed data.
+- [Historical v1 platform failures and diagnosis](reports/automation_checks/PORTABILITY.md):
+  Windows and Linux optimizer failures changed some ridge choices. These failures
+  motivated v2 and are preserved, not reclassified as acceptable roundoff.
 
-Negative Brier changes mean lower probability error. The curves average 20
-overlapping splits of one dataset; they are descriptive, not confidence intervals
-or independent replications. Lower Brier alone does not establish calibration in
-every probability interval, nor does it establish better genre recognition.
+![Historical budget-v1 calibration comparison](reports/budget_v1/budget_brier.png)
+
+This figure shows **historical budget-v1 results**. Negative Brier changes mean
+lower probability error. The curves average 20 overlapping splits of one dataset;
+they are descriptive, not confidence intervals or independent replications. Lower
+Brier alone does not establish calibration in every probability interval, nor
+does it establish better genre recognition.
 
 ## Reproduce from this repository
 
@@ -63,78 +80,86 @@ neither audio downloads nor the original application's private feature caches,
 PyTorch, pretrained encoder weights or a GPU. Full reproduction from raw audio
 is a separate task requiring the original manifests, models and feature pipeline.
 
-Use Python 3.13 for the pinned environment (Python 3.12+ is supported by the source):
+Use Python 3.13 and the pinned dependencies. Create and activate an environment
+(on Windows, activate with `.venv\Scripts\Activate.ps1` in PowerShell):
 
 ```bash
 python3 -m venv .venv
-# Windows: use .venv\Scripts\python.exe instead of .venv/bin/python
-.venv/bin/python -m pip install -r requirements-lock.txt
-.venv/bin/python -m unittest discover -s tests -v
-.venv/bin/python scripts/reproduce.py
+source .venv/bin/activate
+python -m pip install -r requirements-lock.txt
+python -m unittest discover -s tests -v
+python scripts/reproduce_portable.py
 ```
 
-After installing the environment, the last command audits the data, freezes the
-plan, runs all cases, writes the report and independently checks the calculations.
-It uses `runs/reproduction` and `reports/reproduction` by default. To run a separate
-copy, pass `--out runs/reproduction_02 --report reports/reproduction_02`.
+The final command freezes **all six plans before fitting**, executes 2,160 cases,
+writes six reports, and independently verifies the saved calculations. Defaults
+are `runs/portable_reproduction` and `reports/portable_reproduction`. For a separate
+copy, pass `--out runs/portable_02 --report reports/portable_02`.
 
-Running the same command again resumes verified completed cases. Interrupted
-cases owned by this automation are archived with a recovery record before being refitted; programming
-failures remain visible and stop the default run. A process lock protects a run
-from simultaneous writers. Frozen source, input and environment changes are
-rejected before fitting. The original lower-level commands remain available
-through `python -m music_calibration --help`.
+Rerunning the command reuses verified completed cases. Interrupted cases owned
+by the wrapper are archived with a recovery record before being refitted from
+their frozen plans. Failed or malformed cases stop execution and remain available
+for investigation. Locks protect the run and report directories; changed frozen
+source, data or numerical environments are rejected. Do not run the lower-level
+engine concurrently against these directories, because it does not use the
+wrapper's locks. Existing historical runs are not adopted as v2 runs.
 
-Do not run the lower-level engine and this wrapper simultaneously against the
-same output directory: only wrapper processes participate in its locks. The
-wrapper refuses to take over an unfinished legacy run. Missing or malformed
-status/lock files are preserved for investigation rather than guessed away.
+V2 uses bounded Newton steps with deterministic summation and coordinate
+polishing. The mean logistic loss, identity-centered penalty, parameter bounds,
+initialization and ridge grid match v1. A fit must pass explicit projected-gradient
+and parameter-step convergence checks; an independent verifier reconstructs its
+objective, gradient and constrained first-order conditions (KKT), as well as
+probabilities, metrics and inner-fold selection. These are floating-point checks,
+not a proof of external scientific validity. Coefficients can be nonunique in
+poorly identified fits, so acceptance focuses on their probability maps and
+selection decisions, not identical optimizer iteration counts.
 
-The verifier reads
-saved parameters and reconstructs probabilities/metrics independently of the fitting
-functions, including inner-fold ridge selection. This verifies numerical consistency,
-not external scientific validity.
+Every numerical fit must converge, including unselected inner candidates.
+Single-class calibration folds may use the recorded identity fallback. All six
+full-budget copies must match exactly within a system, as must the three labels
+unaffected by the paired ambient-weighting change.
 
-The automated workflow runs the same command on Linux, macOS and Windows, then
-compares all seven numeric reports against the published baseline. Small
-floating-point differences are allowed; missing cases and changed selection or
-selected/final fallback counts fail the check. The strict local comparison is:
+The primary CI workflow runs all six plans on **macOS, Linux and Windows**. It
+compares every evaluation probability and every candidate OOF probability/score
+against the macOS reference at absolute tolerance **1e-8**, with zero relative
+tolerance. Selected penalties and every inner/final fallback flag, reason and
+count must match exactly, including unselected candidates. All 42 numerical
+report files are checked, including AP and ECE. There are no diagnostic exceptions
+in v2. Passing this test supports the recorded environments and data, not every
+future machine or input.
+
+To compare your six reports with the compact published reference:
 
 ```bash
-.venv/bin/python scripts/compare_reports.py --reference reports/budget_v1 --actual reports/reproduction --out runs/reproduction/regression.json
+python scripts/compare_portable_runs.py --reference reports/numerical_v2 --actual reports/portable_reproduction --out runs/portable_reproduction/report_comparison.json --reports-only
 ```
 
-CI explicitly enables `--allow-unselected-fallback-drift` for this seven-report
-baseline check. It permits only the number of failed **unselected** inner
-optimizer fits to vary across platforms, checks both diagnostic totals against
-their complete row inventories, and records each difference in the receipt.
-Selected penalties, selected/final fallbacks and all output-metric tolerances
-remain enforced. The default command above retains exact diagnostic checks.
+`--reports-only` checks reported tables; it does **not** compare every prediction.
+The full cross-system check omits this option and uses the prediction/OOF
+signatures saved in the CI artifacts. Both sides must contain those signatures.
 
-All model parameters, OOF scores, fallback records, prediction arrays, per-label
-metrics and 5/10-bin reliability tables are saved under `runs/`. Compact reported
-tables and figures are committed under `reports/`. The first historical split is
-declared in advance for readable example reliability tables; no best split is chosen.
+All fit parameters, OOF scores, fallback records, predictions and per-label metrics
+are saved under the run directory. Reports include 5/10-bin reliability tables
+and signatures for full comparison; the repository keeps compact reported tables
+and figures. The example reliability split is fixed in advance.
 
-To execute the follow-up stability study with all five sampling plans frozen
-before any fitting:
+### Historical v1 reproduction
+
+The original package and commands remain available to reproduce the historical
+record, including its known portability failures:
 
 ```bash
-.venv/bin/python scripts/stability.py all --out runs/stability_reproduction --report reports/stability_reproduction
-.venv/bin/python scripts/verify_stability_report.py --report reports/stability_reproduction --base-config protocols/budget_v1.json --manifest data/legacy_scores/manifest.json
+python scripts/reproduce.py
+python scripts/stability.py all --out runs/stability_reproduction --report reports/stability_reproduction
+python scripts/verify_stability_report.py --report reports/stability_reproduction --base-config protocols/budget_v1.json --manifest data/legacy_scores/manifest.json
 ```
 
-This executes 1,800 cases, covering 1,320 distinct source/subset conditions. The
-identical full-budget endpoint is an implementation control and is counted once
-per original split in the analysis. The historical fitting/verification engine,
-hyperparameters and all original
-`budget_v1` artifacts stay unchanged. A separate GitHub workflow reproduces the
-five-draw study and compares its tables automatically.
-
-The five-draw study deliberately calls the unchanged historical engine. It can
-reuse completed cases, but stops on a partially written case; the automatic
-interrupted-case recovery described above applies to runs started through
-`scripts/reproduce.py`. All partial study evidence is retained.
+The first command runs 360 cases with defaults `runs/reproduction` and
+`reports/reproduction`. The next two execute and verify the five-draw v1 study
+(1,800 executions, 1,320 distinct conditions). That historical study stops on a
+partially written case and preserves its evidence. Its separate workflow is
+manually triggered; it is not the current v2 acceptance workflow. The original
+lower-level CLI remains available through `python -m music_calibration --help`.
 
 ## Data provenance
 
@@ -160,17 +185,18 @@ It is preserved alongside per-track source/artist/license attribution.
 
 This is same-source, source-tag-based evidence. Missing tags, artist aliases,
 encoder pretraining overlap, selected sample composition and previously inspected
-results limit generalization. The original `budget_v1` uses one nested budget draw per split. The five-draw
-follow-up describes within-split subset and selection variability under the
-fixed fold rule, but does not provide
-population confidence intervals. Single-class or failed calibrator fits use
-explicitly reported identity fallback; unexpected errors abort.
+results limit generalization. The original `budget_v1` uses one nested budget draw
+per split; the five-draw follow-up describes subset and selection variability
+under the fixed fold rule without population confidence intervals. Numerical v2
+reuses those same six plans. Improving numerical reproducibility adds no new
+independent evidence about genre labels or real-world calibration accuracy.
 
-Beta calibration reached the declared parameter bounds in 648 of 1,440 final
-per-label fits. These fits were retained; the comparison concerns this bounded
-monotone implementation, not every possible beta-calibration implementation.
-The report's `successful_labels` counts valid outputs, including unfitted raw
-controls and deliberate identity choices, rather than only optimized fits.
+In historical budget v1, beta calibration reached the declared bounds in 648 of
+1,440 final per-label fits. These fits were retained; the comparison concerns
+this bounded monotone implementation, not every possible beta-calibration
+implementation. The report's `successful_labels` counts valid outputs, including
+unfitted raw controls and deliberate identity choices, rather than only optimized
+fits.
 
 A subsequent confirmatory experiment must first freeze its method and success
 criteria, then acquire genuinely new project-disjoint data. A second data source

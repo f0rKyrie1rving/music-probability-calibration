@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "experiment": "numerical_study_v2",
+  "child_experiment": "numerical_v2",
+  "child_config": "protocols/numerical_v2.json",
+  "protocol": "protocols/numerical_v2.md",
+  "numerical_solver": "bounded-logistic-newton-v1",
+  "run_names": [
+    "budget_original",
+    "draw_01",
+    "draw_02",
+    "draw_03",
+    "draw_04",
+    "draw_05"
+  ],
+  "budget_seeds": [
+    2026100101,
+    2026100201,
+    2026100202,
+    2026100203,
+    2026100204,
+    2026100205
+  ],
+  "inner_seed": 2026100102,
+  "only_changed_child_config_field": "budget_seed",
+  "expected_source_cases": 120,
+  "expected_outer_splits": 20,
+  "expected_cases_per_run": 360,
+  "expected_executed_cases": 2160,
+  "expected_distinct_subset_cases": 1560,
+  "budgets": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "solver": {
+    "max_iterations": 300,
+    "projected_gradient_infinity_tolerance": 2e-12,
+    "relative_parameter_step_tolerance": 2e-12,
+    "armijo_constant": 0.0001,
+    "maximum_line_search_halvings": 55,
+    "cholesky_relative_pivot_floor": 1e-14,
+    "maximum_coordinate_bisection_steps": 80,
+    "coordinate_bisection_tolerance_fraction": 0.25,
+    "objective_roundoff_allowance_eps_multiplier": 4,
+    "arithmetic": "float64, compensated scalar sums, fixed-order Cholesky and coordinate updates",
+    "diagnostic_scope": "Floating-point stationarity and objective diagnostics, not interval-certified optimization proofs"
+  },
+  "acceptance": {
+    "canonical_reference": "macOS arm64; exact OS, architecture, Python and dependency versions recorded in receipts",
+    "required_operating_systems": [
+      "macOS",
+      "Linux",
+      "Windows"
+    ],
+    "probability_absolute_tolerance": 1e-08,
+    "oof_score_absolute_tolerance": 1e-08,
+    "report_absolute_tolerance": 1e-08,
+    "relative_tolerance": 0.0,
+    "compare_every_evaluation_probability": true,
+    "compare_every_candidate_oof_probability": true,
+    "exact_selected_penalties": true,
+    "exact_all_inner_and_final_fallback_flags_reasons_counts": true,
+    "exact_experimental_identifiers_targets_and_fold_assignments": true,
+    "exact_report_discrete_fields": true,
+    "allowed_numerical_failure_fallbacks": 0,
+    "permitted_fallback_reasons": [
+      "single_class_calibration"
+    ],
+    "allow_unselected_candidate_fallback_drift": false,
+    "numeric_reports_per_run": [
+      "summary.json",
+      "summary_cells.csv",
+      "case_metrics.csv",
+      "label_metrics.csv",
+      "ridge_selections.csv",
+      "example_reliability.csv",
+      "fallbacks.json"
+    ],
+    "coefficient_and_iteration_equality": "Diagnostic only; saved parameters must satisfy bounds and numerical convergence checks, and reproduce their saved maps",
+    "full_budget_repeat_rule": "All six runs have identical full-budget inputs and folds; require identical saved fit/prediction/metric hashes within each OS and count one full endpoint per source case in aggregates",
+    "unchanged_label_control_rule": "Across paired weighting conditions require exact evaluation predictions for electronic, pop and rock for every method, and exact ridge OOF probabilities/choices for these labels"
+  },
+  "historical_v1_comparison": {
+    "role": "Retained diagnostic of the numerical implementation change; never a gate requiring recovery of v1 model selections or scores",
+    "unchanged_raw_and_prior_offset_absolute_tolerance": 1e-08,
+    "platt_and_temperature_historical_error": "Record, do not enforce v1 fitted coefficients or predictions",
+    "never_overwrite_v1_sources_or_results": true
+  },
+  "freeze_rule": "Hash all six child configs/plans, input data, protocol, solver, portable engine, execution driver and comparison sources before fitting any full study run",
+  "interpretation": "Engineering reproduction study on previously observed data; no fresh holdout, new method, hyperparameter tuning, accuracy-improvement claim or application change"
+}

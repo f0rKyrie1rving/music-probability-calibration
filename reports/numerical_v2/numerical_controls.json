@@ -1,0 +1,10 @@
+{
+  "numerical_failure_count": 0,
+  "numerical_failures": [],
+  "optimizer_fits": 159327,
+  "single_class_fits": 360,
+  "maximum_projected_gradient": 1.999365950577925e-12,
+  "maximum_relative_parameter_step": 1.999593670577416e-12,
+  "identical_full_budget_repeats": 600,
+  "full_budget_source_cases": 120
+}

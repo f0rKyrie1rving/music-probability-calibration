@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-02T07:16:40.709580+00:00",
+  "stage": "Before new calibration fits and scoring; historical outcomes known",
+  "bundle_relative_to_run": "../../../../data/legacy_scores",
+  "bundle_manifest_sha256": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9",
+  "bundle_metadata_hashes": {
+    "manifest.json": "6b5d520f0b7c1ec4c29251756c2c4e2c19bf38279827f9518826adbec8ed9ef9",
+    "provenance/export_audit.json": "6a1584c457504dfdb44ee8e0685922e8461822bc75eb0c51ee4a713eb2fe141b",
+    "provenance/future_exclusions.json": "b42ce653ed7b13bb00afdee7bc3583ce0f2a2f9cba0c261dafc1e98294f69392",
+    "provenance/legacy_audit.json": "d918c934e9c80d6fc750e78a324a56c078d10ef56df564314cacc479a53d376f",
+    "provenance/legacy_config.json": "56faaf1e38a866bf2eea42ede1865c142b9506ebf5793e556af4b4b6cc84f3d1",
+    "provenance/legacy_freeze.json": "327986a819cb16a0780c7893e5a05e2d9203594559bc968dc5679a800ddb1795",
+    "provenance/legacy_splits.json": "dde0301bd7e54f8a9f8fe0240488e68f4aeae3db889a009be50acfea766d332b",
+    "provenance/legacy_verification.json": "449bc3a891f83ff993732a6109f7a0be33ae1c9e3bd7bdb14c0dfd24f3359a57",
+    "provenance/track_attribution.json": "a9cd7085467d0eaabe6acf268c2c5facf92aedd543b9158a7ad78196071b7242"
+  },
+  "source_hashes": {
+    "music_calibration_portable/__init__.py": "1eb83a6321f456d953eb6db22facd23140acaf4a3332347ee8e097afb2799cc9",
+    "music_calibration_portable/__main__.py": "afbeb41e69d8b5f1d38577aa4c55f9ffe7c952547add69498186cb64065e5686",
+    "music_calibration_portable/calibrators.py": "96294e2bfe8d96bb9d22cb98b0b01f25820caa350c1f6ed2e95c6763bf11a606",
+    "music_calibration_portable/data.py": "fd97cc49cecae103739c66dd161f60adb92a624d8026aee51bcfc476b9c2a4f8",
+    "music_calibration_portable/experiment.py": "48fa7f62dd2153808fe97afa66b9cf9d528eeacf64d723a938141a4d462de002",
+    "music_calibration_portable/io.py": "d0e176a2eea1152e841e7dcc83f45f2f183a9566062644ef86ce2a66baa38f4a",
+    "music_calibration_portable/metrics.py": "c0296e75915b684d8f15d0b128906e64b52073b029de9e0ef4195169db4000a4",
+    "music_calibration_portable/report.py": "4f690679674c84e51bcd000f30d498200c28563f2ef5cc3e0b7baa6218f911e0",
+    "music_calibration_portable/solver.py": "a699a7e08a893e38605f4e32ac0e678aece290a2fda3414165f886a5f1665492",
+    "music_calibration_portable/verify.py": "041c5e4266a8b0d93016272e9444ebfc4f53e18ebd3a210b50ad89d3f18781ae"
+  },
+  "local_hashes": {
+    "config.json": "39bda63515052f85344db5b11e2e6b8478b430a2e5f102b17f4d588f834aec11",
+    "plans.json": "8c2c7edb04fe8fb12b0954b4c8f099c50e7549668fc542829c62e6b693e8c96f",
+    "audit.json": "2327992bf1114eee006e3c71cbc3c86ee5993324aae320fcec838b438f9626ad",
+    "protocol.md": "df5662dd622178e24870fe4b1c0ddf8f72cfff7e074272336a1b6f2ed0cbb191"
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "threadpoolctl": "3.6.0"
+  }
+}

@@ -14,3 +14,7 @@ reports/.*.archive-*/
 reports/reproduction*/
 reports/ci*/
 reports/automation_validation/
+
+reports/portable_reproduction*/
+**/portable_fits.npz
+**/portable_index.json

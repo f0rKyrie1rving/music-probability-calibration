@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "scope": "Unit and integrity test outcomes verified from completed GitHub Actions job logs; numerical reproduction is recorded separately.",
+  "repository": "f0rKyrie1rving/music-probability-calibration",
+  "run_id": 36978254282,
+  "run_url": "https://github.com/f0rKyrie1rving/music-probability-calibration/actions/runs/36978254282",
+  "head_sha": "816dec19044ce45d0496c4f720d33cc419309a52",
+  "command": "python -m unittest discover -s tests -v",
+  "expected_test_count": 166,
+  "jobs": [
+    {
+      "platform": "macos-latest",
+      "job_id": 110746736336,
+      "job_url": "https://github.com/f0rKyrie1rving/music-probability-calibration/actions/runs/36978254282/job/110746736336",
+      "job_conclusion": "success",
+      "unit_step_conclusion": "success",
+      "test_count": 166,
+      "unit_duration_seconds": 30.299,
+      "test_summary": "Ran 166 tests in 30.299s",
+      "result": "OK",
+      "summary_timestamp_utc": "2026-10-02T07:24:12.9835770Z",
+      "checkout_head_verified_from_log": true
+    },
+    {
+      "platform": "ubuntu-latest",
+      "job_id": 110746736574,
+      "job_url": "https://github.com/f0rKyrie1rving/music-probability-calibration/actions/runs/36978254282/job/110746736574",
+      "job_conclusion": "success",
+      "unit_step_conclusion": "success",
+      "test_count": 166,
+      "unit_duration_seconds": 33.285,
+      "test_summary": "Ran 166 tests in 33.285s",
+      "result": "OK",
+      "summary_timestamp_utc": "2026-10-02T07:23:58.7882277Z",
+      "checkout_head_verified_from_log": true
+    },
+    {
+      "platform": "windows-latest",
+      "job_id": 110746736570,
+      "job_url": "https://github.com/f0rKyrie1rving/music-probability-calibration/actions/runs/36978254282/job/110746736570",
+      "job_conclusion": "success",
+      "unit_step_conclusion": "success",
+      "test_count": 166,
+      "unit_duration_seconds": 53.81,
+      "test_summary": "Ran 166 tests in 53.810s",
+      "result": "OK",
+      "summary_timestamp_utc": "2026-10-02T07:24:51.7180900Z",
+      "checkout_head_verified_from_log": true
+    }
+  ],
+  "observed_utc": "2026-10-02 07:40:13 UTC"
+}

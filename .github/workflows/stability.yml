@@ -1,7 +1,5 @@
-name: Reproduce sampling stability
+name: Historical v1 stability (known portability differences)
 on:
-  push:
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read

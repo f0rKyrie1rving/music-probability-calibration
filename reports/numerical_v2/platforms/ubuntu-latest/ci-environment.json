@@ -1,0 +1,31 @@
+{
+  "python": "3.13.15",
+  "system": "Linux",
+  "machine": "x86_64",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0",
+  "numeric_libraries": [
+    {
+      "internal_api": "openblas",
+      "version": "0.3.34.0.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX",
+      "num_threads": 4
+    },
+    {
+      "internal_api": "openblas",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX",
+      "num_threads": 4
+    },
+    {
+      "internal_api": "openmp",
+      "version": null,
+      "threading_layer": null,
+      "architecture": null,
+      "num_threads": 4
+    }
+  ]
+}
