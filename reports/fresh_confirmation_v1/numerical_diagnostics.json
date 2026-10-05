@@ -1,0 +1,2647 @@
+{
+  "cases": [
+    {
+      "key": "draw_01/budget_24/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_01/budget_24/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_01/budget_24/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_24/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_24/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_24/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_01/budget_47/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_47/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_47/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_94/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_01/budget_94/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_01/budget_94/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_01/budget_94/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_01/budget_94/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_24/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_24/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_02/budget_24/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_02/budget_24/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_02/budget_24/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_02/budget_24/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_02/budget_24/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_02/budget_24/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_02/budget_24/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_24/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_47/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_47/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_47/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_47/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_47/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_02/budget_47/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_02/budget_47/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_02/budget_47/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_24/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_03/budget_24/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_03/budget_24/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_03/budget_24/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_24/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_24/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_03/budget_47/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 76,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 76,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_03/budget_47/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_03/budget_47/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_03/budget_47/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_24/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_04/budget_24/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 8
+    },
+    {
+      "key": "draw_04/budget_24/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_04/budget_24/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_04/budget_24/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 8
+    },
+    {
+      "key": "draw_04/budget_24/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 8
+    },
+    {
+      "key": "draw_04/budget_24/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_04/budget_24/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 6
+    },
+    {
+      "key": "draw_04/budget_24/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 6
+    },
+    {
+      "key": "draw_04/budget_24/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 6
+    },
+    {
+      "key": "draw_04/budget_24/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 8
+    },
+    {
+      "key": "draw_04/budget_24/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 7
+    },
+    {
+      "key": "draw_04/budget_24/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_04/budget_24/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_04/budget_24/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 6
+    },
+    {
+      "key": "draw_04/budget_24/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 6
+    },
+    {
+      "key": "draw_04/budget_24/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_04/budget_24/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 9
+    },
+    {
+      "key": "draw_04/budget_24/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_24/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_04/budget_47/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_04/budget_47/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_04/budget_47/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 75,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_24/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_24/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 4
+    },
+    {
+      "key": "draw_05/budget_24/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_24/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_05/budget_24/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 5
+    },
+    {
+      "key": "draw_05/budget_24/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_24/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092800/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092800/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092801/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092801/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092802/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092802/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092803/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092803/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_05/budget_47/2026092804/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092804/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092805/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092805/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092806/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092806/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092807/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_05/budget_47/2026092807/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 0
+    },
+    {
+      "key": "draw_05/budget_47/2026092808/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092808/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092809/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092809/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092810/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092810/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092811/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 72,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092811/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092812/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092812/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092813/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092813/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092814/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092814/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 1
+    },
+    {
+      "key": "draw_05/budget_47/2026092815/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092815/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092816/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092816/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092817/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092817/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092818/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092818/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    },
+    {
+      "key": "draw_05/budget_47/2026092819/unweighted",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 73,
+      "bound_hits": 2
+    },
+    {
+      "key": "draw_05/budget_47/2026092819/ambient_balanced",
+      "single_class_fallbacks": 0,
+      "optimized_fits": 74,
+      "bound_hits": 3
+    }
+  ],
+  "total_optimized_fits": 32508,
+  "total_single_class_fallbacks": 0,
+  "total_bound_hits": 1152
+}

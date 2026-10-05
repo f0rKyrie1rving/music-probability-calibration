@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": {
+    "calibration_artist_retention": true,
+    "evaluation_artist_retention": true,
+    "evaluation_track_retention": true,
+    "every_calibration_subset_retained": true,
+    "electronic_artist_support": true,
+    "pop_artist_support": true,
+    "ambient_artist_support": true,
+    "rock_artist_support": true
+  },
+  "label_coverage": [
+    {
+      "label": "electronic",
+      "positive_artists": 157,
+      "all_negative_artists": 243,
+      "positive_tracks": 233,
+      "negative_tracks": 404
+    },
+    {
+      "label": "pop",
+      "positive_artists": 88,
+      "all_negative_artists": 312,
+      "positive_tracks": 123,
+      "negative_tracks": 514
+    },
+    {
+      "label": "ambient",
+      "positive_artists": 68,
+      "all_negative_artists": 332,
+      "positive_tracks": 93,
+      "negative_tracks": 544
+    },
+    {
+      "label": "rock",
+      "positive_artists": 99,
+      "all_negative_artists": 301,
+      "positive_tracks": 142,
+      "negative_tracks": 495
+    }
+  ],
+  "actual_calibration_artists": 94,
+  "actual_evaluation_artists": 400,
+  "actual_evaluation_tracks": 637,
+  "planned_evaluation_tracks": 637
+}

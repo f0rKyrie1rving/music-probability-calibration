@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-10-05T16:22:24.066559+00:00",
+  "manifest_sha256": "252dd2c1e57b4205217e27fa3f6302d3bc0258da10c60b3f4f72f9c69c19b4df",
+  "verifier_sha256": "63de0cf0adbe9ab7d573101bc0250e2315e8717add61d29ba537215e81c74802",
+  "cases": 440,
+  "probabilities_reconstructed": 7847840,
+  "ridge_oof_selections_checked": 1760,
+  "primary_conditions": 200,
+  "max_independent_probability_error": 1.6653345369377348e-16,
+  "max_oof_error": 1.6653345369377348e-16,
+  "max_case_metric_error": 0.0,
+  "refit": true,
+  "max_refit_probability_or_oof_error": 0.0,
+  "primary_estimate": -0.007049873882891528,
+  "primary_ci95": [
+    -0.008360988588407978,
+    -0.005747956252173806
+  ],
+  "conclusion": "supports_prespecified_mean_improvement",
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "scope": "Public score-level numerical reproduction; chronology/audio/features are represented by historical receipts, not independently re-audited by this command."
+}

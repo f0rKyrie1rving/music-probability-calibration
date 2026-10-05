@@ -1,0 +1,26 @@
+{
+  "state": "complete",
+  "freeze_sha256": "2af3f1b7222d39f3ac50a4b2d03f52dd78935e865e1a0bafa2e9c565b690bb88",
+  "selected_tracks": 780,
+  "downloaded_tracks": 780,
+  "acquisition_sha256": "d35f30b72e635569660fc3581a4147e0185cd832d3f8aa1bda2d6705ed743aec",
+  "duplicate_filtered_tracks": 780,
+  "extracted_tracks": 780,
+  "feature_failures": [],
+  "tracks_by_role": {
+    "calibration": 143,
+    "evaluation": 637
+  },
+  "artists_by_role": {
+    "calibration": 94,
+    "evaluation": 400
+  },
+  "output_hashes": {
+    "calibration_scores.npz": "30f78bad7aa8ad3e5e53b53fb31e4f1126bed7bac740ba9bdf487141ebeca38c",
+    "evaluation_inputs.npz": "e3786be64b87101b11140a605ddd933516f7decc9c67065598f2754e91a19565",
+    "evaluation_labels.npz": "0e1e5ae37f9ba228776e7b6880190f0632d6cec8a3e6ad79bb5067c25998b2b3",
+    "duplicate_audit.json": "3c68573f8bdb1e0c12e4fea13807880e905362f60df5afa95b38d1f19cb67009",
+    "runtime_control.json": "b2529face82f4e214f3543f191676517bfc6257ecb577da476ba89d129726904"
+  },
+  "elapsed_seconds": 793.5303912500385
+}

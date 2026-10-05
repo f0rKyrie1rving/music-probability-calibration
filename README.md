@@ -7,15 +7,46 @@ partitions, and explicit controls for training class weights.
 
 This is the separate research project following
 [Music Classification v1.2](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0).
-It does not change the released application. The studies are exploratory and use
-previously observed MTG-Jamendo data; they are not new independent test sets.
+It does not change the released application. It now contains two stages: the
+historical exploratory benchmark and a prospectively frozen, same-source
+confirmation using 780 tracks / 494 artists absent from the audited project
+history. Neither stage establishes human-adjudicated music-label accuracy.
 
 The current implementation is **numerical v2**. It addresses platform-dependent
 optimizer failures found in the original benchmark while preserving the original
 statistical objectives and all historical results. This is a numerical
 reproducibility improvement, not a claim of better music classification.
 
-## What is compared
+## Paper and fresh-cohort result
+
+- **Preprint v1, not peer reviewed:** [English PDF](paper/English_Probability_Calibration.pdf),
+  [中文 PDF](paper/Chinese_Probability_Calibration.pdf), and
+  [manuscript files, citation and status](paper/README.md).
+- [Fresh confirmation protocol](research/fresh_confirmation_v1/protocol.md),
+  [results and reproducibility boundary](reports/fresh_confirmation_v1/README.md),
+  [portable score bundle](data/fresh_confirmation_v1/README.md).
+
+The 3 October 2026 study retained all **780 selected tracks**: 143 tracks / 94
+artists for calibration, and 637 tracks / 400 artists for evaluation. It used 20
+fixed MAEST research heads, two head-weight settings and five prespecified
+calibration draws. Full-budget copies count once, giving 440 unique conditions.
+These heads and draws are repeated conditions, not 440 independent experiments.
+
+The prespecified primary comparison averaged the unweighted heads and the two
+partial budgets (24 and 47 calibration artists). Identity-centered ridge Platt
+reduced mean Brier loss relative to ordinary Platt by **0.007050**, with a paired
+artist-cluster 95% interval **[−0.008361, −0.005748]**. However, raw scores remained
+better on this average: raw **0.12503**, ridge Platt **0.12706**, ordinary Platt
+**0.13411**. The result supports regularization over ordinary Platt in this
+setting; it does not establish a benefit over leaving probabilities unchanged.
+
+The cohort comes from MTG-Jamendo, the already known source, and uses its noisy
+source tags. It is new to the audited project history, not a second-source test
+or a guarantee of absence from pretrained encoder training. The bootstrap
+interval conditions on the fixed heads and calibration pool. The protocol was
+frozen locally before acquisition; no external preregistration is claimed.
+
+## Historical benchmark design
 
 Seven probability treatments: raw scores, analytical class-weight offset,
 temperature scaling, Platt scaling, beta calibration, isotonic regression, and
@@ -34,7 +65,7 @@ The regularized method can select exact identity (retain the original score), bu
 has no guarantee against deterioration. Beta and isotonic are existing methods;
 this project does not claim to invent probability calibration.
 
-## Results and protocol
+## Historical results and protocol
 
 - [Numerical-v2 validation status and evidence](reports/numerical_v2/PORTABILITY.md)
 - [Chinese explanation](reports/numerical_v2/SUMMARY_ZH.md) and
@@ -75,10 +106,11 @@ does it establish better genre recognition.
 
 ## Reproduce from this repository
 
-The roughly 10 MB score bundle is included. This score-level experiment needs
-neither audio downloads nor the original application's private feature caches,
-PyTorch, pretrained encoder weights or a GPU. Full reproduction from raw audio
-is a separate task requiring the original manifests, models and feature pipeline.
+Both score bundles are included: the historical bundle is roughly 10 MB and the
+fresh confirmation adds roughly 16 MB of scores, fitted records and reports.
+Neither numerical workflow needs audio downloads, private feature caches,
+PyTorch, pretrained encoder weights or a GPU. Re-extracting scores from audio
+is outside these portable workflows.
 
 Use Python 3.13 and the pinned dependencies. Create and activate an environment
 (on Windows, activate with `.venv\Scripts\Activate.ps1` in PowerShell):
@@ -88,6 +120,39 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-lock.txt
 python -m unittest discover -s tests -v
+```
+
+### Fresh confirmation
+
+Reconstruct the published probabilities, ridge choices, all per-case metrics,
+summary tables and paired artist-bootstrap intervals from the saved score and
+parameter bundle:
+
+```bash
+python scripts/verify_fresh_confirmation.py
+```
+
+To additionally refit all 440 conditions from calibration scores and frozen
+folds, then compare evaluation/OOF probabilities (absolute tolerance `1e-8`)
+and selected ridge penalties:
+
+```bash
+python scripts/verify_fresh_confirmation.py --refit --out runs/fresh_confirmation_refit.json
+```
+
+Use a new output path on repeat runs; inputs and existing receipts are never
+overwritten. The default reconstruction uses `2e-12` absolute tolerance and
+checks hashes against the published export manifest. The command records its
+actual numerical library versions. [The local fresh-bundle check](reports/fresh_confirmation_v1/public_verification.json)
+refitted all 440 conditions with identical evaluation/OOF probabilities and
+per-case metrics. The historical three-system CI result below does **not**
+certify this new package on all three systems. Original acquisition/feature/chronology audits are retained
+as historical receipts; this public command does not re-audit omitted audio,
+features, heads or network logs. See the [export boundary](research/fresh_confirmation_v1/README.md).
+
+### Historical numerical v2
+
+```bash
 python scripts/reproduce_portable.py
 ```
 
@@ -177,11 +242,13 @@ With the complete original local workspace, the export can be reconstructed:
 python scripts/export_legacy.py --legacy-root /path/to/music-classification --out data/local_reexport
 ```
 
-No import or execution of historical training runners is needed. The latest
-future-confirmation exclusion ledger covers 2,835 tracks and 1,296 artist IDs.
-It is preserved alongside per-track source/artist/license attribution.
+No import or execution of historical training runners is needed. The historical exclusion ledger covers 2,835 tracks and 1,296 artist IDs.
+The fresh study also excluded three name-collision artists and added its full
+eligible frame to the [new ledger](data/fresh_confirmation_v1/future_exclusions.json),
+which covers **4,770 tracks / 1,852 artist IDs**. Future cohort selection must use
+this newer boundary; the old ledger is retained as historical evidence.
 
-## Limitations and next study
+## Limitations
 
 This is same-source, source-tag-based evidence. Missing tags, artist aliases,
 encoder pretraining overlap, selected sample composition and previously inspected
@@ -198,10 +265,12 @@ implementation. The report's `successful_labels` counts valid outputs, including
 unfitted raw controls and deliberate identity choices, rather than only optimized
 fits.
 
-A subsequent confirmatory experiment must first freeze its method and success
-criteria, then acquire genuinely new project-disjoint data. A second data source
-or independently annotated labels would strengthen external validity. No paper
-acceptance, novel algorithm or universally reliable probability guarantee is claimed.
+The fresh confirmation now provides new project-disjoint evidence under a
+locally frozen protocol, while retaining the same source and proxy-label
+limitations. A second data source or independently annotated labels could
+strengthen external validity; this is future work, not an uncompleted requirement
+for reproducing the current paper. No paper acceptance, novel algorithm or
+universally reliable probability guarantee is claimed.
 
 Project-owned code: [MIT](LICENSE). Bundled source-derived metadata/data:
 [separate terms and attribution](DATA.md). [AI assistance](AI_ASSISTANCE.md) is

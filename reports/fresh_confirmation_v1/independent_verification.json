@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verifier_sha256": "1517baa285e721d66d4d359329545bf8a30a142a44077570d6df63ffa1ff83ee",
+  "freeze_sha256": "2af3f1b7222d39f3ac50a4b2d03f52dd78935e865e1a0bafa2e9c565b690bb88",
+  "report_completed_sha256": "9beae2c73e7367058d9da91e6f1f2966fa9485c588471edfd3418e03a43c1843",
+  "head_logits_compared": 124800,
+  "probabilities_compared": 7847840,
+  "ridge_oof_selections_checked": 1760,
+  "max_absolute_logit_error": 0.0,
+  "max_absolute_probability_error": 1.6653345369377348e-16,
+  "max_absolute_oof_error": 1.6653345369377348e-16,
+  "max_absolute_bootstrap_error": 3.469446951953614e-18,
+  "primary_estimate": -0.007049873882891527,
+  "primary_ci95": [
+    -0.008360988588407977,
+    -0.005747956252173807
+  ],
+  "primary_conditions": 200,
+  "chronology_passed": true,
+  "timestamped_request_attempts_checked": 15996,
+  "coverage_checks_reconstructed": {
+    "calibration_artist_retention": true,
+    "evaluation_artist_retention": true,
+    "evaluation_track_retention": true,
+    "every_calibration_subset_retained": true,
+    "electronic_artist_support": true,
+    "pop_artist_support": true,
+    "ambient_artist_support": true,
+    "rock_artist_support": true
+  },
+  "conclusion": "supports_prespecified_mean_improvement",
+  "scope": "Independent numerical reconstruction from saved data and fitted parameters; no new fits or label adjudication."
+}

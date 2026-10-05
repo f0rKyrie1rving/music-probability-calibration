@@ -1,0 +1,12 @@
+{
+  "input_hashes": {
+    "config.json": "fdb5f4292173f86a20ddae8df33dee34c54e768ceb8b437326ece3d075b34a0a",
+    "calibration_plans.json": "d456d4f5b257e9c13e1dd19fe822867a45a2c372ce55ec3b5569c06509a3837d",
+    "calibration_scores.npz": "30f78bad7aa8ad3e5e53b53fb31e4f1126bed7bac740ba9bdf487141ebeca38c",
+    "evaluation_inputs.npz": "e3786be64b87101b11140a605ddd933516f7decc9c67065598f2754e91a19565"
+  },
+  "evaluator_sha256": "e732ce2e9ce4a24781b3919f8a9361961c5cf585a1118ce7e3fbbc415bf60cb4",
+  "evaluation_labels_read": false,
+  "extraction_receipt_sha256": "893b195ebbddc14ad9d52b599604b5d3f6fd1b8ea6a1c1f567e68556f474eb10",
+  "started_utc": "2026-10-03T15:49:19.331343+00:00"
+}

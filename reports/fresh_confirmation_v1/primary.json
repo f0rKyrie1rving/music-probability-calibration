@@ -1,0 +1,24 @@
+{
+  "estimate": -0.007049873882891527,
+  "ci95": [
+    -0.008360988588407978,
+    -0.005747956252173806
+  ],
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026100321,
+  "n_artists": 400,
+  "n_tracks": 637,
+  "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+  "contrast": "ridge_platt minus platt",
+  "weighting": "unweighted",
+  "nominal_budgets": [
+    24,
+    47
+  ],
+  "head_count": 20,
+  "averaging": "mean per-track losses across all fixed heads, draws and partial budgets; then track mean",
+  "independent_experiments": false,
+  "primary_condition_count": 200,
+  "coverage_pass": true,
+  "conclusion": "supports_prespecified_mean_improvement"
+}

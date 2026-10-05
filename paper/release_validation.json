@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "release_date": "2026-10-06",
+  "version": "paper-v1",
+  "scope": "Export integrity and visual inspection, not peer review or an assertion of scientific novelty.",
+  "scientific_changes": "No methods, experimental results, tables, native equations or figure content changed in this publication preparation. Six text paragraphs per language update publication status, availability, responsibility, and two reference entries.",
+  "artifacts": [
+    {
+      "docx": "English_Probability_Calibration.docx",
+      "docx_sha256": "5395e95382c70d662539c62c157d40b61e6aefd591398bebdce79b3ac0737e17",
+      "pdf": "English_Probability_Calibration.pdf",
+      "pdf_sha256": "c6c883e720e44a51c1a910d13e931a14792efb95762e1ddfd1c87418a9dc2119",
+      "export_method": "Microsoft Word native Save As PDF",
+      "pages": 16,
+      "visual_qa": {
+        "status": "pass",
+        "artifact": "English_Probability_Calibration.pdf",
+        "sha256": "c6c883e720e44a51c1a910d13e931a14792efb95762e1ddfd1c87418a9dc2119",
+        "page_count": 16,
+        "native_word_pages_visually_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "canonical_render_pages_visually_inspected": [
+          1,
+          7,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "checked": {
+          "clipping_or_overlap": "none observed",
+          "tables": 10,
+          "figures": 2,
+          "references": "all 16 visible across pages 12-13",
+          "platt_reference": "page 12: published chapter short title, 2000,61-74,10.7551/mitpress/1113.003.0008",
+          "das_reference": "page 12: explicit arXiv preprint v1 with version-specific URL",
+          "preprint_status": "page 1: Preprint v1,6 October 2026,Not peer reviewed",
+          "availability": "pages 11-12: paper-v1 score-level package and explicit reproduction boundary",
+          "author_responsibility": "page 12: AI assistance and author responsibility disclosed"
+        },
+        "nonblocking_notes": [
+          "Page 6 has whitespace before Figure 1 on page 7; figure and caption are intact.",
+          "Page 16 has only intact Appendix Table C2; no orphan caption or split table.",
+          "Canonical LibreOffice render also has 16 pages; small text reflow on pages 10-13 was visually checked.",
+          "pypdf printed Ignoring wrong pointing object warnings while parsing the native Word PDF; all pages rendered and expected modified text extracted successfully."
+        ],
+        "issues": []
+      },
+      "source_sha256": "9a3f7460a569f1c203b6791da7a80e780637e97c76759d691bc1fa0bf593f71e",
+      "edited_paragraph_indices": [
+        3,
+        99,
+        100,
+        101,
+        103,
+        108
+      ],
+      "tables_unchanged": 10,
+      "equations_unchanged": 3,
+      "figures": 2
+    },
+    {
+      "docx": "Chinese_Probability_Calibration.docx",
+      "docx_sha256": "2369925bce4ae625f2b3a3555570905d433bf32003ca9382d7b87a2b078090b1",
+      "pdf": "Chinese_Probability_Calibration.pdf",
+      "pdf_sha256": "1f924401fe6f3a5667b65c93b0f716e04f1f09950159748f08f79c3022359ab3",
+      "export_method": "Microsoft Word native Print > PDF > Save as PDF",
+      "pages": 15,
+      "visual_qa": {
+        "status": "pass",
+        "artifact": "Chinese_Probability_Calibration.pdf",
+        "sha256": "1f924401fe6f3a5667b65c93b0f716e04f1f09950159748f08f79c3022359ab3",
+        "page_count": 15,
+        "native_word_pages_visually_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "checked": {
+          "chinese_fonts": "all inspected pages legible; no missing glyphs or boxes",
+          "author_name": "宋承麟 on page 1 and author responsibility section on page 11",
+          "preprint_status": "page 1: 预印本 v1,2026年10月6日,未经同行评审",
+          "equations": "three displayed equations intact on pages 4-5",
+          "tables": 10,
+          "figures": 2,
+          "references": "all16 visible on page11",
+          "platt_reference": "page11: Probabilities for SV machines,2000,61–74,10.7551/mitpress/1113.003.0008",
+          "das_reference": "page11: explicit arXiv preprint v1,version-specific URL",
+          "availability": "page10: paper-v1 score-level release with original audio/acquisition and feature-extraction boundary",
+          "author_responsibility": "page11: AI assistance and author responsibility disclosed",
+          "clipping_or_overlap": "none observed"
+        },
+        "nonblocking_notes": [
+          "Appendix Table C2 occupies page15 by itself; caption and all rows remain together.",
+          "pypdf ignored zero-offset object pointers while parsing, but all15 pages rendered and expected updated text was extractable."
+        ],
+        "issues": [],
+        "canonical_render_pages_visually_inspected": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "canonical_render": {
+          "status": "pass",
+          "pdf": "local-preview/Chinese_Probability_Calibration.pdf",
+          "sha256": "d0530905c7c06ffb4fc7dc4f5e69cb7c051ffcfae2e0897f75009524dba33df2",
+          "page_count": 15,
+          "comparison_to_native_word": "All 15 pages inspected. Page allocation of sections, figures and tables matches the native Word PDF; minor font weight, equation spacing and line-wrap differences are normal renderer behavior. No missing glyphs, clipping, overlaps or broken tables were observed.",
+          "font_repair": "An initial preview font-configuration issue was corrected before complete visual review. The preview is not a released manuscript file."
+        }
+      },
+      "source_sha256": "983bc78c0951605a084ebf703647c26b0215b21a60826367a099e3ec79552267",
+      "edited_paragraph_indices": [
+        3,
+        99,
+        100,
+        101,
+        103,
+        108
+      ],
+      "tables_unchanged": 10,
+      "equations_unchanged": 3,
+      "figures": 2
+    }
+  ]
+}

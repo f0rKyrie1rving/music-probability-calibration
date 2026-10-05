@@ -1,0 +1,1781 @@
+{
+  "input_hashes": {
+    "config.json": "fdb5f4292173f86a20ddae8df33dee34c54e768ceb8b437326ece3d075b34a0a",
+    "calibration_plans.json": "d456d4f5b257e9c13e1dd19fe822867a45a2c372ce55ec3b5569c06509a3837d",
+    "calibration_scores.npz": "30f78bad7aa8ad3e5e53b53fb31e4f1126bed7bac740ba9bdf487141ebeca38c",
+    "evaluation_inputs.npz": "e3786be64b87101b11140a605ddd933516f7decc9c67065598f2754e91a19565"
+  },
+  "evaluator_sha256": "e732ce2e9ce4a24781b3919f8a9361961c5cf585a1118ce7e3fbbc415bf60cb4",
+  "evaluation_labels_read": false,
+  "extraction_receipt_sha256": "893b195ebbddc14ad9d52b599604b5d3f6fd1b8ea6a1c1f567e68556f474eb10",
+  "completed_utc": "2026-10-03T15:49:39.419174+00:00",
+  "cases": [
+    {
+      "key": "draw_01/budget_24/2026092800/unweighted",
+      "status_sha256": "328f2a650eb0409b1f27a0d956692c7a0017698740b93b9215fb63edb6be5977"
+    },
+    {
+      "key": "draw_01/budget_24/2026092800/ambient_balanced",
+      "status_sha256": "9de3de40757aad8e3f4447947cbd14f16c395a427bffd9f4a66f19ef3008d0aa"
+    },
+    {
+      "key": "draw_01/budget_24/2026092801/unweighted",
+      "status_sha256": "fa2614e58181201b69a47326fe0a223783b102f03901af29df0cd55a8b6b531e"
+    },
+    {
+      "key": "draw_01/budget_24/2026092801/ambient_balanced",
+      "status_sha256": "d70e48a5a9938db0b4d190a21b76237b7cec49de7ddda5e300b7e84c77f265d1"
+    },
+    {
+      "key": "draw_01/budget_24/2026092802/unweighted",
+      "status_sha256": "276c0c9973c1c45ba12942c73a92d464f66c69b033f4d137359831aadd4de47d"
+    },
+    {
+      "key": "draw_01/budget_24/2026092802/ambient_balanced",
+      "status_sha256": "5df93249b2b9f2a97601f975e78189db136aba8882784bdb5f2fdc95115fa84b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092803/unweighted",
+      "status_sha256": "b8e897df55ee814368a4af08fb719041db988d35cd74cb548378eadb80df4565"
+    },
+    {
+      "key": "draw_01/budget_24/2026092803/ambient_balanced",
+      "status_sha256": "8df879261a0abb3fc9b4957eef8935c79dae08e91718e5a0adf92b01ddd8cf30"
+    },
+    {
+      "key": "draw_01/budget_24/2026092804/unweighted",
+      "status_sha256": "0c62731c64384816b32360debc4a1a44df43e8ceeb0d3b372efa967624b38e0e"
+    },
+    {
+      "key": "draw_01/budget_24/2026092804/ambient_balanced",
+      "status_sha256": "c8a381503fe5d445904e7be12a734a1b10b4b40f7bede9e12532f7753559232d"
+    },
+    {
+      "key": "draw_01/budget_24/2026092805/unweighted",
+      "status_sha256": "31bd9b2d244b297950c1dcf5c7d0cb443fd99253065c6df79f8c4ac84201bde0"
+    },
+    {
+      "key": "draw_01/budget_24/2026092805/ambient_balanced",
+      "status_sha256": "f4a47cea196932a213f215a2f8173c51ef69efda2c78226a863ff668d0b6bf2b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092806/unweighted",
+      "status_sha256": "343490e3aa5866eeb1341d4e5ed18d5523cc84774123cfa809243e93381232f0"
+    },
+    {
+      "key": "draw_01/budget_24/2026092806/ambient_balanced",
+      "status_sha256": "37abad3662f645b032dacc5a97c48cc78ce7e21a1f9e65a6b8ad90288450e87b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092807/unweighted",
+      "status_sha256": "97f2dcc9a9d653410902521b0fdef2fceca43b16cb8fb5bc76b746f8359c91ff"
+    },
+    {
+      "key": "draw_01/budget_24/2026092807/ambient_balanced",
+      "status_sha256": "958fc6e7da618d4c1f9883e070f2a6f0a9242eb3dd6c51dae0ee796c191933af"
+    },
+    {
+      "key": "draw_01/budget_24/2026092808/unweighted",
+      "status_sha256": "f8880fbd7f10563a9a996a8da64fbba82089abcc7139adbf280c68e9fbb2eefa"
+    },
+    {
+      "key": "draw_01/budget_24/2026092808/ambient_balanced",
+      "status_sha256": "a49d193258800423954f4900d7547bab0637295ff8abcf843fd5f26d47985ba8"
+    },
+    {
+      "key": "draw_01/budget_24/2026092809/unweighted",
+      "status_sha256": "b7221352d2fd9dd49a8e803dea4872ba4e8b3fb7170776e41375e4df60090e6b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092809/ambient_balanced",
+      "status_sha256": "8b584750bd8fd54396d73fefbdf3cb0a72464833105aac439303a40a66de4e85"
+    },
+    {
+      "key": "draw_01/budget_24/2026092810/unweighted",
+      "status_sha256": "0fa69d717d18c53462995cddfbd77e1d4adf8d2efbc178c207ce4d69ffe661cc"
+    },
+    {
+      "key": "draw_01/budget_24/2026092810/ambient_balanced",
+      "status_sha256": "e9e64d66fecf70e2e2ed8da30abf86851b8f272117e7bc718354cc34c9b0957c"
+    },
+    {
+      "key": "draw_01/budget_24/2026092811/unweighted",
+      "status_sha256": "e948fd6a0452816ada94bd5c59faff52fe0ac0aba9773fd41c8587fc442e27ec"
+    },
+    {
+      "key": "draw_01/budget_24/2026092811/ambient_balanced",
+      "status_sha256": "4ea7de3cdba115e84bc03f13546447447685ad3b5c12d86befe200570161eb8b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092812/unweighted",
+      "status_sha256": "9ffd94d5a3fc24770f71d39bbb16b491cd5495edf6f6af4665f7861449203c4d"
+    },
+    {
+      "key": "draw_01/budget_24/2026092812/ambient_balanced",
+      "status_sha256": "93cd84546d4a80cfd7b2c46cfad9dbf439afce29f7065a392e4601feb44caa96"
+    },
+    {
+      "key": "draw_01/budget_24/2026092813/unweighted",
+      "status_sha256": "298f6706aa20fc0d10134fa35314f85022694cb83a264aeec6125d514e73608b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092813/ambient_balanced",
+      "status_sha256": "b0c3651d0505b9ebe99ef436ac0f4d90cfb261fcde31e8f058716c6654fc5ee4"
+    },
+    {
+      "key": "draw_01/budget_24/2026092814/unweighted",
+      "status_sha256": "26836d4e80e8ecbddfd5b0245643f3c279c16b7834075296c789b257bb5ad4d8"
+    },
+    {
+      "key": "draw_01/budget_24/2026092814/ambient_balanced",
+      "status_sha256": "b545b587f9a455306da5eaeb4474b5b0390d49678500efe1c502951b1120030c"
+    },
+    {
+      "key": "draw_01/budget_24/2026092815/unweighted",
+      "status_sha256": "1097e19d112079314ce8da6e534677c4ac80052ae8060172c62dd786e6070b9c"
+    },
+    {
+      "key": "draw_01/budget_24/2026092815/ambient_balanced",
+      "status_sha256": "19bb03ccfb11e578b34730b23f3ecfaa47f6b749d09e06a5343bc9be0c48043b"
+    },
+    {
+      "key": "draw_01/budget_24/2026092816/unweighted",
+      "status_sha256": "dbf997e19a1eb71606fa6b00284a3f4939c22f3597465c2829f2c7bb4022fbb5"
+    },
+    {
+      "key": "draw_01/budget_24/2026092816/ambient_balanced",
+      "status_sha256": "b47db0d687b799def51afbdf1b7ad482a9021de9f2d723dd45b9fd77a5f5941f"
+    },
+    {
+      "key": "draw_01/budget_24/2026092817/unweighted",
+      "status_sha256": "13a839758e29ce54a8ae3ed5e6958ba50979d67784654dafe7b2830e99aed9b2"
+    },
+    {
+      "key": "draw_01/budget_24/2026092817/ambient_balanced",
+      "status_sha256": "520282864a22ea381d715dc38634bb41163404967224e1210ab910aeb50b7933"
+    },
+    {
+      "key": "draw_01/budget_24/2026092818/unweighted",
+      "status_sha256": "244fb0c697cd15aa6f45a50000954a4be56c30f55345120298de19e739b9e4ae"
+    },
+    {
+      "key": "draw_01/budget_24/2026092818/ambient_balanced",
+      "status_sha256": "9d18ed7099e1b7f9b2ffb72116688e9192a2d4bd0cfb61bb0d35df94346c82cc"
+    },
+    {
+      "key": "draw_01/budget_24/2026092819/unweighted",
+      "status_sha256": "5d000ec3322eef894bea6fe388ad55cb31643a1efc822b5d13a6b5c37c6d2274"
+    },
+    {
+      "key": "draw_01/budget_24/2026092819/ambient_balanced",
+      "status_sha256": "f45b7adae78f7cc19f1f00fd3f1d47bc2c1a6a88e917735e57bee676f22d3b6e"
+    },
+    {
+      "key": "draw_01/budget_47/2026092800/unweighted",
+      "status_sha256": "3e038958f48ddb54d6fd3d5ed8b435514064ea9e79caa1646324f9e288955632"
+    },
+    {
+      "key": "draw_01/budget_47/2026092800/ambient_balanced",
+      "status_sha256": "4006b6b7c159cbff9ddf054ef2ed5b87cc9f8942f6a197ec5a155d96b9cdbf48"
+    },
+    {
+      "key": "draw_01/budget_47/2026092801/unweighted",
+      "status_sha256": "062cb343948a0def15d87be2547b21951177ffef06e8d7c6df816112e192474f"
+    },
+    {
+      "key": "draw_01/budget_47/2026092801/ambient_balanced",
+      "status_sha256": "97701d60086d2d67715d1043966d390a91498cfc43315957ee18ba0780c6acf8"
+    },
+    {
+      "key": "draw_01/budget_47/2026092802/unweighted",
+      "status_sha256": "6630a7c54f01398d115d3e0e199d7b3244f50b32bcfbc8a075bade7a6839de58"
+    },
+    {
+      "key": "draw_01/budget_47/2026092802/ambient_balanced",
+      "status_sha256": "d257889213a1e1c273a6ca60fc0539615de1e97e7d5075961f3c39995399efef"
+    },
+    {
+      "key": "draw_01/budget_47/2026092803/unweighted",
+      "status_sha256": "5a2e018169381cfb32b19cdd37a26faabe431b3a58f2180c79af2341f1b98813"
+    },
+    {
+      "key": "draw_01/budget_47/2026092803/ambient_balanced",
+      "status_sha256": "1cee87930fe770b12f1e8ca4224f03528f93b58325ff2003b9948147b5e74240"
+    },
+    {
+      "key": "draw_01/budget_47/2026092804/unweighted",
+      "status_sha256": "8e0d5da8b071208527ef86e76f6d73a202359b06149abdbb48d98ef9da1c750b"
+    },
+    {
+      "key": "draw_01/budget_47/2026092804/ambient_balanced",
+      "status_sha256": "985b2a2a9a5896e2f5f0c8c533bf132aa6b03553529b75b77e867e8f9f726af4"
+    },
+    {
+      "key": "draw_01/budget_47/2026092805/unweighted",
+      "status_sha256": "54a713005c03ef87b8a4a2d2a930b3d1120d1f87d9aa420fb1e7dd33e20c695d"
+    },
+    {
+      "key": "draw_01/budget_47/2026092805/ambient_balanced",
+      "status_sha256": "4e03ff506a478bdac04feb849c3f35c6c3a0bfc6314b6d6d0174ec808657f8f7"
+    },
+    {
+      "key": "draw_01/budget_47/2026092806/unweighted",
+      "status_sha256": "8fe9e83fe22141a05e245208186430dd331679fa2bb7bacd3bbb83626b1c9833"
+    },
+    {
+      "key": "draw_01/budget_47/2026092806/ambient_balanced",
+      "status_sha256": "269aefef3c2faf7b2c5f7dd523f1c655a577440a4a5f938461cc9f268d0b6efb"
+    },
+    {
+      "key": "draw_01/budget_47/2026092807/unweighted",
+      "status_sha256": "0cd1fde28be6a3aeeb8d4495764cd3a84318c438aa0441ef0ba1a624451e153b"
+    },
+    {
+      "key": "draw_01/budget_47/2026092807/ambient_balanced",
+      "status_sha256": "e304882b89b574ff5a5b4e8ab13a97e97b5bb10e1e03ca194d6c19cd6623493c"
+    },
+    {
+      "key": "draw_01/budget_47/2026092808/unweighted",
+      "status_sha256": "5c496a46eb1a77887d9f5047ef4095b9ddff7a7144084bf46d218d0fa1d8601a"
+    },
+    {
+      "key": "draw_01/budget_47/2026092808/ambient_balanced",
+      "status_sha256": "f8f5a2f077efe7169d906da03915f85c12ac3c602f51ad47a26861e9d5998940"
+    },
+    {
+      "key": "draw_01/budget_47/2026092809/unweighted",
+      "status_sha256": "e0e1a38f9e717134496a9133d91259035c767dc658d356dc28cfe27115243401"
+    },
+    {
+      "key": "draw_01/budget_47/2026092809/ambient_balanced",
+      "status_sha256": "beb58974b0c9871baf1149b423f335c084327bffef124fc388e09739877ddd38"
+    },
+    {
+      "key": "draw_01/budget_47/2026092810/unweighted",
+      "status_sha256": "2b502ac6d5320b25c27dcff7721e0e498c6e15c76c54ed77f23747ead4ce5ca8"
+    },
+    {
+      "key": "draw_01/budget_47/2026092810/ambient_balanced",
+      "status_sha256": "af513ed7ac854b45072ee8321364131f504363dd0aff4d3652fd16d65ab7fb1c"
+    },
+    {
+      "key": "draw_01/budget_47/2026092811/unweighted",
+      "status_sha256": "ce579f34c588f36b30aebdb6ecc6e0f7867d3eabe61da172e1db4ed1c464620d"
+    },
+    {
+      "key": "draw_01/budget_47/2026092811/ambient_balanced",
+      "status_sha256": "cc6e5fe72d561d2fb72d4a106bf5dc6243a62ab5b99431c1fa2e2d5b07ac2e01"
+    },
+    {
+      "key": "draw_01/budget_47/2026092812/unweighted",
+      "status_sha256": "8dd388d9313afb29cd129da8e55bf04b85df9d7b51654a06ed1a24eed4bf593d"
+    },
+    {
+      "key": "draw_01/budget_47/2026092812/ambient_balanced",
+      "status_sha256": "a67f91df14d8ffbe8d25cdf2009adeb03ed341c876f95bcbcdb8851d61557980"
+    },
+    {
+      "key": "draw_01/budget_47/2026092813/unweighted",
+      "status_sha256": "f8f2c669cd517fa2b897e52248b93179be285cd1e297696f7a46732f72874c95"
+    },
+    {
+      "key": "draw_01/budget_47/2026092813/ambient_balanced",
+      "status_sha256": "c02d185fd7bd1c875400f3285fa798c6b44a72a46e2567f1c1d8f5506dc520cc"
+    },
+    {
+      "key": "draw_01/budget_47/2026092814/unweighted",
+      "status_sha256": "4c051d464e51190e565bb68d1ff78f52a1dbe3bf1025060e66a67be0d2491e58"
+    },
+    {
+      "key": "draw_01/budget_47/2026092814/ambient_balanced",
+      "status_sha256": "e5c75b213316c1a82e0384750cb76e092d4983f576b9c8af186ff5fdd60de1d2"
+    },
+    {
+      "key": "draw_01/budget_47/2026092815/unweighted",
+      "status_sha256": "fe19a0c25e39ba7d0e1b8036bd4bcddb3a2394b7dae96a769d94e7a86cf0dcf3"
+    },
+    {
+      "key": "draw_01/budget_47/2026092815/ambient_balanced",
+      "status_sha256": "420b6b9dbacb68c55a0dd5d1529223bcfa9ccd61b26f6f60f72f5c3b429b866c"
+    },
+    {
+      "key": "draw_01/budget_47/2026092816/unweighted",
+      "status_sha256": "3c91babeb3ed110bbbcf15f3fd13b6e1ad290262e90742cdb7f36fb907f6a726"
+    },
+    {
+      "key": "draw_01/budget_47/2026092816/ambient_balanced",
+      "status_sha256": "7f6110f3d299b82b15d97da1eeab47a16257503054f74a44f6e272f67d42a0f8"
+    },
+    {
+      "key": "draw_01/budget_47/2026092817/unweighted",
+      "status_sha256": "62a716f517dffd7bef904feddb0187a83eb4d6c18eaa9d8e30052cd2ec2fa28b"
+    },
+    {
+      "key": "draw_01/budget_47/2026092817/ambient_balanced",
+      "status_sha256": "cfcf27f7e1531f552d35b15e93fc6fcfb6d78f026ea6140a25c8fc566235ace4"
+    },
+    {
+      "key": "draw_01/budget_47/2026092818/unweighted",
+      "status_sha256": "023641ac16d7b72be60f7e4108db9178fea7867f43f2c3f51772d4439df879be"
+    },
+    {
+      "key": "draw_01/budget_47/2026092818/ambient_balanced",
+      "status_sha256": "c7c0bb3e5a69ea87078a14586190fc8421e84da580c08a196aa29c9eabf00028"
+    },
+    {
+      "key": "draw_01/budget_47/2026092819/unweighted",
+      "status_sha256": "66fd704ed333d6ab01c81bda0523f33af565cf9c768086af8627eda410738b94"
+    },
+    {
+      "key": "draw_01/budget_47/2026092819/ambient_balanced",
+      "status_sha256": "84daefdb9634d1e1bc61756badbb5a18f2d54adf31d7aef7d1ccf75f0d4865d3"
+    },
+    {
+      "key": "draw_01/budget_94/2026092800/unweighted",
+      "status_sha256": "c36daaf4e54a34afc7cf714cbad22e763df7c4fd5bb4bcb6453fa483e6b00d6b"
+    },
+    {
+      "key": "draw_01/budget_94/2026092800/ambient_balanced",
+      "status_sha256": "3d5e5f5a641798a66ff9a34f10d5194c5f1519a022ea696c9f7a4148d3c1d1e1"
+    },
+    {
+      "key": "draw_01/budget_94/2026092801/unweighted",
+      "status_sha256": "52162202d9cede33d2a288157d15fa2e13f27772ddae300111e692b5be472454"
+    },
+    {
+      "key": "draw_01/budget_94/2026092801/ambient_balanced",
+      "status_sha256": "55e36a14146da7286bd572e9dcbb3d9fde85560a40b2a5228ad8a6fe549990c1"
+    },
+    {
+      "key": "draw_01/budget_94/2026092802/unweighted",
+      "status_sha256": "353b3ca946165ba34ed2eaa8a2b20da1ae9e857d7b826a03654ab91ac1525c8a"
+    },
+    {
+      "key": "draw_01/budget_94/2026092802/ambient_balanced",
+      "status_sha256": "9732aa81a8b8b532a7b2c3e50f32eceb4de35e1d53ca4da161a3f3ba27d49fc7"
+    },
+    {
+      "key": "draw_01/budget_94/2026092803/unweighted",
+      "status_sha256": "fbe13e5f54bd85df4a081d5edec8d12e5f5a253778a1437770cb22dca7028c9a"
+    },
+    {
+      "key": "draw_01/budget_94/2026092803/ambient_balanced",
+      "status_sha256": "d06438fef7e646e764529401fa5dea5c34b37a04cf10fd7e188093c8d62c7e25"
+    },
+    {
+      "key": "draw_01/budget_94/2026092804/unweighted",
+      "status_sha256": "d3f56055a3ee79de991a9400b22d159412c98014b9393722526e944f5c799445"
+    },
+    {
+      "key": "draw_01/budget_94/2026092804/ambient_balanced",
+      "status_sha256": "674d64ffef6b66ab99812ec4aaeab11d5e7a295a2d819012afb7da7a0c705e20"
+    },
+    {
+      "key": "draw_01/budget_94/2026092805/unweighted",
+      "status_sha256": "d698f928dc63f45b1d4779c46c3a18476cd1652d044b0b85a2078e0319aea25c"
+    },
+    {
+      "key": "draw_01/budget_94/2026092805/ambient_balanced",
+      "status_sha256": "4ed8770f4a06141a7edc4ad532f0ad2131f6587f841bf8f3a955ebfe8aa8941e"
+    },
+    {
+      "key": "draw_01/budget_94/2026092806/unweighted",
+      "status_sha256": "9edbc5861aeae095cbb7898bbeda9694df4dc73196e04c489a7edfcd2e276b94"
+    },
+    {
+      "key": "draw_01/budget_94/2026092806/ambient_balanced",
+      "status_sha256": "0e76372bdd378e74efb8235638c00399c2e055178fb4115716fba19fd5c7b9dc"
+    },
+    {
+      "key": "draw_01/budget_94/2026092807/unweighted",
+      "status_sha256": "c9ca850328dc6d7506c27160c13e20f1e6070d2ba303d9bbee0b2a6ee421af19"
+    },
+    {
+      "key": "draw_01/budget_94/2026092807/ambient_balanced",
+      "status_sha256": "f445f4b01fff25156238e01aa65d9f8e63168e4ab51464db2e39c62f54253d8e"
+    },
+    {
+      "key": "draw_01/budget_94/2026092808/unweighted",
+      "status_sha256": "4168ad426fe60fbbb39a8b363f302a048f12081024aed8fa0f68c8b7ac3149a3"
+    },
+    {
+      "key": "draw_01/budget_94/2026092808/ambient_balanced",
+      "status_sha256": "87dfbbc10818bc80d0a3f2633b8fd2c1ac7953c3a5e4478e959db5adc82d9cd3"
+    },
+    {
+      "key": "draw_01/budget_94/2026092809/unweighted",
+      "status_sha256": "dab35c7b30a019a7e1c01939e60d59bed8683637532a154b74c215f7bf2e5c4f"
+    },
+    {
+      "key": "draw_01/budget_94/2026092809/ambient_balanced",
+      "status_sha256": "dfdc9c9e23cbd4835dfab5f3da928f7a0a345ff85525655f87ccb1f45d2141b6"
+    },
+    {
+      "key": "draw_01/budget_94/2026092810/unweighted",
+      "status_sha256": "1dce2482b7d80b5741f65ce12126a5c9dec902262167b19ad34aeba91214d222"
+    },
+    {
+      "key": "draw_01/budget_94/2026092810/ambient_balanced",
+      "status_sha256": "1aab851e4d31c4a7a7ad0045ab915d820ff318b31eeb4fdac3581c14932431f4"
+    },
+    {
+      "key": "draw_01/budget_94/2026092811/unweighted",
+      "status_sha256": "e2bae59be62a644f9f7085c0bcc148b060391580a9f17cf453b119beebd33aef"
+    },
+    {
+      "key": "draw_01/budget_94/2026092811/ambient_balanced",
+      "status_sha256": "71662246f62af4bcf1dfcae493e2b36f850ff812ad6be2e6b7e784d4de89b543"
+    },
+    {
+      "key": "draw_01/budget_94/2026092812/unweighted",
+      "status_sha256": "bc3e29a99af81fb3328b211794387a5a6e8f643325713ae88590101ddae8bee1"
+    },
+    {
+      "key": "draw_01/budget_94/2026092812/ambient_balanced",
+      "status_sha256": "4b2660bbb56c444f4a31caff397fe1d2bfdd2f2b9c2a132c53319c7c00158089"
+    },
+    {
+      "key": "draw_01/budget_94/2026092813/unweighted",
+      "status_sha256": "21b3447ae5b9b73f0b9fecb6c65975f0709b2e37fec88496d465b518dc72e2eb"
+    },
+    {
+      "key": "draw_01/budget_94/2026092813/ambient_balanced",
+      "status_sha256": "d5480d154238cd90474d84b887cd97a16a5b3e0fdafdb04f823b215a0bacfdc9"
+    },
+    {
+      "key": "draw_01/budget_94/2026092814/unweighted",
+      "status_sha256": "2b196b6bcaa354bc2ebe19dd7a5cc42de90f1f483bebdb21a3b0db685f5dbcde"
+    },
+    {
+      "key": "draw_01/budget_94/2026092814/ambient_balanced",
+      "status_sha256": "b3aede002a52f115313219b555b37dd89552d2622d56941e0fd1cae3e340f830"
+    },
+    {
+      "key": "draw_01/budget_94/2026092815/unweighted",
+      "status_sha256": "ca14a12f0edba56422f3713d5f3528fff0672a71f23186b7acdddb47ddf90df5"
+    },
+    {
+      "key": "draw_01/budget_94/2026092815/ambient_balanced",
+      "status_sha256": "072e3749ad24390c776e13ea9e67222e1b9349cdda45090822d7f7351bfe779d"
+    },
+    {
+      "key": "draw_01/budget_94/2026092816/unweighted",
+      "status_sha256": "faf9c53f30d19f883a969b808c2d95b1aced1f4187012351d595b6aea67fe795"
+    },
+    {
+      "key": "draw_01/budget_94/2026092816/ambient_balanced",
+      "status_sha256": "c669e51e31db6d2cf9ec388c7951d9d2e96afe6687b7b64ab87d60a3521a47ac"
+    },
+    {
+      "key": "draw_01/budget_94/2026092817/unweighted",
+      "status_sha256": "cb5dbc4e7b345f7cbc286c980225bb5e99ace837cf8ce5555245f60156d4ff49"
+    },
+    {
+      "key": "draw_01/budget_94/2026092817/ambient_balanced",
+      "status_sha256": "ac1c5c9e8cbc8576465d40957bcb7e1e8e6702f9317ae9d8862054e7211e9c54"
+    },
+    {
+      "key": "draw_01/budget_94/2026092818/unweighted",
+      "status_sha256": "913b0efaebb2da43b2d6068679f72d4f5ede2335d0977ce878c8111f6b3b5906"
+    },
+    {
+      "key": "draw_01/budget_94/2026092818/ambient_balanced",
+      "status_sha256": "7a166ef80d1ee22d4b0929441d67606d2c4d99552c303a05651ee0dfc2a4e307"
+    },
+    {
+      "key": "draw_01/budget_94/2026092819/unweighted",
+      "status_sha256": "c694fa91e06c8ed978c361e56d64f6078515f008b46f60cf3be1cc056cc51594"
+    },
+    {
+      "key": "draw_01/budget_94/2026092819/ambient_balanced",
+      "status_sha256": "277d5a41d5a113ae84b0b64119bb2a4741ed7eeb2ee1ea035bfa49303ffd8a19"
+    },
+    {
+      "key": "draw_02/budget_24/2026092800/unweighted",
+      "status_sha256": "3fe3692372d972993f20c8aec8c94ceb7a76b8c65aaf4f118d1d809d2f6beeb2"
+    },
+    {
+      "key": "draw_02/budget_24/2026092800/ambient_balanced",
+      "status_sha256": "e5acf76bfee8c6c130db57291b913f6881e4a0b138c764902dc7b7b2ab47dc61"
+    },
+    {
+      "key": "draw_02/budget_24/2026092801/unweighted",
+      "status_sha256": "555343933dc2db06455589dd43d68daed2a33827a00d49552e8418a1f06751cb"
+    },
+    {
+      "key": "draw_02/budget_24/2026092801/ambient_balanced",
+      "status_sha256": "574ef08c18c1bcdd2aa3bd70e51cbe000f7344378ba71773a897f0372ae360b8"
+    },
+    {
+      "key": "draw_02/budget_24/2026092802/unweighted",
+      "status_sha256": "213c22b3035a49b15fe6fbd2d5d9a1d1f818f49c73ff3c9fcf773836f5e2f666"
+    },
+    {
+      "key": "draw_02/budget_24/2026092802/ambient_balanced",
+      "status_sha256": "af0a2fedcad566d77d383674557ada12ccbff3e53e1092d7a6b6475ab390781e"
+    },
+    {
+      "key": "draw_02/budget_24/2026092803/unweighted",
+      "status_sha256": "ac1ea028d0e30aa614c673915d9cc43fee06f8d1c994d3a45f2260ccbcba1906"
+    },
+    {
+      "key": "draw_02/budget_24/2026092803/ambient_balanced",
+      "status_sha256": "a6a95e8c14e927b6abbe22d913336e060d0775f4cc4e827b7e4780576f4fddff"
+    },
+    {
+      "key": "draw_02/budget_24/2026092804/unweighted",
+      "status_sha256": "113256a5a570e51a60ee84ce3901d66f0d26f07753ea32929bf18f5e933db202"
+    },
+    {
+      "key": "draw_02/budget_24/2026092804/ambient_balanced",
+      "status_sha256": "79e56ed0f17a5448a7503c0a93c1e566266424fd9d2d6b27faefc7704395cc1a"
+    },
+    {
+      "key": "draw_02/budget_24/2026092805/unweighted",
+      "status_sha256": "dd6c442e6a93e61f3fa52dd51958e6ebd1f409e3fb33e7576cdd25874ca83df4"
+    },
+    {
+      "key": "draw_02/budget_24/2026092805/ambient_balanced",
+      "status_sha256": "09c1b9462cc41ae0954d076edff63cebad9704f24cb74da3d257b4c875e2d52e"
+    },
+    {
+      "key": "draw_02/budget_24/2026092806/unweighted",
+      "status_sha256": "c3b0d77277902e2a29f8145448b917915a0c903d6d9d596b54fee155daccaf73"
+    },
+    {
+      "key": "draw_02/budget_24/2026092806/ambient_balanced",
+      "status_sha256": "c1914bdaced2d294ee82a29dd70c150e066ad4eb86a2e4424c4a20f805ca2a5a"
+    },
+    {
+      "key": "draw_02/budget_24/2026092807/unweighted",
+      "status_sha256": "3a0b840ccc0025a929061c3befe086e721765654b3971da05c21f73bca6da990"
+    },
+    {
+      "key": "draw_02/budget_24/2026092807/ambient_balanced",
+      "status_sha256": "f9e1c4f9784251eeb272937029cc6ecc49b6baf1f927226887c1136c5eb26d8e"
+    },
+    {
+      "key": "draw_02/budget_24/2026092808/unweighted",
+      "status_sha256": "213065280f015c12e5c834fcfbc7c0054d93ade4a027340d4e2147ee1bbe8d03"
+    },
+    {
+      "key": "draw_02/budget_24/2026092808/ambient_balanced",
+      "status_sha256": "d5e3b1a2a30596efb892f07331c8d5c9f600199bf80938db0a0460e5c58bf618"
+    },
+    {
+      "key": "draw_02/budget_24/2026092809/unweighted",
+      "status_sha256": "29b3590105593c61938ad5e5a46fe6b4bd5c6192eff0ee919552707cf5fbf7a9"
+    },
+    {
+      "key": "draw_02/budget_24/2026092809/ambient_balanced",
+      "status_sha256": "ee0dc18267c3139837563f137e6b5c2f5eb4ed9cec260f12b298b374a8f373bc"
+    },
+    {
+      "key": "draw_02/budget_24/2026092810/unweighted",
+      "status_sha256": "e6e38fdc5ae28a494e7a2d0fed41af89d9707249dcd87f414fe1737c680bdbfe"
+    },
+    {
+      "key": "draw_02/budget_24/2026092810/ambient_balanced",
+      "status_sha256": "f951baa5272e7cf8fe0a3d3271376281def02925c2d0dcdb5caa23ea64562073"
+    },
+    {
+      "key": "draw_02/budget_24/2026092811/unweighted",
+      "status_sha256": "2f71b3dac2dbf9e4d7a1001c61b9694075d6b5600f9a457b4e72fa5ef455c262"
+    },
+    {
+      "key": "draw_02/budget_24/2026092811/ambient_balanced",
+      "status_sha256": "02487bf6a7e203160245ce7f6c9586e0cb2ee891fbbd3c80c697d17959aaa533"
+    },
+    {
+      "key": "draw_02/budget_24/2026092812/unweighted",
+      "status_sha256": "ed5e3056cd99c57489eb4555985bca83f5023df49f76917dff6a32a95e072afe"
+    },
+    {
+      "key": "draw_02/budget_24/2026092812/ambient_balanced",
+      "status_sha256": "abca126a543da7d8bba822db56c576c243ec999819b5aba3d3f8edc485e9f766"
+    },
+    {
+      "key": "draw_02/budget_24/2026092813/unweighted",
+      "status_sha256": "811f75e1337f8d3d9325bf9c462007b8daececc586c2a05cb2b2a3dcf46cb8e2"
+    },
+    {
+      "key": "draw_02/budget_24/2026092813/ambient_balanced",
+      "status_sha256": "ee2753bac7814f3d12c4f64c04a408510479787c90a2f0974b520e6e79892e8c"
+    },
+    {
+      "key": "draw_02/budget_24/2026092814/unweighted",
+      "status_sha256": "1895b18508a8cf042f72e124f125a5c895222daf9a56d4c29e981047ff723d49"
+    },
+    {
+      "key": "draw_02/budget_24/2026092814/ambient_balanced",
+      "status_sha256": "b2f9e0b098064b76367088b43bd29121bf6e4599c6308329c883b5a40baa32ad"
+    },
+    {
+      "key": "draw_02/budget_24/2026092815/unweighted",
+      "status_sha256": "0331d4f82df338b59ff33380068c669149b7883ddb86b3fade0e49bd401fe5a7"
+    },
+    {
+      "key": "draw_02/budget_24/2026092815/ambient_balanced",
+      "status_sha256": "c475387ebd558886ccb40b8768ded695fa905790263b30d4aa42392cf36fdc27"
+    },
+    {
+      "key": "draw_02/budget_24/2026092816/unweighted",
+      "status_sha256": "dd6cbc6001a35ea973a3a9d97619fe6ed71883a2fc3d0c28294e07d22c6544c7"
+    },
+    {
+      "key": "draw_02/budget_24/2026092816/ambient_balanced",
+      "status_sha256": "df2e6cfcef459df0f59404db810ae253f75a8be077fd3e1aaaf18602ea379437"
+    },
+    {
+      "key": "draw_02/budget_24/2026092817/unweighted",
+      "status_sha256": "a762dcf30180ae6821edb6c8894d433a2b00cf067fe069f5e4126b4434148032"
+    },
+    {
+      "key": "draw_02/budget_24/2026092817/ambient_balanced",
+      "status_sha256": "15a2e1807edce75e7b833dd4d6ec7074adb5fc5c9bd475aff1ee4571758b0050"
+    },
+    {
+      "key": "draw_02/budget_24/2026092818/unweighted",
+      "status_sha256": "b04d8f7e5566cc1bcd1760a4fa9ac31e8c3dc86c58abbc13003e975759a9f5e8"
+    },
+    {
+      "key": "draw_02/budget_24/2026092818/ambient_balanced",
+      "status_sha256": "f6142fd1ecd743b55978b725b062e13b474247f18bacf2a0d36fbc1626c34b08"
+    },
+    {
+      "key": "draw_02/budget_24/2026092819/unweighted",
+      "status_sha256": "34abda2345d544935e0acc64bcb4e2292c4a7612cf4d5dcfe4a7c2b06671cc09"
+    },
+    {
+      "key": "draw_02/budget_24/2026092819/ambient_balanced",
+      "status_sha256": "0db8b368efbda6ed426692fdf7361cc20b5ca8631fad68b0cb32146189411f8b"
+    },
+    {
+      "key": "draw_02/budget_47/2026092800/unweighted",
+      "status_sha256": "d0812fd1f5e26cbf7bbd80ce67f7d4bc41bfd383e2fc5a23a5280b4933e5271a"
+    },
+    {
+      "key": "draw_02/budget_47/2026092800/ambient_balanced",
+      "status_sha256": "063d2407c7e8b9457a12a55fe59269f2216fa19d59d405ffc87fdc11452a70d0"
+    },
+    {
+      "key": "draw_02/budget_47/2026092801/unweighted",
+      "status_sha256": "8e5314f4b653d07b5210bdb110f5a04d49c4aa81f28ea0bc3e47851e63e87afd"
+    },
+    {
+      "key": "draw_02/budget_47/2026092801/ambient_balanced",
+      "status_sha256": "52a7224442bb81b60f58f653d192f2ee4b172ae22ae71f474ae6ab653fb5dff4"
+    },
+    {
+      "key": "draw_02/budget_47/2026092802/unweighted",
+      "status_sha256": "886374d5e3a212e0e1bff0d8ac3f996dc971a1eb62518efc17f04186ab587090"
+    },
+    {
+      "key": "draw_02/budget_47/2026092802/ambient_balanced",
+      "status_sha256": "293de527ec22b880bf376f3d8bde91075da67fa48d390700a14f439081a5a017"
+    },
+    {
+      "key": "draw_02/budget_47/2026092803/unweighted",
+      "status_sha256": "33dcd4f39b6ac16251f5d33f52e25b6111e478512f03ee2d9cf23bc8d261d282"
+    },
+    {
+      "key": "draw_02/budget_47/2026092803/ambient_balanced",
+      "status_sha256": "e2bdaba7680f573cec11863a0da0452ae680033282e5f8ee89e10265fed2eb65"
+    },
+    {
+      "key": "draw_02/budget_47/2026092804/unweighted",
+      "status_sha256": "c972da3da192c56e2889cbd7e63e409cb015df24290d4cbab1bfa6c53d9c2c03"
+    },
+    {
+      "key": "draw_02/budget_47/2026092804/ambient_balanced",
+      "status_sha256": "66d9665af2536394cdb651f446a482d1047be09c4553b577de795ed049c51ae9"
+    },
+    {
+      "key": "draw_02/budget_47/2026092805/unweighted",
+      "status_sha256": "14d889c3a0e1b52a4a0a7937f966c59a6f1d99abb9840b0a21f189f4d2af86e3"
+    },
+    {
+      "key": "draw_02/budget_47/2026092805/ambient_balanced",
+      "status_sha256": "af70c166ea8743b9d43e10999d5575a66ea067edf875ca0bdc525e261cee0778"
+    },
+    {
+      "key": "draw_02/budget_47/2026092806/unweighted",
+      "status_sha256": "ba4d32119d465d52c1ab5b2a8e5ef9eb9f57b74bbce2aa2e517fd3c98ddc60d4"
+    },
+    {
+      "key": "draw_02/budget_47/2026092806/ambient_balanced",
+      "status_sha256": "a796dfdeff54d86a5377143c61e25acd50c0efc6acb94117bf111aa494f82b9f"
+    },
+    {
+      "key": "draw_02/budget_47/2026092807/unweighted",
+      "status_sha256": "30b68c5581347188111603581d08c26e1b10b17c30837265610eb58a2f8fd17d"
+    },
+    {
+      "key": "draw_02/budget_47/2026092807/ambient_balanced",
+      "status_sha256": "fe34f270581f5ac296dd4bfe43ecbcce9d59bf012a2fa15a999abb4e5f7fa376"
+    },
+    {
+      "key": "draw_02/budget_47/2026092808/unweighted",
+      "status_sha256": "2c4c4f2ac9be3554ea55986355a7b5070b278e9512dc80366ca5eaa9c9853777"
+    },
+    {
+      "key": "draw_02/budget_47/2026092808/ambient_balanced",
+      "status_sha256": "3fb46400354ad02b091243ec6561eb3eccad568382746bd6cbc7ab476063f63c"
+    },
+    {
+      "key": "draw_02/budget_47/2026092809/unweighted",
+      "status_sha256": "067abf4561457176be2a77e1c165fd3908165b788e1944e065bd58476305b56b"
+    },
+    {
+      "key": "draw_02/budget_47/2026092809/ambient_balanced",
+      "status_sha256": "d98732ca45fe8fb720fd8717cca834b076ed5839cad8a77890c6b1c064bcf81e"
+    },
+    {
+      "key": "draw_02/budget_47/2026092810/unweighted",
+      "status_sha256": "fa4bb4735372a842b55378f0da7c602246e81bfd21e4492c2ba223f055b64d31"
+    },
+    {
+      "key": "draw_02/budget_47/2026092810/ambient_balanced",
+      "status_sha256": "4aed167f600f056079fa612c6712ded8bb2be37c0fd2ce5bc9ff9d27209acf7b"
+    },
+    {
+      "key": "draw_02/budget_47/2026092811/unweighted",
+      "status_sha256": "b10353f79597989cfdf5349cb4f153299c9ea5ab12a65b08cf90309a704322d2"
+    },
+    {
+      "key": "draw_02/budget_47/2026092811/ambient_balanced",
+      "status_sha256": "9c25132aff0ad31448d39719851ec304e5ab718ba417f6d10c92cc67c46973d8"
+    },
+    {
+      "key": "draw_02/budget_47/2026092812/unweighted",
+      "status_sha256": "24a43b02ed2e034576dc2937e501bd30b4e4388c98b78489671c86bc63f54d57"
+    },
+    {
+      "key": "draw_02/budget_47/2026092812/ambient_balanced",
+      "status_sha256": "f1520add0a706941b9a89a13442ed3cc8346767dcac50d3879858d9a80bf242d"
+    },
+    {
+      "key": "draw_02/budget_47/2026092813/unweighted",
+      "status_sha256": "e526fc1ace5fe9446b03a2c83012a9fc2e192fbfdf9a68a01e18026853bc5a9d"
+    },
+    {
+      "key": "draw_02/budget_47/2026092813/ambient_balanced",
+      "status_sha256": "3d0ac5a2d60a8303cf65fba47533f51ad9126890fd9bf923c00a14a31ab31f69"
+    },
+    {
+      "key": "draw_02/budget_47/2026092814/unweighted",
+      "status_sha256": "2d102c69436d23b2cdd2db0a6ed644599059c0a9cdfc7323023d5e6e47dcfc78"
+    },
+    {
+      "key": "draw_02/budget_47/2026092814/ambient_balanced",
+      "status_sha256": "c9cbd014f68d264b6f4d743f946e5a84eff3643bb6964c1898474e7fde57c0d7"
+    },
+    {
+      "key": "draw_02/budget_47/2026092815/unweighted",
+      "status_sha256": "72bdb63a7aa9d46ec69e6bfdbf318100e06b29bb26ef8d6494c568484d55c503"
+    },
+    {
+      "key": "draw_02/budget_47/2026092815/ambient_balanced",
+      "status_sha256": "53eb27aac0d74d8020a274d174ae7ac52dc805225d328366e379f6f8b9b2b7c1"
+    },
+    {
+      "key": "draw_02/budget_47/2026092816/unweighted",
+      "status_sha256": "5038ea9dcd7033b0bcf3cdf7436c31aba8e37c7604977a20aba87bf35c98f936"
+    },
+    {
+      "key": "draw_02/budget_47/2026092816/ambient_balanced",
+      "status_sha256": "df4856225e765bedc17768f82ceb586d4acb3bf57a1067591b2a531b477fe97a"
+    },
+    {
+      "key": "draw_02/budget_47/2026092817/unweighted",
+      "status_sha256": "86fc8045d02dc40c2fc285f9bce76a0363226b05b85e5bccb8cbfa9e3b891573"
+    },
+    {
+      "key": "draw_02/budget_47/2026092817/ambient_balanced",
+      "status_sha256": "46efb7dfc208e9d89839f101967b6a4f2f0ec456510df0c72d18f64695114818"
+    },
+    {
+      "key": "draw_02/budget_47/2026092818/unweighted",
+      "status_sha256": "3fc9cf3ca74721b8001dc2ceecdd19a0186bdaf8d142e912c7f78422fee2123a"
+    },
+    {
+      "key": "draw_02/budget_47/2026092818/ambient_balanced",
+      "status_sha256": "0e96e96ff51cafc408aab1c15c134befa320ec175a62dfeb05031d3b177352e4"
+    },
+    {
+      "key": "draw_02/budget_47/2026092819/unweighted",
+      "status_sha256": "d544e2eadd953e975bcdd70d558985c7e0acf697d1a6192efe5e74daad1a747a"
+    },
+    {
+      "key": "draw_02/budget_47/2026092819/ambient_balanced",
+      "status_sha256": "393d80a50185bfffd279ec1ee09c70f3e286d9d87d66d3e40fcfe2b59d88d94f"
+    },
+    {
+      "key": "draw_03/budget_24/2026092800/unweighted",
+      "status_sha256": "14d33a9a676a64eb931b72d5e2c6670a42291dda065ce2ad27a9119fa317abb7"
+    },
+    {
+      "key": "draw_03/budget_24/2026092800/ambient_balanced",
+      "status_sha256": "ef018ef4b71db15ad8993a0e7b823d97d53d285b11ec521fd8e6b251f26ab3c9"
+    },
+    {
+      "key": "draw_03/budget_24/2026092801/unweighted",
+      "status_sha256": "2362135b3ed02d09cb9e3b0c912ec7df8abd6c490ac5d2d7c346dc207129ee62"
+    },
+    {
+      "key": "draw_03/budget_24/2026092801/ambient_balanced",
+      "status_sha256": "ba97c75b62db7630a5180ea9bdd1cc8f7ec693cdfd879bd07b8c6bb0f0d69066"
+    },
+    {
+      "key": "draw_03/budget_24/2026092802/unweighted",
+      "status_sha256": "7ba5a6cbfd4f76d13cfba7f89ab989b2d8fd477e0d816735a2d8a8d73e468ed9"
+    },
+    {
+      "key": "draw_03/budget_24/2026092802/ambient_balanced",
+      "status_sha256": "c6a19f67cfac039f8ef48921479622b0c289ab24ff943650fac9050806555b85"
+    },
+    {
+      "key": "draw_03/budget_24/2026092803/unweighted",
+      "status_sha256": "44dea42a06487211b5084e4bc0d8fa3b36b53a2c21a8f82a1ddd5c701d7fcf4d"
+    },
+    {
+      "key": "draw_03/budget_24/2026092803/ambient_balanced",
+      "status_sha256": "643076320f14cceaffaad955c93d1e365197da5ccf5a1174b70215ab0f10e70d"
+    },
+    {
+      "key": "draw_03/budget_24/2026092804/unweighted",
+      "status_sha256": "aa51c06f43cc2dc7a90d8e43be8b3cd30e3ab7d94b81232d6bc0ea454ba39862"
+    },
+    {
+      "key": "draw_03/budget_24/2026092804/ambient_balanced",
+      "status_sha256": "d26cffc04a93020db11152ba582c4f0fff297a4253aadfa33ad60579b6a3156f"
+    },
+    {
+      "key": "draw_03/budget_24/2026092805/unweighted",
+      "status_sha256": "03062c41b04efa4c53405f20d225b29f4674f527dfc0d3234c14fdedb96a2409"
+    },
+    {
+      "key": "draw_03/budget_24/2026092805/ambient_balanced",
+      "status_sha256": "40004848b19fdb018210a488e601ddec2568c297186beeeeaed9f1b3746cee41"
+    },
+    {
+      "key": "draw_03/budget_24/2026092806/unweighted",
+      "status_sha256": "361411eb7a317db1260d05420ec2714b7772db108f2cbaa570b9cec8addc4e46"
+    },
+    {
+      "key": "draw_03/budget_24/2026092806/ambient_balanced",
+      "status_sha256": "c3917385f0f1125b39d9c61d0805e6c6b8409bc6ff948092a6d6b1f98bf18c6e"
+    },
+    {
+      "key": "draw_03/budget_24/2026092807/unweighted",
+      "status_sha256": "594f30f8a1363db8054cff1d446fb12212e0fcd8f04fca103f0e5e3313c740a3"
+    },
+    {
+      "key": "draw_03/budget_24/2026092807/ambient_balanced",
+      "status_sha256": "d706880310df58347602ce02d6e382b7b9d32fb6a4f018f7380cb2068ade4f4a"
+    },
+    {
+      "key": "draw_03/budget_24/2026092808/unweighted",
+      "status_sha256": "8aa87ba44c64746693883dc50b3d29be016bbd1d1bf48ce43779175b4df03fec"
+    },
+    {
+      "key": "draw_03/budget_24/2026092808/ambient_balanced",
+      "status_sha256": "e8267a0f9d7a0750deda4fd4a58bc929a1cad6a1114fb020dfcdd046e69e437d"
+    },
+    {
+      "key": "draw_03/budget_24/2026092809/unweighted",
+      "status_sha256": "1d1184603e10278184b37fd029e04d0122e2f8c1ad62894e92df7e18074d41ca"
+    },
+    {
+      "key": "draw_03/budget_24/2026092809/ambient_balanced",
+      "status_sha256": "ebba964d1020607839135bb7b149bd179c087b26bf8d7da27f2de8486b8ad245"
+    },
+    {
+      "key": "draw_03/budget_24/2026092810/unweighted",
+      "status_sha256": "1ab47d4a35ed737bed8bea591830071f748179969e57105066fb60c20256bf59"
+    },
+    {
+      "key": "draw_03/budget_24/2026092810/ambient_balanced",
+      "status_sha256": "7613e87dfe543f369bff57759854b1f15a4c98f142262f4d2f3b3b1122737991"
+    },
+    {
+      "key": "draw_03/budget_24/2026092811/unweighted",
+      "status_sha256": "79d11eee9dc67842cf9ce1870bc8a066be0dd9038673b7ad78994b9b4aa7412c"
+    },
+    {
+      "key": "draw_03/budget_24/2026092811/ambient_balanced",
+      "status_sha256": "4741c3760f58f5b88a73634e44a96c28f8a4f035c7ae3ba6d2ede36c74da2fb0"
+    },
+    {
+      "key": "draw_03/budget_24/2026092812/unweighted",
+      "status_sha256": "256f736069d72d4cd0f856331318322bb97a1fef2c1632eb19fcad18bf1cf2dc"
+    },
+    {
+      "key": "draw_03/budget_24/2026092812/ambient_balanced",
+      "status_sha256": "59a4b01e7e1ca284c3d28f6557b343a60798fe3e8a9fa7803994ecc847d872cf"
+    },
+    {
+      "key": "draw_03/budget_24/2026092813/unweighted",
+      "status_sha256": "0c520d08f7a72ddd7424a37551d75cf4f3feda9dc88f2c27d6f7c5d4d899c783"
+    },
+    {
+      "key": "draw_03/budget_24/2026092813/ambient_balanced",
+      "status_sha256": "d42470aa05572d79f7165c17c2a0aa9c16550a999d9559f5fa3de6192756ed99"
+    },
+    {
+      "key": "draw_03/budget_24/2026092814/unweighted",
+      "status_sha256": "b71888d06cfe8330dcbbf0cc875db10cd4ace39b676ce93f089a36556fee5b19"
+    },
+    {
+      "key": "draw_03/budget_24/2026092814/ambient_balanced",
+      "status_sha256": "2337b1d3622f1653688bed691172c9e5c234e59d695b3603048b8e957fb61966"
+    },
+    {
+      "key": "draw_03/budget_24/2026092815/unweighted",
+      "status_sha256": "15534e23066ba6d2c4d0d775edb14cbef98509c01dd8a19b03754210d099acf8"
+    },
+    {
+      "key": "draw_03/budget_24/2026092815/ambient_balanced",
+      "status_sha256": "3d8af4351ea5d11236762036a2ebffbd2fbbde10ed71ed88abff583ba861c540"
+    },
+    {
+      "key": "draw_03/budget_24/2026092816/unweighted",
+      "status_sha256": "ce49462b1d34d3e59f8d4a3b261abc649aeb7e66a74cfac64b0cdda69d223817"
+    },
+    {
+      "key": "draw_03/budget_24/2026092816/ambient_balanced",
+      "status_sha256": "5f2f6ed462095bfe2559d9357a46f068db6a7c929d0a5e6ce1e03c7ff34e71eb"
+    },
+    {
+      "key": "draw_03/budget_24/2026092817/unweighted",
+      "status_sha256": "534e1fa51bbe9f864d814552813eb3b5643594014517d163abc92beaf8ba2f0d"
+    },
+    {
+      "key": "draw_03/budget_24/2026092817/ambient_balanced",
+      "status_sha256": "ff054e2a17552e6c5099652b6463d4a9a0326a258dbb0f20e8b56c0f8be38c83"
+    },
+    {
+      "key": "draw_03/budget_24/2026092818/unweighted",
+      "status_sha256": "42eb3a9210b999722000f7348f3a2b445251a02bd49892dfc0e64c85831a547e"
+    },
+    {
+      "key": "draw_03/budget_24/2026092818/ambient_balanced",
+      "status_sha256": "d583c5cadfe6abb1a59d8e8154bcfd003df2b005da7c1628888be8df5418d0ff"
+    },
+    {
+      "key": "draw_03/budget_24/2026092819/unweighted",
+      "status_sha256": "50c9dfe165d7bcd45fa48e5c21f5466e66463a990d0c5ef97d588c0797db88fb"
+    },
+    {
+      "key": "draw_03/budget_24/2026092819/ambient_balanced",
+      "status_sha256": "8572a55da035b4cb9d443e970e633cdd8c8e8e1aa8bc70e73cbbc6be229c46aa"
+    },
+    {
+      "key": "draw_03/budget_47/2026092800/unweighted",
+      "status_sha256": "7e246fcd0d9c1e9ba7ccda2cdc2426ec77cba7a697cea6f4342ac4aa72964d13"
+    },
+    {
+      "key": "draw_03/budget_47/2026092800/ambient_balanced",
+      "status_sha256": "da6735cf2d0b3fda101464d9e15d5b6e8e053805ac27e4ac694e8f89ee7df36c"
+    },
+    {
+      "key": "draw_03/budget_47/2026092801/unweighted",
+      "status_sha256": "6f3b19be86d69c6070b76a5524d3f556f5c57f5d3ed9966d356df3995164ef1a"
+    },
+    {
+      "key": "draw_03/budget_47/2026092801/ambient_balanced",
+      "status_sha256": "157843cc3b0cdb057fcd1d6aed4301bff019bbb0d10e4c351c8f75bdbea80a9e"
+    },
+    {
+      "key": "draw_03/budget_47/2026092802/unweighted",
+      "status_sha256": "d7d6d578cde1ebf0d070b842c34d89db36eb20ae9e38d380778b6e317044decc"
+    },
+    {
+      "key": "draw_03/budget_47/2026092802/ambient_balanced",
+      "status_sha256": "bd91df8a8b9ee08c36a775126fee3430bd9f6b21159a07f10339e2f8f27a3c31"
+    },
+    {
+      "key": "draw_03/budget_47/2026092803/unweighted",
+      "status_sha256": "fa3f6ffc398fddaf90bdbd76f0c0623f9d6df72905fc8559b39861bde5387882"
+    },
+    {
+      "key": "draw_03/budget_47/2026092803/ambient_balanced",
+      "status_sha256": "47f607e3e61d7ae9334ffde6916007b4e6fba969103f11f5146ff571f5d29203"
+    },
+    {
+      "key": "draw_03/budget_47/2026092804/unweighted",
+      "status_sha256": "b5ea20a128951655bbe4824e063d0d14b092026c316a5caf1ffc7df3b317412c"
+    },
+    {
+      "key": "draw_03/budget_47/2026092804/ambient_balanced",
+      "status_sha256": "161730f66f34b14bf491eeb4f14b8d2a39f408812c9e00140c874efc23e16073"
+    },
+    {
+      "key": "draw_03/budget_47/2026092805/unweighted",
+      "status_sha256": "0c8706a36015c1438c6323d094dd0737ec547e4da4936a1f4f8b028922027610"
+    },
+    {
+      "key": "draw_03/budget_47/2026092805/ambient_balanced",
+      "status_sha256": "180f25a16d213ce8ebb259c334098597886e899df05af8f764fd62f7b6affa0d"
+    },
+    {
+      "key": "draw_03/budget_47/2026092806/unweighted",
+      "status_sha256": "423ee15d952675d477339212bef93ecccd8af813513c273e122175d40af5eabc"
+    },
+    {
+      "key": "draw_03/budget_47/2026092806/ambient_balanced",
+      "status_sha256": "d31f75bf3cad4b28b60158b57ae0c6cc2fc953f2e87810bb006f7295909e8c08"
+    },
+    {
+      "key": "draw_03/budget_47/2026092807/unweighted",
+      "status_sha256": "3092ad934a26db9874a96ac0442f6b1db949cdb5b1a215c1ac8f93be8cda8ee8"
+    },
+    {
+      "key": "draw_03/budget_47/2026092807/ambient_balanced",
+      "status_sha256": "9ea60bad17d3c3a5a5e74223d284b52578f81d713accacc195af6ac0dbc85e34"
+    },
+    {
+      "key": "draw_03/budget_47/2026092808/unweighted",
+      "status_sha256": "772dacb50fbb430966c2cde6f0aaaaf66876e143f598421813c9cc73a1a07c24"
+    },
+    {
+      "key": "draw_03/budget_47/2026092808/ambient_balanced",
+      "status_sha256": "756a297acd6111df43b73f4f9eff083eedfa6ff61c13a278a3ed723d39005722"
+    },
+    {
+      "key": "draw_03/budget_47/2026092809/unweighted",
+      "status_sha256": "fea416d3039e78c16dafcd148358ee893306c7577dd310f81e8c678e89adb26d"
+    },
+    {
+      "key": "draw_03/budget_47/2026092809/ambient_balanced",
+      "status_sha256": "6cafc0bd05f7bfee209b5a7e7b23212fd59129ecd75457b6f521e70e22143c9b"
+    },
+    {
+      "key": "draw_03/budget_47/2026092810/unweighted",
+      "status_sha256": "b35c5ad7d5cdd5d0a1562f1aa65bb371696c10c2fdeab375c3016fcd24697747"
+    },
+    {
+      "key": "draw_03/budget_47/2026092810/ambient_balanced",
+      "status_sha256": "c32b4d32276239da12239564f4af92b3874a366e46cf6aad1066e585822a5aaf"
+    },
+    {
+      "key": "draw_03/budget_47/2026092811/unweighted",
+      "status_sha256": "e4841d5959ace27ac7bf8e977d56a37e3ef6992844f8e7cda6150292069254b8"
+    },
+    {
+      "key": "draw_03/budget_47/2026092811/ambient_balanced",
+      "status_sha256": "b17cfd065e540e01d91eefa71f6b4d414442e49ef8a5d421fde0fa81fdb6ac37"
+    },
+    {
+      "key": "draw_03/budget_47/2026092812/unweighted",
+      "status_sha256": "01b3669b10e86b3b62b2eb17e77cc50412951feafa339eed468a2e4f16f11067"
+    },
+    {
+      "key": "draw_03/budget_47/2026092812/ambient_balanced",
+      "status_sha256": "ed2be9c4c42b9990be4787e4a417b0b78326746c3f51cfb22724d924edba3f09"
+    },
+    {
+      "key": "draw_03/budget_47/2026092813/unweighted",
+      "status_sha256": "c0f30dc713a1f4bd075818ea31c56d45a144482171ad18986367773a6880218b"
+    },
+    {
+      "key": "draw_03/budget_47/2026092813/ambient_balanced",
+      "status_sha256": "645153a2729619403d455e41ebcbc22ee08403881294b599fa3de325afd74e50"
+    },
+    {
+      "key": "draw_03/budget_47/2026092814/unweighted",
+      "status_sha256": "3e330afcd481e46a28a5d4e0fe0f73f9e28c8e2ccf49ef6757ecde4da49dc1fd"
+    },
+    {
+      "key": "draw_03/budget_47/2026092814/ambient_balanced",
+      "status_sha256": "f708deacd0d438a8987d1fe66123f49113251c7542df3ae36d9bace5ba59bc4d"
+    },
+    {
+      "key": "draw_03/budget_47/2026092815/unweighted",
+      "status_sha256": "fa952848a8e6f62d128d2fc7f0cfd3f767c1b5fbbdbd948ddfff5745ff2a6ae1"
+    },
+    {
+      "key": "draw_03/budget_47/2026092815/ambient_balanced",
+      "status_sha256": "6939ff74e888905a62c0d02b2e9ec5d06ad8ad3a764c45568033f3a67a2bdfa0"
+    },
+    {
+      "key": "draw_03/budget_47/2026092816/unweighted",
+      "status_sha256": "b60fa603737e583d00eea333b372e759f08ef0f0564bd4179cd82d125810c18b"
+    },
+    {
+      "key": "draw_03/budget_47/2026092816/ambient_balanced",
+      "status_sha256": "09317d6ed55fc36402561ee34324f2172b77a09689bf29d9c4b666d4695b87c5"
+    },
+    {
+      "key": "draw_03/budget_47/2026092817/unweighted",
+      "status_sha256": "eb4cf6999b2cfee5623696c96bac8ba8a2e50f15e6c32c393a5a034cc80d4141"
+    },
+    {
+      "key": "draw_03/budget_47/2026092817/ambient_balanced",
+      "status_sha256": "e55ac6d8946934c943690ed75dc4049a0418caba61736345fb8ead0e403409ae"
+    },
+    {
+      "key": "draw_03/budget_47/2026092818/unweighted",
+      "status_sha256": "38593f683f230ba0178da6cb52b5df7812947a056a62809b81a958ad75fda122"
+    },
+    {
+      "key": "draw_03/budget_47/2026092818/ambient_balanced",
+      "status_sha256": "a3ea9f30780ca5b48bf4535f871547b158df7bc42566e8a2e2a33ca3d2a67c16"
+    },
+    {
+      "key": "draw_03/budget_47/2026092819/unweighted",
+      "status_sha256": "d53552b47fe17df684c8c2702e1031723dd1f8045d592966b24d54819a0c0806"
+    },
+    {
+      "key": "draw_03/budget_47/2026092819/ambient_balanced",
+      "status_sha256": "6bd3d1b96340da554159b5c367396f056a43e3fb933cb3cf9a64290fb810f830"
+    },
+    {
+      "key": "draw_04/budget_24/2026092800/unweighted",
+      "status_sha256": "c393343ff89390ada511993fb3d6b2eba246a70d233b4c5176c21148b5f8aecc"
+    },
+    {
+      "key": "draw_04/budget_24/2026092800/ambient_balanced",
+      "status_sha256": "dc14a206f8f2d1a982a3753fe0df9f873f84f78f016ec76fe746cecf23578030"
+    },
+    {
+      "key": "draw_04/budget_24/2026092801/unweighted",
+      "status_sha256": "ee2fb1ee2962cb5dd178b56364740eb6affbf9c805c4d9fef6449647fc1a1ec5"
+    },
+    {
+      "key": "draw_04/budget_24/2026092801/ambient_balanced",
+      "status_sha256": "2543cb9ff9be764b7cc3e2d3e08bd7daf87f873889306c908d6c0dad7e63231c"
+    },
+    {
+      "key": "draw_04/budget_24/2026092802/unweighted",
+      "status_sha256": "e8e44c223041097f823994e12bd9d4a95417671b7a94fc502b3128d8f8b7567e"
+    },
+    {
+      "key": "draw_04/budget_24/2026092802/ambient_balanced",
+      "status_sha256": "d30441e56e52f0a023e991f176d7888993485a423757979c628768831efc2d97"
+    },
+    {
+      "key": "draw_04/budget_24/2026092803/unweighted",
+      "status_sha256": "566dba1b0948e8e3094ae1588d47dbf9491568daa1553550d004047e3259ea7e"
+    },
+    {
+      "key": "draw_04/budget_24/2026092803/ambient_balanced",
+      "status_sha256": "1173d2c502b05d97173dc803aa40d9bdee272d787e880ef22296af45ae2c7995"
+    },
+    {
+      "key": "draw_04/budget_24/2026092804/unweighted",
+      "status_sha256": "d80aeed5496c511257980baa2b6009d309604df5b0123994547b596f9933eca7"
+    },
+    {
+      "key": "draw_04/budget_24/2026092804/ambient_balanced",
+      "status_sha256": "2df6280e5e81a5f6c2b6a7acac82ca461a72372effd23fe6067cbc85fbaadcc7"
+    },
+    {
+      "key": "draw_04/budget_24/2026092805/unweighted",
+      "status_sha256": "c53cced1c0d9ad5688f93d813cc786d66e03361579b1ad64aa15e3824b343712"
+    },
+    {
+      "key": "draw_04/budget_24/2026092805/ambient_balanced",
+      "status_sha256": "e3a2cf4464955a6dcbcf2bea22ac8a63b8ca1a94a13656cc2e87ded7f98ae8ab"
+    },
+    {
+      "key": "draw_04/budget_24/2026092806/unweighted",
+      "status_sha256": "1c27515844738a2d2d238bfee87f8ad9f16b04a4566e337138d5c96b6e69893a"
+    },
+    {
+      "key": "draw_04/budget_24/2026092806/ambient_balanced",
+      "status_sha256": "276907c7a1cd7f7154c7eec3fc769bb40e104c3a31cf7ef9cb3a6724d6ce9b31"
+    },
+    {
+      "key": "draw_04/budget_24/2026092807/unweighted",
+      "status_sha256": "0faef36d4d4fb7b500984b2cb81ca0fbd05a47af442efc1c14a1ef2f43fbc7fc"
+    },
+    {
+      "key": "draw_04/budget_24/2026092807/ambient_balanced",
+      "status_sha256": "79cf81136182e18a315c267275c46b3abb9ae5e8ad04da264804f5ee79eaef9b"
+    },
+    {
+      "key": "draw_04/budget_24/2026092808/unweighted",
+      "status_sha256": "20b4546ca98e8aae213dab7db8dd78a9e76e435b660a315a29e2b2be4a28cc74"
+    },
+    {
+      "key": "draw_04/budget_24/2026092808/ambient_balanced",
+      "status_sha256": "c6cad3e1ea7f62acc0a0bcab0c2306f9b91b44e14e9c93948fa8d7891344c9da"
+    },
+    {
+      "key": "draw_04/budget_24/2026092809/unweighted",
+      "status_sha256": "0fed1c903051d665024c7703e912ef8cb33e160ddde1da05b6085cc542530ba8"
+    },
+    {
+      "key": "draw_04/budget_24/2026092809/ambient_balanced",
+      "status_sha256": "a50f32293625f58b376e403057bfa977a5514d690ab1d1e9f2d8d46416cd5c99"
+    },
+    {
+      "key": "draw_04/budget_24/2026092810/unweighted",
+      "status_sha256": "ed30ceb3576f37aefbb0d8092aaa89217f58ea6287442915d9633ca32c4b5f34"
+    },
+    {
+      "key": "draw_04/budget_24/2026092810/ambient_balanced",
+      "status_sha256": "67b974d62c56ce8f4de8bb2e687e497926e534687a2f0220d8e62d07a3342c6c"
+    },
+    {
+      "key": "draw_04/budget_24/2026092811/unweighted",
+      "status_sha256": "071e84c6a513eeb94934fb0348056bf6b4c11d1fce087c752315d324a1a0c073"
+    },
+    {
+      "key": "draw_04/budget_24/2026092811/ambient_balanced",
+      "status_sha256": "2dd1901b3b9609e2df824762e093f28858e0d58f93dc17b5fd4a6063ee48edee"
+    },
+    {
+      "key": "draw_04/budget_24/2026092812/unweighted",
+      "status_sha256": "8c1f317c04fcff5a667ba3624b8374a23e9306995cb6f26a8b50a61c8a205652"
+    },
+    {
+      "key": "draw_04/budget_24/2026092812/ambient_balanced",
+      "status_sha256": "452d9b5a0c53c8e98c06969e42e9542c083f71e3f9b7f81451e8c3f729026c11"
+    },
+    {
+      "key": "draw_04/budget_24/2026092813/unweighted",
+      "status_sha256": "453524fcfad0dd7885d0b2a998ad88f0cf29d362fa35cd3a7b944a36d40ec980"
+    },
+    {
+      "key": "draw_04/budget_24/2026092813/ambient_balanced",
+      "status_sha256": "a45eb0d37363a64e36bc42f477f014ace8ddeedce0e215d696896cbb39bb774c"
+    },
+    {
+      "key": "draw_04/budget_24/2026092814/unweighted",
+      "status_sha256": "2a73123cd0544a1073826b0b34384e60a0c1938bbf3348b4d787b8cc2a56a5e7"
+    },
+    {
+      "key": "draw_04/budget_24/2026092814/ambient_balanced",
+      "status_sha256": "fd9562fc19463d2bbddb01da5ec4a04245e0ecd5c0ff98670bd9f0c54d985798"
+    },
+    {
+      "key": "draw_04/budget_24/2026092815/unweighted",
+      "status_sha256": "532b9a4eaa4ad9cb63189741974a9af9304537a5b47252090c03a6c3cce9fd4a"
+    },
+    {
+      "key": "draw_04/budget_24/2026092815/ambient_balanced",
+      "status_sha256": "9f66104df0eed73a5fc2917dc7f9e060003d163caf7613584a13c6af7205cd83"
+    },
+    {
+      "key": "draw_04/budget_24/2026092816/unweighted",
+      "status_sha256": "8df28fbf1efdb8a14f74487268d3a39a64c2ca95b79c0a49c068b8641343138d"
+    },
+    {
+      "key": "draw_04/budget_24/2026092816/ambient_balanced",
+      "status_sha256": "a00032870928abaea2c6fb4146cd2a4be20a1fcaf2d23bb2762925a25a0b04e4"
+    },
+    {
+      "key": "draw_04/budget_24/2026092817/unweighted",
+      "status_sha256": "c8414a31656d88a4f823916c57de57039ebce6a64d4d624cdbbf18fb4a1ead77"
+    },
+    {
+      "key": "draw_04/budget_24/2026092817/ambient_balanced",
+      "status_sha256": "b3db07d46331757c08e7e11fb4f4cb9461d045748adc4b1b79a7512a708f8a68"
+    },
+    {
+      "key": "draw_04/budget_24/2026092818/unweighted",
+      "status_sha256": "73259ce14b4d40b43cfffcf5b692216fd6346cd7be4d521ba38525b4d35b84d3"
+    },
+    {
+      "key": "draw_04/budget_24/2026092818/ambient_balanced",
+      "status_sha256": "e2cf501eb105d953b21549c33b14a09e592832cc7982bf49e29b83984a5b8dd1"
+    },
+    {
+      "key": "draw_04/budget_24/2026092819/unweighted",
+      "status_sha256": "c29ecf6af7d05e3ca3531a85ae15761b651e5d85ffc39a8458a221511bcfec23"
+    },
+    {
+      "key": "draw_04/budget_24/2026092819/ambient_balanced",
+      "status_sha256": "60e38c150c466a191c738361ea58115865974ac8bd1095036d354e9c732ee377"
+    },
+    {
+      "key": "draw_04/budget_47/2026092800/unweighted",
+      "status_sha256": "22717ed42a1afef66cf4403785db07d4019e48cbf762852b49c4565b7be8bf07"
+    },
+    {
+      "key": "draw_04/budget_47/2026092800/ambient_balanced",
+      "status_sha256": "bcd6aa1acfca89f8eb4f510e148f34236ddff18ef96419edf425e9d6d115c812"
+    },
+    {
+      "key": "draw_04/budget_47/2026092801/unweighted",
+      "status_sha256": "eccbf71cfb5b39b8901fb175cd1244995245acdca3079fcda0654c5fd553bf1b"
+    },
+    {
+      "key": "draw_04/budget_47/2026092801/ambient_balanced",
+      "status_sha256": "ab54d8cb03bef5eef8d8c00d3c2c6d89377c02757be54d43ead2e7c4ade89e31"
+    },
+    {
+      "key": "draw_04/budget_47/2026092802/unweighted",
+      "status_sha256": "7f5bbde15fa9e9d603a84bbdd001cf0c7b7a952e9056d39dd295673c21dab35f"
+    },
+    {
+      "key": "draw_04/budget_47/2026092802/ambient_balanced",
+      "status_sha256": "69ed500f279be869cc964c26c519fc8eff2eda3dad3543e825281b0f4a374336"
+    },
+    {
+      "key": "draw_04/budget_47/2026092803/unweighted",
+      "status_sha256": "abf726eb9a63c2eb7ceeb6f988b3da886d7fe7894aed996b13b45d814d2f8f61"
+    },
+    {
+      "key": "draw_04/budget_47/2026092803/ambient_balanced",
+      "status_sha256": "6ee315595bea17c37617d464799f1209ce0d5b5266603973b76bf24495b2c1ef"
+    },
+    {
+      "key": "draw_04/budget_47/2026092804/unweighted",
+      "status_sha256": "dffd5075419896b60ac8217eb4b8c970751585e45f3352d1a86bb9396482c735"
+    },
+    {
+      "key": "draw_04/budget_47/2026092804/ambient_balanced",
+      "status_sha256": "37fb32fe986d0fe13f3366aa015d26b16fd2329782f490e03e2bf67140508f54"
+    },
+    {
+      "key": "draw_04/budget_47/2026092805/unweighted",
+      "status_sha256": "92d1d6e01c8ec7f7c2223f7a0069c5887d573c9bea90ec3f22a6b90c81e8e919"
+    },
+    {
+      "key": "draw_04/budget_47/2026092805/ambient_balanced",
+      "status_sha256": "57ae4b3b1c71e354fb7aa9e5462a46631e6bf45f590b3c80aed46b9fdb905e77"
+    },
+    {
+      "key": "draw_04/budget_47/2026092806/unweighted",
+      "status_sha256": "58624d65c9b5990df88c35f926ac208a2dca8f5ba9040fea1940df082a94e701"
+    },
+    {
+      "key": "draw_04/budget_47/2026092806/ambient_balanced",
+      "status_sha256": "d659602baebe9a710fc64aa5bc6d7a21f651d8c5d8409b3a91a7c00bf4f45136"
+    },
+    {
+      "key": "draw_04/budget_47/2026092807/unweighted",
+      "status_sha256": "6d3ac2e35f84124464a7192a018c0906c9eff9e76573f70441bb6434a8e5ccb3"
+    },
+    {
+      "key": "draw_04/budget_47/2026092807/ambient_balanced",
+      "status_sha256": "c2dce99e7275428dd507ed8682a7252ed9cd3837114396cabb5e2fe7de4be335"
+    },
+    {
+      "key": "draw_04/budget_47/2026092808/unweighted",
+      "status_sha256": "9f325ad3843198234cd00bed1ab0dee3dcacc87da55be3ca2cb4ffc220fd4cb0"
+    },
+    {
+      "key": "draw_04/budget_47/2026092808/ambient_balanced",
+      "status_sha256": "db03214cd4d702c86890b90a4476ec6f1888dfa354ed02381c67d4dbd001e6c1"
+    },
+    {
+      "key": "draw_04/budget_47/2026092809/unweighted",
+      "status_sha256": "510d2c121882ac1095a38cffaf8fa6ce33009a953690dea9c7ee2b5af85ccba8"
+    },
+    {
+      "key": "draw_04/budget_47/2026092809/ambient_balanced",
+      "status_sha256": "b04f5e100d7deb82b19dff7f6ddd17865e31520d3cf9365aefad2991e10b9532"
+    },
+    {
+      "key": "draw_04/budget_47/2026092810/unweighted",
+      "status_sha256": "cb5041f5b28b0b18d8c47c0d2efc6e278bfa241d326df976c960b5a0b3b35fee"
+    },
+    {
+      "key": "draw_04/budget_47/2026092810/ambient_balanced",
+      "status_sha256": "b2c32f779165a6fce9831e75d34e649cca94588ceb7649d3f8cae33aacb8766c"
+    },
+    {
+      "key": "draw_04/budget_47/2026092811/unweighted",
+      "status_sha256": "081ac338a69d909dae7fdfdd5894d327aa5fcb5d40fde131f8358f99aa49f01b"
+    },
+    {
+      "key": "draw_04/budget_47/2026092811/ambient_balanced",
+      "status_sha256": "043d61fcbd62b4af05209d9568b115b3ff453cb50da1906493d4e0eba9ff5c65"
+    },
+    {
+      "key": "draw_04/budget_47/2026092812/unweighted",
+      "status_sha256": "65f47361e0d5a134fe41fe081f75119918c4458ea738d83a34afdaff9e8ff5af"
+    },
+    {
+      "key": "draw_04/budget_47/2026092812/ambient_balanced",
+      "status_sha256": "d3a83a2ab6a6e928b4429f146a951dda34c47076c8a79f5a112fb2c0026dae3e"
+    },
+    {
+      "key": "draw_04/budget_47/2026092813/unweighted",
+      "status_sha256": "c198b3081351ae7b7f1b70ea280fdac2de3109f0101536539794dd2039b9a9cf"
+    },
+    {
+      "key": "draw_04/budget_47/2026092813/ambient_balanced",
+      "status_sha256": "de7c89a180ed36ce17c5c4f7cd11f888e3292c53559d79d5cfa89d9fbf4fdd8f"
+    },
+    {
+      "key": "draw_04/budget_47/2026092814/unweighted",
+      "status_sha256": "20342dc107087dce10255842f8929309812e0f2a68f6a7e48acc3b5d112c2d81"
+    },
+    {
+      "key": "draw_04/budget_47/2026092814/ambient_balanced",
+      "status_sha256": "5e68199b1995905e3f0016d05bf80f17c1ece6ad8ddecb0695913f084ab2cd1c"
+    },
+    {
+      "key": "draw_04/budget_47/2026092815/unweighted",
+      "status_sha256": "c144021ea7124ce711f7c0195599735ca7ab0f6edc18cff35f11a25e4d30efa2"
+    },
+    {
+      "key": "draw_04/budget_47/2026092815/ambient_balanced",
+      "status_sha256": "1a85222d6a80a70664ca69beb76b94f87b8f4dfa4fa7608f1ba77a46ea04a6ab"
+    },
+    {
+      "key": "draw_04/budget_47/2026092816/unweighted",
+      "status_sha256": "ff410d87ea57aef3f1fd2080effec1dd586797c32e4d0f449ddb6362068e281b"
+    },
+    {
+      "key": "draw_04/budget_47/2026092816/ambient_balanced",
+      "status_sha256": "fecc128e25f84e94ffe9a5ad8f02030f37afd18f48853ef1656c732b15b7af52"
+    },
+    {
+      "key": "draw_04/budget_47/2026092817/unweighted",
+      "status_sha256": "778a6f8df586a1624ab4f23f42d64d106972ec19aee3135bf99dae3ad1cf8b9b"
+    },
+    {
+      "key": "draw_04/budget_47/2026092817/ambient_balanced",
+      "status_sha256": "4d60ee4e7505d6143c2b67adc0510aa5916f2ce0aaabc6362348966fb6c7bc9a"
+    },
+    {
+      "key": "draw_04/budget_47/2026092818/unweighted",
+      "status_sha256": "bdd5af854ac5fa1b8141c1ebb4d2be46f55497ba09afe1ce328fb37b282cb088"
+    },
+    {
+      "key": "draw_04/budget_47/2026092818/ambient_balanced",
+      "status_sha256": "2b515cd9507431a43cb281ed9b52ead94f9b4ed28edab57ce65ad8aa17489627"
+    },
+    {
+      "key": "draw_04/budget_47/2026092819/unweighted",
+      "status_sha256": "f4a5d759551f7d514f4fcf4d5f03a199304503ccc847cc9016101a9e2895ddc0"
+    },
+    {
+      "key": "draw_04/budget_47/2026092819/ambient_balanced",
+      "status_sha256": "2b52ecd06df66f879880179e5d3abbca3cd471baf75bf3d3d1864cf8d9766948"
+    },
+    {
+      "key": "draw_05/budget_24/2026092800/unweighted",
+      "status_sha256": "f93d8e2c1548769cfad708221b23c3c1c245461892adb19925421d83315498c6"
+    },
+    {
+      "key": "draw_05/budget_24/2026092800/ambient_balanced",
+      "status_sha256": "dd7dedcd570c4c94d0d264a69c2dbccad12c4ded0d6e5e6d6f751d1a6065ccd4"
+    },
+    {
+      "key": "draw_05/budget_24/2026092801/unweighted",
+      "status_sha256": "f91ac7cb25d0288d7b7198c3d930e2280d0010b737742c4809958b82f0c43960"
+    },
+    {
+      "key": "draw_05/budget_24/2026092801/ambient_balanced",
+      "status_sha256": "32dfafbec3ce75515f23808c6382ab7596254cb3a8d5d4eaa8405cab3414b436"
+    },
+    {
+      "key": "draw_05/budget_24/2026092802/unweighted",
+      "status_sha256": "e9dc05413fb216d8fa97a0d460ca90443b018423083c312f2aaf1c310aaaebd1"
+    },
+    {
+      "key": "draw_05/budget_24/2026092802/ambient_balanced",
+      "status_sha256": "7569b93e9005a2b0a44a7dda990d7c58a81723389547c69c68ff5822ce435f34"
+    },
+    {
+      "key": "draw_05/budget_24/2026092803/unweighted",
+      "status_sha256": "21c98943ada5ff5055efc5ffa2af563c6dc6022e0371e90fb3332ad99fecdfa6"
+    },
+    {
+      "key": "draw_05/budget_24/2026092803/ambient_balanced",
+      "status_sha256": "a8859855a6017b11cd75ac6cee25e5fd682400bd6949f7b447830f670b5e5624"
+    },
+    {
+      "key": "draw_05/budget_24/2026092804/unweighted",
+      "status_sha256": "0efc62530e6c4ffa0162399b778d4b20fcd9d3f5f152e12c90588d8877007fab"
+    },
+    {
+      "key": "draw_05/budget_24/2026092804/ambient_balanced",
+      "status_sha256": "f07f4413582290375ac23413b2fe0af4132359393296dadbdcff0e0268897382"
+    },
+    {
+      "key": "draw_05/budget_24/2026092805/unweighted",
+      "status_sha256": "858dff75fcab4bc0b8971fe40ef0a50751f0881073be95186db86c8c568fa440"
+    },
+    {
+      "key": "draw_05/budget_24/2026092805/ambient_balanced",
+      "status_sha256": "fedac5523953b855a6389a09b86b51bd576087c6ac8d5002e0f3aca0ad14cf61"
+    },
+    {
+      "key": "draw_05/budget_24/2026092806/unweighted",
+      "status_sha256": "56932ce9e507e13675eb39e6e1d3986a57f6ed69216d997c5fadaa4c89f344b7"
+    },
+    {
+      "key": "draw_05/budget_24/2026092806/ambient_balanced",
+      "status_sha256": "570b65b30609e281d5a4084172fa5e81ab88f02cb3f5ffd9cab14c42dac8b990"
+    },
+    {
+      "key": "draw_05/budget_24/2026092807/unweighted",
+      "status_sha256": "b17f26304a5a37088a14cb15bf64008b4ceebb77c579a2ef4ad06842d03e2932"
+    },
+    {
+      "key": "draw_05/budget_24/2026092807/ambient_balanced",
+      "status_sha256": "bd3e93afdd78d3f0c724c0651e6b4b80119f90dba3ed9f1afc62b48778eb1da9"
+    },
+    {
+      "key": "draw_05/budget_24/2026092808/unweighted",
+      "status_sha256": "f78c503fa0eae8d1bfacb84f3203de06b9338c6b6c473294a9b13af69559764a"
+    },
+    {
+      "key": "draw_05/budget_24/2026092808/ambient_balanced",
+      "status_sha256": "437bcc18c7482fc82da629982909734912de2bf799f57cdd8206af879832d37a"
+    },
+    {
+      "key": "draw_05/budget_24/2026092809/unweighted",
+      "status_sha256": "02caea5af8551b3ead7b0ad048e76be068e83f7dc0ac37fc01852bab45e17eb9"
+    },
+    {
+      "key": "draw_05/budget_24/2026092809/ambient_balanced",
+      "status_sha256": "3a3d9d506876e0e4d467184249e685eca35fd705bc0bda769b73688923f33ca3"
+    },
+    {
+      "key": "draw_05/budget_24/2026092810/unweighted",
+      "status_sha256": "d49c2c0b4e51a9da6720c84d7f76a6f6d6b3cd8b4567e1e1d7c508e20b1f65f5"
+    },
+    {
+      "key": "draw_05/budget_24/2026092810/ambient_balanced",
+      "status_sha256": "a17748175761d42a1f62b7101aa0932bd22d301e3c6be68df97d89c64457d906"
+    },
+    {
+      "key": "draw_05/budget_24/2026092811/unweighted",
+      "status_sha256": "67e852f3f5488be7dfbf28551f01832096400e355cfdcc7ef1b2d40befcc28a5"
+    },
+    {
+      "key": "draw_05/budget_24/2026092811/ambient_balanced",
+      "status_sha256": "a5e8a504159e0b56e0f804a05352583ef7333502fc85df786255c0e0c36459f7"
+    },
+    {
+      "key": "draw_05/budget_24/2026092812/unweighted",
+      "status_sha256": "c5b8ddd2f034f5f25ff1032e600dea2afc276983be083e8693680f7b4ff87aca"
+    },
+    {
+      "key": "draw_05/budget_24/2026092812/ambient_balanced",
+      "status_sha256": "b8faf9f88340f38a314226d52f01c4a63cc70b5215e88a7e841939cdd7cd80dc"
+    },
+    {
+      "key": "draw_05/budget_24/2026092813/unweighted",
+      "status_sha256": "a47c10266ce5182b083ea03cb8189da461fc9cc92bf7df11b781cca7d5f6ab77"
+    },
+    {
+      "key": "draw_05/budget_24/2026092813/ambient_balanced",
+      "status_sha256": "8c2ad72f07790917584d8c3401a9e9e07a26449a9c4d3c53239d0a0f92e065c4"
+    },
+    {
+      "key": "draw_05/budget_24/2026092814/unweighted",
+      "status_sha256": "8f2091cfa93b8bdf63078001bae6ef31b69c0addaed39f83006f48dc2c78b7b1"
+    },
+    {
+      "key": "draw_05/budget_24/2026092814/ambient_balanced",
+      "status_sha256": "2ab1a01f537cb74f3015cd9306434e3cb98acd90440b567eaf330f2db177936e"
+    },
+    {
+      "key": "draw_05/budget_24/2026092815/unweighted",
+      "status_sha256": "33ebb0df88f63ff5b9c0e5b99c3c50d221b6280adb876c7cf31379d6ab01dab8"
+    },
+    {
+      "key": "draw_05/budget_24/2026092815/ambient_balanced",
+      "status_sha256": "697e1cc1fa1141f5cbf1a7908d2393f62b70d182e2bacfec12dab29d5d75eb76"
+    },
+    {
+      "key": "draw_05/budget_24/2026092816/unweighted",
+      "status_sha256": "8ba8e0597fce18cbca897b5df8d55b9392639524cef7c7b53e2594fcc5a2bc11"
+    },
+    {
+      "key": "draw_05/budget_24/2026092816/ambient_balanced",
+      "status_sha256": "f18584e15ba3248cdc18cf6071efe87a512509c6859f03eaa79f1f0380057b64"
+    },
+    {
+      "key": "draw_05/budget_24/2026092817/unweighted",
+      "status_sha256": "af31c4b97bf41ac517aeab8e25ff404cdb5c6af45ab9837192df3e405f73a5a6"
+    },
+    {
+      "key": "draw_05/budget_24/2026092817/ambient_balanced",
+      "status_sha256": "0e1823c1a4400518ecf005c279b261dea83ee866fcede5ba409ec457997bee99"
+    },
+    {
+      "key": "draw_05/budget_24/2026092818/unweighted",
+      "status_sha256": "80b32660cd2da1c31db3deabf8824d8e62bb2254bb0bf30d418191f9a29ac76a"
+    },
+    {
+      "key": "draw_05/budget_24/2026092818/ambient_balanced",
+      "status_sha256": "13b514c17eef91105af2a624a302bb44a2694e4e642330fe91d1d5cee75245ed"
+    },
+    {
+      "key": "draw_05/budget_24/2026092819/unweighted",
+      "status_sha256": "3bc1819197257398d9cd1a173cdc1367d5218c966b6bd3f76e81f8dd2d0446d2"
+    },
+    {
+      "key": "draw_05/budget_24/2026092819/ambient_balanced",
+      "status_sha256": "3ea0f13b2c345c4a7e2d18f3e7839fc0cfb09e7c280df9ed9680301953b71600"
+    },
+    {
+      "key": "draw_05/budget_47/2026092800/unweighted",
+      "status_sha256": "c4ac3749f434cc1db4a37406d79a80b3110214cefc1e0c9eb2613404dcbd4c8d"
+    },
+    {
+      "key": "draw_05/budget_47/2026092800/ambient_balanced",
+      "status_sha256": "cd82016e2c8aa51d4ef68641a180a7f20f0fe19947b7958e58ecd7e0810247a6"
+    },
+    {
+      "key": "draw_05/budget_47/2026092801/unweighted",
+      "status_sha256": "b562770855bfc09bbe7e9070d3e794134f17d588aa0ba5563dce0871e667c834"
+    },
+    {
+      "key": "draw_05/budget_47/2026092801/ambient_balanced",
+      "status_sha256": "9426c24bf545878a0fde695cbd932d8e4c5c09c7e2713ced045402f7cff8897e"
+    },
+    {
+      "key": "draw_05/budget_47/2026092802/unweighted",
+      "status_sha256": "0193063cee4633d033520b02695d762cf0cdf1f0f928693ee1c0bd867fb2e80a"
+    },
+    {
+      "key": "draw_05/budget_47/2026092802/ambient_balanced",
+      "status_sha256": "fd173776f44d29be7c0ceb81d9c36595e2b4dc0b69f698a490ad6b67f90681cc"
+    },
+    {
+      "key": "draw_05/budget_47/2026092803/unweighted",
+      "status_sha256": "1add57d87ac66821e765b7704e9dd839732b8b6cf957ba2322266b2d543a47c3"
+    },
+    {
+      "key": "draw_05/budget_47/2026092803/ambient_balanced",
+      "status_sha256": "d7124a0dfc65efe02fde0b5122d557bbb9fb563e38665e25382b9ff7ee73523c"
+    },
+    {
+      "key": "draw_05/budget_47/2026092804/unweighted",
+      "status_sha256": "20f30a1558a8b30f9ef38c3439d53ba0e5be88e524d586f544d2c45e04568778"
+    },
+    {
+      "key": "draw_05/budget_47/2026092804/ambient_balanced",
+      "status_sha256": "ea39b157b59c3bbf7c7097b5fe271f3b3538ef3480c6d7f2e6d43909e7a9a706"
+    },
+    {
+      "key": "draw_05/budget_47/2026092805/unweighted",
+      "status_sha256": "f4098ae42927447ba5ca5ca35cddeebe3595303c576e64311d39608ccc032142"
+    },
+    {
+      "key": "draw_05/budget_47/2026092805/ambient_balanced",
+      "status_sha256": "b2adfa4033d5632a6c454ba38c34ea2780c3e19632b59940c12e26a16fd96625"
+    },
+    {
+      "key": "draw_05/budget_47/2026092806/unweighted",
+      "status_sha256": "79e00632c321e58b78da13f69ab07f48f9bfba2a095fff121e4c333a37828a62"
+    },
+    {
+      "key": "draw_05/budget_47/2026092806/ambient_balanced",
+      "status_sha256": "4d25613c57a9401d000ebfa35a98f4625f12b0f85e195b8e003bfe1103832e89"
+    },
+    {
+      "key": "draw_05/budget_47/2026092807/unweighted",
+      "status_sha256": "d8c44698f8f24dc5c4d4aba4bd813e12f8db1ac0e8c38b9087a6e2d3dbd964e4"
+    },
+    {
+      "key": "draw_05/budget_47/2026092807/ambient_balanced",
+      "status_sha256": "215a794cb012f9760ee2d31aa9f298cacea3a32bf5f3be48a0e8b191aaf80e41"
+    },
+    {
+      "key": "draw_05/budget_47/2026092808/unweighted",
+      "status_sha256": "94129a68d5daf2176cb0b70897fb85c5d28c1d49701e3416aabe553aeef1ef9e"
+    },
+    {
+      "key": "draw_05/budget_47/2026092808/ambient_balanced",
+      "status_sha256": "750a20042d60bb2820ea79e2b7ec8bb37edf6f79c5d4559517426bbba19e28bf"
+    },
+    {
+      "key": "draw_05/budget_47/2026092809/unweighted",
+      "status_sha256": "b97fadf542596b9f3b15f72ada993792e408b1dee9e75703886281deef994354"
+    },
+    {
+      "key": "draw_05/budget_47/2026092809/ambient_balanced",
+      "status_sha256": "3ffce80a888201726c2df4070e0c66285e344b1ec14190d26495964b9bbbba6b"
+    },
+    {
+      "key": "draw_05/budget_47/2026092810/unweighted",
+      "status_sha256": "6bd75e6d4628498aa23e897bd2c4882b65f3d44b3e4143de7fa272df6338c1f9"
+    },
+    {
+      "key": "draw_05/budget_47/2026092810/ambient_balanced",
+      "status_sha256": "1dcd8c2fd06e7b583a63372ac358b0b066f7bf93146567e251d0e4a6b7c72fea"
+    },
+    {
+      "key": "draw_05/budget_47/2026092811/unweighted",
+      "status_sha256": "b61c15168a97b729287f49a5ca2a31d28b8d1c63b5f16c285d2db4cb052108a8"
+    },
+    {
+      "key": "draw_05/budget_47/2026092811/ambient_balanced",
+      "status_sha256": "7aff4f59b1cbd71d3fdfdf84d461514e96ec883914e86c0078b4ebfafa2f93d4"
+    },
+    {
+      "key": "draw_05/budget_47/2026092812/unweighted",
+      "status_sha256": "b123823644114068c1c74d4718d0bf277a4c4d663f2f5a37197bac8f73b51a8c"
+    },
+    {
+      "key": "draw_05/budget_47/2026092812/ambient_balanced",
+      "status_sha256": "aba87e25e7690534c391667d27b3366fc011d9c5e24bbcaf5af54a60dd9c169d"
+    },
+    {
+      "key": "draw_05/budget_47/2026092813/unweighted",
+      "status_sha256": "b7cc2ea87460e283e3abe1e891a89fe198475da950dd9c2d722b17fcf766855e"
+    },
+    {
+      "key": "draw_05/budget_47/2026092813/ambient_balanced",
+      "status_sha256": "4b8a6cf0967206f4d34dec9b7c1485b44227d0b21f063711f619a0e31c7dda4c"
+    },
+    {
+      "key": "draw_05/budget_47/2026092814/unweighted",
+      "status_sha256": "98511705501b9cde97ba02f9c361ee7db69bf716db782e009427e2b868ce7d08"
+    },
+    {
+      "key": "draw_05/budget_47/2026092814/ambient_balanced",
+      "status_sha256": "6f7cc0a25ea49a8f2c3c09dc93f98c918ee4e0c9ed9c0308999b4efbe04e8549"
+    },
+    {
+      "key": "draw_05/budget_47/2026092815/unweighted",
+      "status_sha256": "af5254a0d9352dc5989558f452e5781194d4b13726ac58ffa2bea1a0a1119af1"
+    },
+    {
+      "key": "draw_05/budget_47/2026092815/ambient_balanced",
+      "status_sha256": "6bf561b9df89bfac50ad050d5086cafbf4cb6b08c99c5be37a5ffbac21ad4e8b"
+    },
+    {
+      "key": "draw_05/budget_47/2026092816/unweighted",
+      "status_sha256": "a797d248709dd8eb5f59be8a57472c73feea8a80d1e7c0e3b15481bab90a547c"
+    },
+    {
+      "key": "draw_05/budget_47/2026092816/ambient_balanced",
+      "status_sha256": "bde747d49d825c86d37350593354ed0ff33427fa3ad347e33c21a9861d6bb342"
+    },
+    {
+      "key": "draw_05/budget_47/2026092817/unweighted",
+      "status_sha256": "5a523ed728b784090f315c4ee636c4cdc8a91a6f57d425022ff180babbd03a37"
+    },
+    {
+      "key": "draw_05/budget_47/2026092817/ambient_balanced",
+      "status_sha256": "6bbdf3d8a7e09351b5b30640be3f18bb2160bc09043027731ab01273a78cc8d9"
+    },
+    {
+      "key": "draw_05/budget_47/2026092818/unweighted",
+      "status_sha256": "1751817d594097b851cad0399c50b762c379e9a9f5210628ceb9bb4758bdf75b"
+    },
+    {
+      "key": "draw_05/budget_47/2026092818/ambient_balanced",
+      "status_sha256": "4d63f5a7a207e0f5cebbbe31dc28095aeeffccc6d5b8bb7f1ff5a9d152329721"
+    },
+    {
+      "key": "draw_05/budget_47/2026092819/unweighted",
+      "status_sha256": "1f35bed460cf14fbecfd3192c353438c197b3ab8e64d039c99ff68ed2dac9101"
+    },
+    {
+      "key": "draw_05/budget_47/2026092819/ambient_balanced",
+      "status_sha256": "3b7e37c8c59da4999e1b2670b5feeb6f00ea2fa317930352bb7033d5f50e051a"
+    }
+  ],
+  "unique_case_count": 440,
+  "full_budget_counted_once": true,
+  "controls": {
+    "unfitted_controls_exact_across_subsets": true,
+    "nonambient_weighting_controls_exact": true,
+    "paired_conditions_checked": 220
+  }
+}

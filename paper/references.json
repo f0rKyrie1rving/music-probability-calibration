@@ -1,0 +1,345 @@
+{
+  "verified_on": "2026-10-03",
+  "scope": "References in manuscript order. Original bibliography verification: 2026-10-03; release corrections for the published Platt chapter and fixed Das version: 2026-10-06. Metadata and stated claim checks do not imply every source was newly read in full or establish novelty.",
+  "references": [
+    {
+      "id": "platt2000",
+      "number": 1,
+      "authors": [
+        "John C. Platt"
+      ],
+      "year": 2000,
+      "title": "Probabilities for SV machines",
+      "venue": "Advances in Large-Margin Classifiers",
+      "editors": [
+        "Alexander J. Smola",
+        "Peter L. Bartlett",
+        "Bernhard Schölkopf",
+        "Dale Schuurmans"
+      ],
+      "publisher": "MIT Press",
+      "pages": "61-74",
+      "doi": "10.7551/mitpress/1113.003.0008",
+      "url": "https://direct.mit.edu/books/book/2787/chapter/75444/Probabilities-for-SV-Machines",
+      "formatted": "Platt JC. Probabilities for SV machines. In: Smola AJ, Bartlett PL, Schölkopf B, Schuurmans D, editors. Advances in Large-Margin Classifiers. Cambridge, MA: MIT Press; 2000. p. 61–74. doi:10.7551/mitpress/1113.003.0008.",
+      "supports": "Post-hoc sigmoid mapping of classifier scores. This study uses the logit input and its stated bounded fitting objective, rather than every detail of Platt's original fitting procedure.",
+      "verification": "Published chapter title, author, date, pages and DOI checked against the publisher-deposited Crossref record on 2026-10-06. MIT Press book page confirms editors and publication date. This metadata check does not assert a new reading of the full chapter.",
+      "metadata_source": "https://api.crossref.org/works/10.7551/mitpress/1113.003.0008",
+      "historical_preprint_url": "https://www.researchgate.net/profile/John-Platt-2/publication/2594015_Probabilistic_Outputs_for_Support_Vector_Machines_and_Comparisons_to_Regularized_Likelihood_Methods/links/004635154cff5262d6000000/Probabilistic-Outputs-for-Support-Vector-Machines-and-Comparisons-to-Regularized-Likelihood-Methods.pdf"
+    },
+    {
+      "id": "guo2017",
+      "number": 2,
+      "authors": [
+        "Chuan Guo",
+        "Geoff Pleiss",
+        "Yu Sun",
+        "Kilian Q. Weinberger"
+      ],
+      "year": 2017,
+      "title": "On calibration of modern neural networks",
+      "venue": "Proceedings of the 34th International Conference on Machine Learning",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "70",
+      "pages": "1321-1330",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "formatted": "Guo C, Pleiss G, Sun Y, Weinberger KQ. On calibration of modern neural networks. Proceedings of Machine Learning Research. 2017;70:1321-1330. https://proceedings.mlr.press/v70/guo17a.html.",
+      "supports": "Temperature scaling as a low-dimensional post-hoc calibration baseline; effectiveness reported in their evaluated neural-network settings, not a universal guarantee.",
+      "verification": "Official PMLR bibliography and paper."
+    },
+    {
+      "id": "zadrozny2002",
+      "number": 3,
+      "authors": [
+        "Bianca Zadrozny",
+        "Charles Elkan"
+      ],
+      "year": 2002,
+      "title": "Transforming classifier scores into accurate multiclass probability estimates",
+      "venue": "Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+      "publisher": "ACM",
+      "pages": "694-699",
+      "doi": "10.1145/775047.775151",
+      "url": "https://doi.org/10.1145/775047.775151",
+      "primary_text_url": "https://www.cs.columbia.edu/~djhsu/coms4771-f25/handouts/zadrozny2002kdd.pdf",
+      "formatted": "Zadrozny B, Elkan C. Transforming classifier scores into accurate multiclass probability estimates. In: Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM; 2002. p. 694-699. doi:10.1145/775047.775151.",
+      "supports": "Monotone isotonic calibration of ranked classifier scores, and calibrated binary probabilities as building blocks.",
+      "verification": "Primary paper accessible as a university-hosted copy; DOI metadata corroborated by CiNii. ACM page itself returned an access error."
+    },
+    {
+      "id": "kull2017",
+      "number": 4,
+      "authors": [
+        "Meelis Kull",
+        "Telmo Silva Filho",
+        "Peter Flach"
+      ],
+      "year": 2017,
+      "title": "Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers",
+      "venue": "Proceedings of the 20th International Conference on Artificial Intelligence and Statistics",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "54",
+      "pages": "623-631",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v54/kull17a.html",
+      "formatted": "Kull M, Silva Filho T, Flach P. Beta calibration: a well-founded and easily implemented improvement on logistic calibration for binary classifiers. Proceedings of Machine Learning Research. 2017;54:623-631. https://proceedings.mlr.press/v54/kull17a.html.",
+      "supports": "Beta probability maps, identity inclusion, and overfitting concerns for flexible calibration with small samples.",
+      "verification": "Official PMLR bibliography and paper. Do not transfer its claim that sigmoid-on-probability excludes identity to this study's sigmoid-on-logit Platt map, which includes identity."
+    },
+    {
+      "id": "kull2019",
+      "number": 5,
+      "authors": [
+        "Meelis Kull",
+        "Miquel Perello-Nieto",
+        "Markus Kängsepp",
+        "Telmo Silva Filho",
+        "Hao Song",
+        "Peter Flach"
+      ],
+      "year": 2019,
+      "title": "Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with Dirichlet calibration",
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": "32",
+      "doi": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/8ca01ea920679a0fe3728441494041b9-Abstract.html",
+      "formatted": "Kull M, Perello-Nieto M, Kängsepp M, Silva Filho T, Song H, Flach P. Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with Dirichlet calibration. Advances in Neural Information Processing Systems. 2019;32. https://proceedings.neurips.cc/paper_files/paper/2019/hash/8ca01ea920679a0fe3728441494041b9-Abstract.html.",
+      "supports": "Regularization and internal cross-validation in calibration are established ideas. ODIR shrinks off-diagonal terms and intercepts; it is not identical to this study's identity-centered binary penalty.",
+      "verification": "Official NeurIPS proceedings and primary paper section on fitting and ODIR regularisation."
+    },
+    {
+      "id": "das2025",
+      "number": 6,
+      "authors": [
+        "Soumojit Das",
+        "Nairanjana Dasgupta",
+        "Prashanta Dutta"
+      ],
+      "year": 2025,
+      "title": "Geometric calibration and neutral zones for uncertainty-aware multi-class classification",
+      "venue": "arXiv preprint",
+      "arxiv": "2511.20960v1",
+      "doi": "10.48550/arXiv.2511.20960",
+      "url": "https://arxiv.org/abs/2511.20960v1",
+      "primary_text_url": "https://arxiv.org/html/2511.20960v1",
+      "formatted": "Das S, Dasgupta N, Dutta P. Geometric calibration and neutral zones for uncertainty-aware multi-class classification. arXiv preprint arXiv:2511.20960v1. 2025. https://arxiv.org/abs/2511.20960v1.",
+      "supports": "Equation 7 explicitly penalizes squared distance of a calibration matrix from identity and squared intercepts, so identity-centered calibration shrinkage is not a new general idea here.",
+      "verification": "Primary arXiv HTML, section 2.2.2, equation 7 and remarks 3-4. Working paper, not verified peer reviewed. Its constraints and multiclass setup differ; cite only the prior appearance of the regularization idea, not its theoretical guarantees or equivalence under all constraints."
+    },
+    {
+      "id": "lin2007",
+      "number": 7,
+      "authors": [
+        "Hsuan-Tien Lin",
+        "Chih-Jen Lin",
+        "Ruby C. Weng"
+      ],
+      "year": 2007,
+      "title": "A note on Platt's probabilistic outputs for support vector machines",
+      "venue": "Machine Learning",
+      "volume": "68",
+      "issue": "3",
+      "pages": "267-276",
+      "doi": "10.1007/s10994-007-5018-6",
+      "url": "https://link.springer.com/article/10.1007/s10994-007-5018-6",
+      "primary_text_url": "https://www.csie.ntu.edu.tw/~cjlin/papers/plattprob.pdf",
+      "formatted": "Lin HT, Lin CJ, Weng RC. A note on Platt's probabilistic outputs for support vector machines. Machine Learning. 2007;68(3):267-276. doi:10.1007/s10994-007-5018-6.",
+      "supports": "Numerical stability and convergence of sigmoid-calibration fitting are established research concerns; do not claim Newton fitting or stable logistic evaluation is novel.",
+      "verification": "Publisher article and authors' university-hosted primary paper."
+    },
+    {
+      "id": "caplin2022",
+      "number": 8,
+      "authors": [
+        "Andrew Caplin",
+        "Daniel Martin",
+        "Philip Marx"
+      ],
+      "year": 2022,
+      "title": "Calibrating for Class Weights by Modeling Machine Learning",
+      "venue": "arXiv preprint",
+      "arxiv": "2205.04613v2",
+      "doi": "10.48550/arXiv.2205.04613",
+      "url": "https://arxiv.org/abs/2205.04613v2",
+      "formatted": "Caplin A, Martin D, Marx P. Calibrating for class weights by modeling machine learning. arXiv preprint arXiv:2205.04613v2. 2022. doi:10.48550/arXiv.2205.04613.",
+      "supports": "Class weighting changes the ideal probability target; their model-based correction motivates separating weighted-training confidence from unweighted probabilities. The present regularized-head correction remains an idealized baseline.",
+      "verification": "Primary arXiv metadata lists authors, title, v1 on 10 May 2022 and v2 on 31 July 2022. Cite as preprint; no journal publication verified."
+    },
+    {
+      "id": "ye2022",
+      "number": 9,
+      "authors": [
+        "Tong Ye",
+        "Shijing Si",
+        "Jianzong Wang",
+        "Ning Cheng",
+        "Jing Xiao"
+      ],
+      "year": 2022,
+      "title": "Uncertainty Calibration for Deep Audio Classifiers",
+      "venue": "Proceedings of Interspeech 2022",
+      "pages": "1556-1560",
+      "doi": "10.21437/Interspeech.2022-11384",
+      "url": "https://www.isca-archive.org/interspeech_2022/ye22b_interspeech.html",
+      "primary_text_url": "https://www.isca-archive.org/interspeech_2022/ye22b_interspeech.pdf",
+      "formatted": "Ye T, Si S, Wang J, Cheng N, Xiao J. Uncertainty calibration for deep audio classifiers. In: Proceedings of Interspeech 2022. 2022. p. 1556-1560. doi:10.21437/Interspeech.2022-11384.",
+      "supports": "Prior audio-calibration study of environmental sound and music genre classification; evaluates MC dropout, ensembles, focal loss and SNGP. It is not a direct comparison of this manuscript's frozen-score post-hoc methods.",
+      "verification": "Official ISCA archive title and all five authors and primary proceedings PDF DOI/page1556. arXiv metadata says accepted Interspeech2022; proceedings citation preferred."
+    },
+    {
+      "id": "brier1950",
+      "number": 10,
+      "authors": [
+        "Glenn W. Brier"
+      ],
+      "year": 1950,
+      "title": "Verification of forecasts expressed in terms of probability",
+      "venue": "Monthly Weather Review",
+      "volume": "78",
+      "issue": "1",
+      "pages": "1-3",
+      "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+      "url": "https://journals.ametsoc.org/doi/abs/10.1175/1520-0493%281950%29078%3C0001%3AVOFEIT%3E2.0.CO%3B2",
+      "formatted": "Brier GW. Verification of forecasts expressed in terms of probability. Monthly Weather Review. 1950;78(1):1-3. doi:10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2.",
+      "supports": "Origin of the quadratic probability score; explicitly define the binary normalization used in this study.",
+      "verification": "Publisher title, author, date, DOI and pages; volume and issue in publisher record."
+    },
+    {
+      "id": "murphy1973",
+      "number": 11,
+      "authors": [
+        "Allan H. Murphy"
+      ],
+      "year": 1973,
+      "title": "A new vector partition of the probability score",
+      "venue": "Journal of Applied Meteorology",
+      "volume": "12",
+      "issue": "4",
+      "pages": "595-600",
+      "doi": "10.1175/1520-0450(1973)012<0595:ANVPOT>2.0.CO;2",
+      "url": "https://journals.ametsoc.org/view/journals/apme/12/4/1520-0450_1973_012_0595_anvpot_2_0_co_2.xml",
+      "formatted": "Murphy AH. A new vector partition of the probability score. Journal of Applied Meteorology. 1973;12(4):595-600. doi:10.1175/1520-0450(1973)012<0595:ANVPOT>2.0.CO;2.",
+      "supports": "Brier score reflects reliability, resolution and uncertainty; a lower Brier score is not synonymous with calibration improvement alone.",
+      "verification": "AMS publisher article and abstract. Use historical journal name, Journal of Applied Meteorology, rather than its current expanded title."
+    },
+    {
+      "id": "vaicenavicius2019",
+      "number": 12,
+      "authors": [
+        "Juozas Vaicenavicius",
+        "David Widmann",
+        "Carl Andersson",
+        "Fredrik Lindsten",
+        "Jacob Roll",
+        "Thomas Schön"
+      ],
+      "year": 2019,
+      "title": "Evaluating model calibration in classification",
+      "venue": "Proceedings of the Twenty-Second International Conference on Artificial Intelligence and Statistics",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "89",
+      "pages": "3459-3467",
+      "doi": null,
+      "url": "https://proceedings.mlr.press/v89/vaicenavicius19a.html",
+      "formatted": "Vaicenavicius J, Widmann D, Andersson C, Lindsten F, Roll J, Schön T. Evaluating model calibration in classification. Proceedings of Machine Learning Research. 2019;89:3459-3467. https://proceedings.mlr.press/v89/vaicenavicius19a.html.",
+      "supports": "Different definitions and estimators of calibration require careful interpretation; a single aggregate metric is insufficient evidence of every form of calibration.",
+      "verification": "Official PMLR bibliography and paper."
+    },
+    {
+      "id": "bogdanov2019",
+      "number": 13,
+      "authors": [
+        "Dmitry Bogdanov",
+        "Minz Won",
+        "Philip Tovstogan",
+        "Alastair Porter",
+        "Xavier Serra"
+      ],
+      "year": 2019,
+      "title": "The MTG-Jamendo Dataset for Automatic Music Tagging",
+      "venue": "Machine Learning for Music Discovery Workshop, International Conference on Machine Learning",
+      "location": "Long Beach, CA, United States",
+      "doi": null,
+      "url": "https://hdl.handle.net/10230/42015",
+      "primary_text_url": "https://repositori.upf.edu/bitstream/handle/10230/42015/bogdanov_ICML2019__Jamendo.pdf",
+      "citation_source": "https://github.com/MTG/mtg-jamendo-dataset/blob/master/CITATION.bib",
+      "formatted": "Bogdanov D, Won M, Tovstogan P, Porter A, Serra X. The MTG-Jamendo Dataset for Automatic Music Tagging. In: Machine Learning for Music Discovery Workshop, International Conference on Machine Learning. 2019. https://hdl.handle.net/10230/42015.",
+      "supports": "MTG-Jamendo provenance and uploader-provided music tags; the current study uses a selected derived subset rather than the full dataset or its official benchmark split.",
+      "verification": "Official dataset CITATION.bib and authors' university-hosted primary paper. Cite the workshop, not the main ICML PMLR proceedings, despite the generic footer in the PDF."
+    },
+    {
+      "id": "alonso2023",
+      "number": 14,
+      "authors": [
+        "Pablo Alonso-Jiménez",
+        "Xavier Serra",
+        "Dmitry Bogdanov"
+      ],
+      "year": 2023,
+      "title": "Efficient supervised training of audio transformers for music representation learning",
+      "venue": "Proceedings of the 24th International Society for Music Information Retrieval Conference",
+      "pages": "824-831",
+      "doi": "10.5281/zenodo.10265414",
+      "url": "https://zenodo.org/records/10265414",
+      "formatted": "Alonso-Jiménez P, Serra X, Bogdanov D. Efficient supervised training of audio transformers for music representation learning. In: Proceedings of the 24th International Society for Music Information Retrieval Conference. 2023. p. 824-831. doi:10.5281/zenodo.10265414.",
+      "supports": "MAEST as a pretrained audio-transformer music representation; actual checkpoint, pooling and feature provenance remain study-specific records.",
+      "verification": "Official ISMIR proceedings record on Zenodo confirms authors, venue, pages and DOI."
+    },
+    {
+      "id": "li2024",
+      "number": 15,
+      "authors": [
+        "Yizhi Li",
+        "Ruibin Yuan",
+        "Ge Zhang",
+        "Yinghao Ma",
+        "Xingran Chen",
+        "Hanzhi Yin",
+        "Chenghao Xiao",
+        "Chenghua Lin",
+        "Anton Ragni",
+        "Emmanouil Benetos",
+        "Norbert Gyenge",
+        "Roger Dannenberg",
+        "Ruibo Liu",
+        "Wenhu Chen",
+        "Gus Xia",
+        "Yemin Shi",
+        "Wenhao Huang",
+        "Zili Wang",
+        "Yike Guo",
+        "Jie Fu"
+      ],
+      "year": 2024,
+      "title": "MERT: Acoustic music understanding model with large-scale self-supervised training",
+      "venue": "The Twelfth International Conference on Learning Representations",
+      "doi": null,
+      "url": "https://openreview.net/forum?id=w3YZ9MSlBu",
+      "primary_text_url": "https://arxiv.org/abs/2306.00107",
+      "formatted": "Li Y, Yuan R, Zhang G, Ma Y, Chen X, Yin H, et al. MERT: Acoustic music understanding model with large-scale self-supervised training. In: The Twelfth International Conference on Learning Representations. 2024. https://openreview.net/forum?id=w3YZ9MSlBu.",
+      "supports": "MERT as a self-supervised acoustic music representation; the two stored MERT feature variants in this study do not constitute independent datasets.",
+      "verification": "Primary arXiv paper lists all 20 authors and explicitly says accepted by ICLR 2024. OpenReview PDF appeared in search but direct page later triggered browser verification. arXiv DOI 10.48550/arXiv.2306.00107 identifies the preprint, not a proceedings DOI.",
+      "proceedings_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/33dffa2e3d2ab74a783d1a8c292f66d9-Abstract-Conference.html"
+    },
+    {
+      "id": "efron1979",
+      "number": 16,
+      "authors": [
+        "Bradley Efron"
+      ],
+      "year": 1979,
+      "title": "Bootstrap Methods: Another Look at the Jackknife",
+      "venue": "The Annals of Statistics",
+      "volume": 7,
+      "issue": 1,
+      "pages": "1-26",
+      "doi": "10.1214/aos/1176344552",
+      "url": "https://www.jstor.org/stable/2958830",
+      "formatted": "Efron B. Bootstrap methods: Another look at the jackknife. The Annals of Statistics. 1979;7(1):1-26. doi:10.1214/aos/1176344552.",
+      "supports": "Foundational bootstrap reference; artist-cluster resampling and the conditional estimand are explicitly defined in this study rather than attributed as the original paper’s exact application.",
+      "verification": "Title, author, journal, year, volume, issue and page range checked against the journal issue record https://www.jstor.org/stable/i348796 on 2026-10-03; DOI links to the publisher record."
+    }
+  ],
+  "release_audit_on": "2026-10-06"
+}

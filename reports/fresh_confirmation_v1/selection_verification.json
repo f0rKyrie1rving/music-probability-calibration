@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-10-03T15:20:45.475541+00:00",
+  "run": "fresh_confirmation_v1",
+  "freeze_sha256": "2af3f1b7222d39f3ac50a4b2d03f52dd78935e865e1a0bafa2e9c565b690bb88",
+  "selected_manifest_sha256": "deef28b2987426666ab19116a90fe086ca3726160b8f8b51c7c53189d056130b",
+  "state": "pass",
+  "checks": {
+    "config_hash": true,
+    "selection_hash": true,
+    "all_frozen_artifact_hashes": true,
+    "official_blob_genres.tsv": true,
+    "official_blob_licenses.txt": true,
+    "official_blob_checksums.txt": true,
+    "historical_exclusion_hash": true,
+    "historical_exclusion_sizes": true,
+    "eligible_frame_counts": true,
+    "candidate_pool_exact_eligible_ids": true,
+    "selected_ids_unique": true,
+    "selected_subset_eligible": true,
+    "no_historical_track_overlap": true,
+    "no_historical_artist_overlap": true,
+    "no_known_alias_overlap": true,
+    "artist_roles_disjoint": true,
+    "track_cap_two": true,
+    "audio_paths_relative_and_expected": true,
+    "selected_metadata_matches_source": true,
+    "selected_license_and_checksum_matches_source": true,
+    "independent_hash_selection_exact_order": true,
+    "planned_sample_counts": true,
+    "no_normalized_historical_name_overlap": true,
+    "no_normalized_cross_artist_name_collisions": true,
+    "recorded_acquisition_after_freeze": true,
+    "future_excludes_whole_frame_and_aliases": true
+  },
+  "details": {
+    "all_frozen_artifact_hashes": {
+      "checked": 73,
+      "mismatches": {}
+    },
+    "official_blob_genres.tsv": {
+      "git_blob": "b7b14e433e524d6c6bb5aff8fc814ea0d702f285",
+      "sha256": "2b59cf0ba1c447da88858f7f51bdd8b15f791e65330b1710918324543680a998"
+    },
+    "official_blob_licenses.txt": {
+      "git_blob": "0672e1840650a4e1352dfe9ab487f67de8954171",
+      "sha256": "c207c476d1714dfc9061f5ae9f2047c0490bfaa5d861dc090acc786508948933"
+    },
+    "official_blob_checksums.txt": {
+      "git_blob": "570ff1abe98ed09c16f734a935f33797c3e1b22d",
+      "sha256": "7b7dcb44af0013d672377b9f9bce91247bf8b961f6a9c4b9527c055608e491ad"
+    },
+    "planned_sample_counts": {
+      "calibration": {
+        "tracks": 143,
+        "artists": 94
+      },
+      "evaluation": {
+        "tracks": 637,
+        "artists": 400
+      }
+    },
+    "recorded_acquisition_after_freeze": {
+      "request_logs_examined": 4118,
+      "earliest_created_utc": "2026-10-03T15:17:09.699226+00:00",
+      "freeze_utc": "2026-10-03T15:16:02.319706+00:00"
+    }
+  },
+  "notes": [
+    "Independent re-enumeration and ID-only hash-order reconstruction; no use of prepare.py to select.",
+    "No label frequencies, new scores, predictions or audio inspected. Literal source tag lists were compared only for metadata identity.",
+    "Transport log chronology is a local recorded-order check, not an external timestamp attestation.",
+    "Does not certify upstream pretrained-model novelty, undiscovered aliases, or acoustic near-duplicate absence."
+  ]
+}

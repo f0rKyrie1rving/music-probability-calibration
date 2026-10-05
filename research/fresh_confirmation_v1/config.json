@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "experiment": "fresh_confirmation_v1",
+  "source_commit": "cafd8e20c265ed84f1e61f1c875327971f43a62f",
+  "archives": [
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39"
+  ],
+  "allowed_license_codes": [
+    "by",
+    "by-sa",
+    "by-nc",
+    "by-nc-sa"
+  ],
+  "sample_seed": "music-calibration-fresh-confirmation-20261003-v1",
+  "tracks_per_artist": 2,
+  "planned_calibration_artists": 94,
+  "planned_evaluation_artists": 400,
+  "head_seeds": [
+    2026092800,
+    2026092801,
+    2026092802,
+    2026092803,
+    2026092804,
+    2026092805,
+    2026092806,
+    2026092807,
+    2026092808,
+    2026092809,
+    2026092810,
+    2026092811,
+    2026092812,
+    2026092813,
+    2026092814,
+    2026092815,
+    2026092816,
+    2026092817,
+    2026092818,
+    2026092819
+  ],
+  "weightings": [
+    "unweighted",
+    "ambient_balanced"
+  ],
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "ontology": {
+    "electronic": [
+      "electronic",
+      "electronica",
+      "edm",
+      "house",
+      "deephouse",
+      "techno",
+      "trance",
+      "idm",
+      "dubstep",
+      "drumnbass",
+      "breakbeat",
+      "triphop",
+      "downtempo",
+      "electropop",
+      "synthpop"
+    ],
+    "pop": [
+      "pop",
+      "poprock",
+      "popfolk",
+      "instrumentalpop",
+      "electropop",
+      "synthpop"
+    ],
+    "ambient": [
+      "ambient",
+      "darkambient",
+      "atmospheric",
+      "chillout",
+      "newage"
+    ],
+    "rock": [
+      "rock",
+      "alternativerock",
+      "hardrock",
+      "instrumentalrock",
+      "postrock",
+      "punkrock",
+      "classicrock",
+      "bluesrock",
+      "rocknroll",
+      "grunge",
+      "poprock"
+    ]
+  },
+  "budgets": [
+    24,
+    47,
+    94
+  ],
+  "draw_seeds": [
+    2026100301,
+    2026100302,
+    2026100303,
+    2026100304,
+    2026100305
+  ],
+  "inner_seed": 2026100311,
+  "inner_folds": 3,
+  "ridge_penalties": [
+    0.0,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "selection_tie_tolerance": 1e-12,
+  "bootstrap_seed": 2026100321,
+  "bootstrap_reps": 10000,
+  "minimum_observed_fraction": 0.8,
+  "minimum_evaluation_artists": 320,
+  "minimum_positive_artists": 20,
+  "minimum_negative_artists": 20,
+  "maximum_prefix_bytes_per_track": 1310720,
+  "network": {
+    "attempts_per_range": 3,
+    "connect_timeout_seconds": 8,
+    "request_timeout_seconds": 25,
+    "index_workers": 8,
+    "download_workers": 8,
+    "maximum_index_invocations": 3,
+    "maximum_download_invocations": 3
+  },
+  "methods": [
+    "raw",
+    "prior_offset",
+    "temperature",
+    "platt",
+    "beta",
+    "isotonic",
+    "ridge_platt"
+  ],
+  "primary": {
+    "weighting": "unweighted",
+    "method": "ridge_platt",
+    "comparator": "platt",
+    "budgets": [
+      24,
+      47
+    ],
+    "aggregation": "Mean paired per-track four-label squared loss over 20 fixed heads, five prespecified draws and both partial budgets; then track-weighted cohort mean",
+    "success_rule": "Adequate prespecified coverage and upper endpoint of two-sided 95% paired artist-cluster bootstrap interval strictly below zero"
+  },
+  "scope": "New to audited project track/artist history; same source, official noisy proxy labels; fixed 20 MAEST research heads; no new algorithm, no new pretrained representation and no application update.",
+  "planned_calibration_tracks": 143,
+  "planned_evaluation_tracks": 637
+}

@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-03T15:41:45.558792+00:00",
+  "verifier_sha256": "83798c10c2e7c21e1469b82367e8c8b6832b8c4af7a7efdcd8b410e5fc60f99e",
+  "freeze_sha256": "2af3f1b7222d39f3ac50a4b2d03f52dd78935e865e1a0bafa2e9c565b690bb88",
+  "selected_manifest_sha256": "deef28b2987426666ab19116a90fe086ca3726160b8f8b51c7c53189d056130b",
+  "download_status_sha256": "d35f30b72e635569660fc3581a4147e0185cd832d3f8aa1bda2d6705ed743aec",
+  "resolved_manifest_sha256": "24b2d344f255079f17afe4bfa790a9501b96ec83f4bc79a916b0f5998674e8bc",
+  "requested_tracks": 780,
+  "successful_tracks": 780,
+  "failed_tracks": 0,
+  "wav_files_hashed": 780,
+  "wav_format": {
+    "frames": 661500,
+    "sample_rate": 22050,
+    "channels": 1,
+    "subtype": "PCM_16",
+    "format": "WAV"
+  },
+  "shards_verified": {
+    "20": {
+      "nonzero_headers": 542,
+      "selected_tracks": 15
+    },
+    "21": {
+      "nonzero_headers": 555,
+      "selected_tracks": 21
+    },
+    "22": {
+      "nonzero_headers": 572,
+      "selected_tracks": 28
+    },
+    "23": {
+      "nonzero_headers": 565,
+      "selected_tracks": 33
+    },
+    "24": {
+      "nonzero_headers": 556,
+      "selected_tracks": 33
+    },
+    "25": {
+      "nonzero_headers": 521,
+      "selected_tracks": 39
+    },
+    "26": {
+      "nonzero_headers": 512,
+      "selected_tracks": 39
+    },
+    "27": {
+      "nonzero_headers": 538,
+      "selected_tracks": 32
+    },
+    "28": {
+      "nonzero_headers": 558,
+      "selected_tracks": 33
+    },
+    "29": {
+      "nonzero_headers": 550,
+      "selected_tracks": 39
+    },
+    "30": {
+      "nonzero_headers": 554,
+      "selected_tracks": 39
+    },
+    "31": {
+      "nonzero_headers": 550,
+      "selected_tracks": 41
+    },
+    "32": {
+      "nonzero_headers": 556,
+      "selected_tracks": 44
+    },
+    "33": {
+      "nonzero_headers": 536,
+      "selected_tracks": 46
+    },
+    "34": {
+      "nonzero_headers": 555,
+      "selected_tracks": 40
+    },
+    "35": {
+      "nonzero_headers": 563,
+      "selected_tracks": 59
+    },
+    "36": {
+      "nonzero_headers": 546,
+      "selected_tracks": 43
+    },
+    "37": {
+      "nonzero_headers": 539,
+      "selected_tracks": 44
+    },
+    "38": {
+      "nonzero_headers": 556,
+      "selected_tracks": 54
+    },
+    "39": {
+      "nonzero_headers": 569,
+      "selected_tracks": 58
+    }
+  },
+  "raw_tar_headers_verified": 11013,
+  "network_requests_verified": 15996,
+  "network_request_phase_counts": {
+    "audio": 4983,
+    "index": 11013
+  },
+  "network_attempt_states": {
+    "success": 15996
+  },
+  "failed_network_attempts": 0,
+  "network_failure_messages": {},
+  "first_attempt_started_utc": "2026-10-03T15:17:09.700074+00:00",
+  "last_attempt_started_utc": "2026-10-03T15:35:24.241485+00:00",
+  "chronology_after_freeze": true,
+  "encoded_bytes": {
+    "minimum": 296253,
+    "median": 393216.0,
+    "maximum": 786432,
+    "sum": 326371330,
+    "per_track_limit": 1310720
+  },
+  "full_mp3_files_checksum_verified": 7,
+  "partial_mp3_tracks": 773,
+  "id3_skipped_tracks": 7,
+  "full_tar_sha256_verified": false,
+  "actual_raw_http_content_range_headers_independently_available": false,
+  "limitations": [
+    "The frozen acquisition transport validated exact HTTP206 Content-Range bounds at download time; raw HTTP Content-Range headers were not retained. This independent audit verifies recorded status, requested ranges, lengths, archive totals, cache hashes, and reconstructed TAR geometry rather than re-observing server responses.",
+    "Local hash consistency and TAR geometry do not authenticate upstream recordings or rule out changed/corrupted source content outside the retrieved ranges.",
+    "Partial MP3 prefixes are not full-MP3 checksum verification. Full TAR checksums were not verified.",
+    "No features, model scores, evaluation label arrays, tag distributions, or analysis metrics were read. WAV files were hashed and inspected with soundfile.info only."
+  ]
+}

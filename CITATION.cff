@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this study or its code, please cite the preprint below."
+title: "Music Probability Calibration"
+authors:
+  - family-names: Song
+    given-names: Chenglin
+version: paper-v1
+date-released: 2026-10-06
+url: https://github.com/f0rKyrie1rving/music-probability-calibration
+repository-code: https://github.com/f0rKyrie1rving/music-probability-calibration
+preferred-citation:
+  type: generic
+  title: "Probability calibration with limited artist data in music tagging: Retrospective and prospective evidence on regularization and numerical reproducibility"
+  authors:
+    - family-names: Song
+      given-names: Chenglin
+  year: 2026
+  version: "Preprint v1; not peer reviewed"
+  date-released: 2026-10-06
+  url: https://github.com/f0rKyrie1rving/music-probability-calibration/tree/paper-v1/paper

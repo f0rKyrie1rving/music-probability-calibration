@@ -1,0 +1,290 @@
+[
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 24,
+    "contrast": "ridge_platt minus raw",
+    "estimate": -0.0054774005977133566,
+    "ci95": [
+      -0.00889887998065539,
+      -0.0020160727626662702
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 24,
+    "contrast": "ridge_platt minus prior_offset",
+    "estimate": 0.006445124028251436,
+    "ci95": [
+      0.005432760276410807,
+      0.007467880851265932
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 24,
+    "contrast": "ridge_platt minus platt",
+    "estimate": -0.008245874284358185,
+    "ci95": [
+      -0.0099404645423888,
+      -0.00652397797459977
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 47,
+    "contrast": "ridge_platt minus raw",
+    "estimate": -0.010600516820265934,
+    "ci95": [
+      -0.014038757858409544,
+      -0.007184116802823941
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 47,
+    "contrast": "ridge_platt minus prior_offset",
+    "estimate": 0.0013220078056988586,
+    "ci95": [
+      0.0007401486395480493,
+      0.00191114192343889
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 47,
+    "contrast": "ridge_platt minus platt",
+    "estimate": -0.002593727059224249,
+    "ci95": [
+      -0.003862199674874406,
+      -0.0013470791938668444
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 94,
+    "contrast": "ridge_platt minus raw",
+    "estimate": -0.012120514541276488,
+    "ci95": [
+      -0.015860856974055475,
+      -0.008323225656096923
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 94,
+    "contrast": "ridge_platt minus prior_offset",
+    "estimate": -0.00019798991531170165,
+    "ci95": [
+      -0.0008012063048883126,
+      0.00041177749110610614
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "ambient_balanced",
+    "nominal_budget": 94,
+    "contrast": "ridge_platt minus platt",
+    "estimate": 0.00012961519007256188,
+    "ci95": [
+      -0.0011916570134960142,
+      0.001449812202123206
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 24,
+    "contrast": "ridge_platt minus raw",
+    "estimate": 0.0037226465595203077,
+    "ci95": [
+      0.002879320775996848,
+      0.004572449758751552
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 24,
+    "contrast": "ridge_platt minus prior_offset",
+    "estimate": 0.0037226465595203077,
+    "ci95": [
+      0.002879320775996848,
+      0.004572449758751552
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 24,
+    "contrast": "ridge_platt minus platt",
+    "estimate": -0.010800077768161796,
+    "ci95": [
+      -0.01238739721179093,
+      -0.00919221958783047
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 47,
+    "contrast": "ridge_platt minus raw",
+    "estimate": 0.00033459114597562126,
+    "ci95": [
+      -8.53144344260734e-06,
+      0.0006727353976048901
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 47,
+    "contrast": "ridge_platt minus prior_offset",
+    "estimate": 0.00033459114597562126,
+    "ci95": [
+      -8.53144344260734e-06,
+      0.0006727353976048901
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 47,
+    "contrast": "ridge_platt minus platt",
+    "estimate": -0.003299669997621257,
+    "ci95": [
+      -0.004487200806676567,
+      -0.002133811215318964
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 94,
+    "contrast": "ridge_platt minus raw",
+    "estimate": -0.00027732938736269464,
+    "ci95": [
+      -0.0008252881053826049,
+      0.00026785252067698255
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 94,
+    "contrast": "ridge_platt minus prior_offset",
+    "estimate": -0.00027732938736269464,
+    "ci95": [
+      -0.0008252881053826049,
+      0.00026785252067698255
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  },
+  {
+    "weighting": "unweighted",
+    "nominal_budget": 94,
+    "contrast": "ridge_platt minus platt",
+    "estimate": 0.00035162087660005315,
+    "ci95": [
+      -0.001063682477722845,
+      0.0017578723323375825
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026100321,
+    "n_artists": 400,
+    "n_tracks": 637,
+    "uncertainty_scope": "Evaluation-artist sampling only, conditional on fixed heads and calibration pool/draws",
+    "inference": "Exploratory pointwise interval; no multiplicity adjustment or additional confirmatory claim"
+  }
+]

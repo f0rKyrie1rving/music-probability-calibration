@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-10-03T15:50:11.065996+00:00",
+  "state": "supports_prespecified_mean_improvement",
+  "files": {
+    "actual_calibration_subsets.json": "4195d56a24644c680e314b0511879295ee069ce91eeef289dd9623753e4afe39",
+    "case_metrics.json": "288675e6178cf905270a47855e4f1b29a25667a421a9fffdf2a9dcba3e9bff82",
+    "coverage.json": "a58c9c3a51567d582dfbe5bd446856479a0552612ce7aa2f8d28ad1393f38b5f",
+    "label_read_receipt.json": "67de0e6d2676c5558e75d4d364a616f9b56db3af85e24acbcf8fe95357944ca0",
+    "numerical_diagnostics.json": "1a72a6e48b23ff3d747781f75d3a4e42bec6f427ef98fc81c4313fa2d874192d",
+    "primary.json": "bd9b16ce7f7aaeae30b9df827dc8ff30307b457e4a3999ef213e459ba5e163f6",
+    "primary_artist_bootstrap.npz": "498a43163f96bd2e9eefa6a89b5829f658efeeb19ace93a95e2f45031a742c46",
+    "primary_head_draw_budget.csv": "9c9c7ce78305b63f6951a55c1d6bb3188b8e886368f3a0af141db5d72e1c22f3",
+    "ridge_selections.csv": "4f7748f5410e65c1b3fcfbe2be06577920b93b87bd1b85a6001267f97dac4c0f",
+    "secondary_contrasts.json": "eb311a18318caef5c6e22d893800bd38671751c679835f78948e8ff0a0efa457",
+    "summary_cells.csv": "bdfc0347e22402174eb6ae224a8fc4d81257a944415b36121a716b0ed0fe3c2e"
+  },
+  "limitations": [
+    "Single previously known data source; source tags are not adjudicated truth",
+    "Artist-cluster intervals condition on fixed classifiers and one calibration pool",
+    "Artist aliases and encoder pretraining overlap are not fully knowable",
+    "Ridge beating Platt does not establish improvement over uncalibrated probabilities"
+  ]
+}

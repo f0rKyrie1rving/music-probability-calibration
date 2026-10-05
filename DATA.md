@@ -34,7 +34,7 @@ labels are checked against the actual saved calibration/evaluation arrays.
   target mapping, source status and control-prediction checks.
 - `provenance/legacy_*`: historical frozen protocol, configuration, split records
   and numerical verification.
-- `provenance/future_exclusions.json`: the latest 2,835-track / 1,296-artist
+- `provenance/future_exclusions.json`: the historical 2,835-track / 1,296-artist
   boundary, including previously examined eligible sampling frames.
 
 Hash checks detect changes relative to these records; they do not establish the
@@ -52,3 +52,35 @@ pretraining exposure cannot currently be completely audited.
 Future study selection must start from the latest exclusion ledger and a new
 protocol. This project reports exploratory numerical comparisons, not human
 adjudication of disputed musical labels.
+
+## Fresh confirmation bundle (3 October 2026)
+
+`data/fresh_confirmation_v1` contains the calibration scores/labels for 143
+tracks, evaluation scores and separately stored labels for 637 tracks, frozen
+artist-grouped fold plans, and losslessly compressed fitted calibrator records.
+The 780 tracks span 494 artists with no calibration/evaluation artist overlap.
+`selected_manifest.json` retains source IDs, credited titles/artists, tags,
+per-track licensing and attribution. Its relative audio paths describe the
+original run; those recordings are not distributed here.
+
+This source-derived metadata/label/score bundle is supplied under the same
+**CC BY-NC-SA 4.0, non-commercial research** terms described above. Per-recording
+licenses and original attribution remain applicable. The project MIT software
+license does not relicense the dataset. Numeric scores and fitted calibration
+parameters were added; labels were derived through the frozen four-label
+ontology. No audio, pretrained encoder weights, research classifier weights,
+feature arrays or private request caches are part of the public bundle.
+
+The new `future_exclusions.json` covers **4,770 tracks / 1,852 artist IDs**,
+including the entire examined eligible frame and name-collision exclusions.
+Future selection must use this ledger, rather than the older historical boundary.
+The cohort is unseen in documented project use, but still comes from a previously
+known dataset with unadjudicated tags. Unknown aliases, near-duplicates and
+upstream encoder pretraining exposure remain limitations.
+
+[The export manifest](data/fresh_confirmation_v1/manifest.json) links exact or
+losslessly compressed public artifacts to their original hashes. Public config
+and freeze copies remove workstation path prefixes and are explicitly identified
+as derivatives. The original frozen local records remain unchanged. Hashes check
+integrity relative to the published record; they are not external time stamps or
+independent proof of source-label truth.
